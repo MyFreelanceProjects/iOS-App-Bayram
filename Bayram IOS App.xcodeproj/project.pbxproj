@@ -56,15 +56,55 @@
 		228E41A7255725E000F14F92 /* Bayram IOS App */ = {
 			isa = PBXGroup;
 			children = (
-				228E41A8255725E000F14F92 /* AppDelegate.swift */,
-				228E41AA255725E000F14F92 /* SceneDelegate.swift */,
-				228E41AC255725E000F14F92 /* ViewController.swift */,
-				228E41AE255725E000F14F92 /* Main.storyboard */,
-				228E41B1255725E300F14F92 /* Assets.xcassets */,
-				228E41B3255725E300F14F92 /* LaunchScreen.storyboard */,
+				228E41BE2557262A00F14F92 /* Resources */,
+				228E41BD2557261B00F14F92 /* Controller */,
+				228E41BC2557260C00F14F92 /* Views */,
+				228E41BF2557263E00F14F92 /* Assets */,
 				228E41B6255725E300F14F92 /* Info.plist */,
 			);
 			path = "Bayram IOS App";
+			sourceTree = "<group>";
+		};
+		228E41BC2557260C00F14F92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				228E41C02557267B00F14F92 /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		228E41BD2557261B00F14F92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				228E41AC255725E000F14F92 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		228E41BE2557262A00F14F92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				228E41A8255725E000F14F92 /* AppDelegate.swift */,
+				228E41AA255725E000F14F92 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		228E41BF2557263E00F14F92 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				228E41B1255725E300F14F92 /* Assets.xcassets */,
+				228E41B3255725E300F14F92 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		228E41C02557267B00F14F92 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				228E41AE255725E000F14F92 /* Main.storyboard */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -10,6 +10,7 @@
         <!--GUEST ASSISTANT-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -116,13 +117,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="GUEST ASSISTANT" id="iJf-dY-qs4"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1042.0289855072465" y="104.46428571428571"/>
+            <point key="canvasLocation" x="-190" y="376"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Sjb-OZ-yUq">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mah-Di-mN2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mN8-kW-ekp" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JwE-Jj-1qT">
@@ -137,9 +138,8 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="cIf-H7-xx8"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mah-Di-mN2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="104.46428571428571"/>
+            <point key="canvasLocation" x="-1055" y="377"/>
         </scene>
     </scenes>
 </document>

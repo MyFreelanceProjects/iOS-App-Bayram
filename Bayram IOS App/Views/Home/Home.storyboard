@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Name of the Hotel-->
+        <scene sceneID="B0c-M7-tb4">
+            <objects>
+                <viewController id="h17-u7-PDZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P56-uq-vmL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="op4-Nt-wx6">
+                                <rect key="frame" x="10" y="108" width="414" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="eJs-WH-qiU"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wf2-Ls-TEh">
+                                <rect key="frame" x="0.0" y="168" width="414" height="704"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Wf2-Ls-TEh" firstAttribute="leading" secondItem="4JC-p1-clV" secondAttribute="leading" id="75j-kd-UrP"/>
+                            <constraint firstItem="op4-Nt-wx6" firstAttribute="top" secondItem="4JC-p1-clV" secondAttribute="top" constant="20" id="Bup-5l-Mcq"/>
+                            <constraint firstItem="op4-Nt-wx6" firstAttribute="trailing" secondItem="4JC-p1-clV" secondAttribute="trailing" constant="10" id="Lcs-cV-T5S"/>
+                            <constraint firstItem="op4-Nt-wx6" firstAttribute="leading" secondItem="4JC-p1-clV" secondAttribute="leading" constant="10" id="NqH-kA-1jk"/>
+                            <constraint firstItem="Wf2-Ls-TEh" firstAttribute="bottom" secondItem="4JC-p1-clV" secondAttribute="bottom" constant="10" id="Re8-UR-jMz"/>
+                            <constraint firstItem="Wf2-Ls-TEh" firstAttribute="top" secondItem="op4-Nt-wx6" secondAttribute="bottom" constant="10" id="gdL-9c-w0t"/>
+                            <constraint firstItem="Wf2-Ls-TEh" firstAttribute="trailing" secondItem="4JC-p1-clV" secondAttribute="trailing" id="mSX-LD-IKL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4JC-p1-clV"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Name of the Hotel" id="zYY-Ty-1gt">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="line.horizontal.3" catalog="system" id="3L9-WS-AUe">
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="Image-3" id="wuR-ZK-llr"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="27o-r0-2kP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="739.13043478260875" y="-325.44642857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WuP-2b-2CA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4yX-ia-5ED" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bed-HM-q3A">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="h17-u7-PDZ" kind="relationship" relationship="rootViewController" id="bsE-Oy-e7L"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g7V-Gl-QyC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-171.01449275362319" y="-325.44642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image-3" width="44" height="44"/>
+        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+    </resources>
+</document>

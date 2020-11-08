@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223EAD5E2557AE74002FE9C1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223EAD5D2557AE74002FE9C1 /* Home.storyboard */; };
+		223EAD632557B3EE002FE9C1 /* TabBarRouter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223EAD622557B3EE002FE9C1 /* TabBarRouter.storyboard */; };
+		223EAD662557D4EA002FE9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223EAD642557D4EA002FE9C1 /* Assets.xcassets */; };
+		223EAD672557D4EA002FE9C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223EAD652557D4EA002FE9C1 /* LaunchScreen.storyboard */; };
 		228E41A9255725E000F14F92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E41A8255725E000F14F92 /* AppDelegate.swift */; };
 		228E41AB255725E000F14F92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E41AA255725E000F14F92 /* SceneDelegate.swift */; };
 		228E41AD255725E000F14F92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E41AC255725E000F14F92 /* ViewController.swift */; };
 		228E41B0255725E000F14F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228E41AE255725E000F14F92 /* Main.storyboard */; };
-		228E41B2255725E300F14F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228E41B1255725E300F14F92 /* Assets.xcassets */; };
-		228E41B5255725E300F14F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228E41B3255725E300F14F92 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		223EAD5D2557AE74002FE9C1 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		223EAD622557B3EE002FE9C1 /* TabBarRouter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarRouter.storyboard; sourceTree = "<group>"; };
+		223EAD642557D4EA002FE9C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		223EAD652557D4EA002FE9C1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		228E41A5255725E000F14F92 /* Bayram IOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bayram IOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		228E41A8255725E000F14F92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		228E41AA255725E000F14F92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		228E41AC255725E000F14F92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		228E41AF255725E000F14F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		228E41B1255725E300F14F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		228E41B4255725E300F14F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		228E41B6255725E300F14F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		223EAD5F2557AE7A002FE9C1 /* Tab Bar  */ = {
+			isa = PBXGroup;
+			children = (
+				223EAD622557B3EE002FE9C1 /* TabBarRouter.storyboard */,
+			);
+			path = "Tab Bar ";
+			sourceTree = "<group>";
+		};
+		223EAD612557B3AB002FE9C1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				223EAD5D2557AE74002FE9C1 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		223EAD682557D4F2002FE9C1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				223EAD642557D4EA002FE9C1 /* Assets.xcassets */,
+				223EAD652557D4EA002FE9C1 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		228E419C255725E000F14F92 = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +88,8 @@
 				228E41BE2557262A00F14F92 /* Resources */,
 				228E41BD2557261B00F14F92 /* Controller */,
 				228E41BC2557260C00F14F92 /* Views */,
-				228E41BF2557263E00F14F92 /* Assets */,
 				228E41B6255725E300F14F92 /* Info.plist */,
+				223EAD682557D4F2002FE9C1 /* Assets */,
 			);
 			path = "Bayram IOS App";
 			sourceTree = "<group>";
@@ -68,7 +97,9 @@
 		228E41BC2557260C00F14F92 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				223EAD5F2557AE7A002FE9C1 /* Tab Bar  */,
 				228E41C02557267B00F14F92 /* Login */,
+				223EAD612557B3AB002FE9C1 /* Home */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,15 +119,6 @@
 				228E41AA255725E000F14F92 /* SceneDelegate.swift */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		228E41BF2557263E00F14F92 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				228E41B1255725E300F14F92 /* Assets.xcassets */,
-				228E41B3255725E300F14F92 /* LaunchScreen.storyboard */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		228E41C02557267B00F14F92 /* Login */ = {
@@ -165,9 +187,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				228E41B5255725E300F14F92 /* LaunchScreen.storyboard in Resources */,
-				228E41B2255725E300F14F92 /* Assets.xcassets in Resources */,
 				228E41B0255725E000F14F92 /* Main.storyboard in Resources */,
+				223EAD632557B3EE002FE9C1 /* TabBarRouter.storyboard in Resources */,
+				223EAD662557D4EA002FE9C1 /* Assets.xcassets in Resources */,
+				223EAD672557D4EA002FE9C1 /* LaunchScreen.storyboard in Resources */,
+				223EAD5E2557AE74002FE9C1 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,14 +217,6 @@
 				228E41AF255725E000F14F92 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		228E41B3255725E300F14F92 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				228E41B4255725E300F14F92 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

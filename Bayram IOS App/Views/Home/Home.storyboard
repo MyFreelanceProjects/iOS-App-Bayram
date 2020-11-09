@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4yX-ia-5ED">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -10,30 +10,34 @@
         <!--Name of the Hotel-->
         <scene sceneID="B0c-M7-tb4">
             <objects>
-                <viewController id="h17-u7-PDZ" sceneMemberID="viewController">
+                <viewController id="h17-u7-PDZ" customClass="HomeViewController" customModule="Bayram_IOS_App" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P56-uq-vmL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="op4-Nt-wx6">
-                                <rect key="frame" x="10" y="108" width="414" height="50"/>
+                                <rect key="frame" x="0.0" y="108" width="414" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="eJs-WH-qiU"/>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wf2-Ls-TEh">
-                                <rect key="frame" x="0.0" y="168" width="414" height="704"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wf2-Ls-TEh" customClass="HomeTableView" customModule="Bayram_IOS_App" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="168" width="414" height="744"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="h17-u7-PDZ" id="Os1-i0-IZq"/>
+                                    <outlet property="delegate" destination="h17-u7-PDZ" id="37L-3N-CGC"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Wf2-Ls-TEh" firstAttribute="leading" secondItem="4JC-p1-clV" secondAttribute="leading" id="75j-kd-UrP"/>
                             <constraint firstItem="op4-Nt-wx6" firstAttribute="top" secondItem="4JC-p1-clV" secondAttribute="top" constant="20" id="Bup-5l-Mcq"/>
-                            <constraint firstItem="op4-Nt-wx6" firstAttribute="trailing" secondItem="4JC-p1-clV" secondAttribute="trailing" constant="10" id="Lcs-cV-T5S"/>
-                            <constraint firstItem="op4-Nt-wx6" firstAttribute="leading" secondItem="4JC-p1-clV" secondAttribute="leading" constant="10" id="NqH-kA-1jk"/>
-                            <constraint firstItem="Wf2-Ls-TEh" firstAttribute="bottom" secondItem="4JC-p1-clV" secondAttribute="bottom" constant="10" id="Re8-UR-jMz"/>
+                            <constraint firstItem="op4-Nt-wx6" firstAttribute="trailing" secondItem="4JC-p1-clV" secondAttribute="trailing" id="Lcs-cV-T5S"/>
+                            <constraint firstItem="op4-Nt-wx6" firstAttribute="leading" secondItem="4JC-p1-clV" secondAttribute="leading" id="NqH-kA-1jk"/>
+                            <constraint firstItem="Wf2-Ls-TEh" firstAttribute="bottom" secondItem="4JC-p1-clV" secondAttribute="bottom" constant="50" id="Re8-UR-jMz"/>
                             <constraint firstItem="Wf2-Ls-TEh" firstAttribute="top" secondItem="op4-Nt-wx6" secondAttribute="bottom" constant="10" id="gdL-9c-w0t"/>
                             <constraint firstItem="Wf2-Ls-TEh" firstAttribute="trailing" secondItem="4JC-p1-clV" secondAttribute="trailing" id="mSX-LD-IKL"/>
                         </constraints>
@@ -45,6 +49,11 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="Image-3" id="wuR-ZK-llr"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="Wf2-Ls-TEh" id="JDi-KS-XF4"/>
+                        <outlet property="thisView" destination="P56-uq-vmL" id="613-xb-wvY"/>
+                        <outlet property="view" destination="P56-uq-vmL" id="zau-Qi-S15"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="27o-r0-2kP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

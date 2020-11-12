@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22193BC32559AAD200281D7D /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22193BC22559AAD200281D7D /* SideMenuController.swift */; };
+		222D2DAB255968FA001FC284 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D2DAA255968FA001FC284 /* SideMenu.storyboard */; };
+		22345232255DAD9000C0486B /* AlertViewControllers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22345231255DAD9000C0486B /* AlertViewControllers.storyboard */; };
+		22345235255DB19400C0486B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22345234255DB19400C0486B /* InfoViewController.swift */; };
+		22345258255DD02C00C0486B /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22345257255DD02C00C0486B /* AlertService.swift */; };
 		223EAD5E2557AE74002FE9C1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223EAD5D2557AE74002FE9C1 /* Home.storyboard */; };
 		223EAD632557B3EE002FE9C1 /* TabBarRouter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223EAD622557B3EE002FE9C1 /* TabBarRouter.storyboard */; };
 		223EAD662557D4EA002FE9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223EAD642557D4EA002FE9C1 /* Assets.xcassets */; };
@@ -14,14 +19,26 @@
 		223F270025580BF4003DE430 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F26FF25580BF4003DE430 /* HomeViewController.swift */; };
 		223F270B255814B3003DE430 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F2709255814B3003DE430 /* HomeTableViewCell.swift */; };
 		223F270C255814B3003DE430 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223F270A255814B3003DE430 /* HomeTableViewCell.xib */; };
+		224CEBB1255D3A460048B229 /* LeftTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224CEBAF255D3A460048B229 /* LeftTableCell.swift */; };
+		224CEBB2255D3A460048B229 /* LeftTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224CEBB0255D3A460048B229 /* LeftTableCell.xib */; };
+		224CEBB5255D3A780048B229 /* RightTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224CEBB3255D3A780048B229 /* RightTableCell.swift */; };
+		224CEBB6255D3A780048B229 /* RightTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224CEBB4255D3A780048B229 /* RightTableCell.xib */; };
+		228346C9255BE0AD00075D43 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228346C8255BE0AD00075D43 /* AccountViewController.swift */; };
+		228346CC255BEA4400075D43 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228346CB255BEA4400075D43 /* Account.storyboard */; };
 		228E41A9255725E000F14F92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E41A8255725E000F14F92 /* AppDelegate.swift */; };
 		228E41AB255725E000F14F92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E41AA255725E000F14F92 /* SceneDelegate.swift */; };
 		228E41AD255725E000F14F92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E41AC255725E000F14F92 /* ViewController.swift */; };
 		228E41B0255725E000F14F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228E41AE255725E000F14F92 /* Main.storyboard */; };
 		22EBCEA0255833AC001DBCB6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBCE9F255833AC001DBCB6 /* Constants.swift */; };
+		B60C83E830439039456D829B /* Pods_Bayram_IOS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FFF52EC4DC9CB6149CF4C /* Pods_Bayram_IOS_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22193BC22559AAD200281D7D /* SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		222D2DAA255968FA001FC284 /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
+		22345231255DAD9000C0486B /* AlertViewControllers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlertViewControllers.storyboard; sourceTree = "<group>"; };
+		22345234255DB19400C0486B /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		22345257255DD02C00C0486B /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 		223EAD5D2557AE74002FE9C1 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		223EAD622557B3EE002FE9C1 /* TabBarRouter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarRouter.storyboard; sourceTree = "<group>"; };
 		223EAD642557D4EA002FE9C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -29,6 +46,12 @@
 		223F26FF25580BF4003DE430 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		223F2709255814B3003DE430 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		223F270A255814B3003DE430 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		224CEBAF255D3A460048B229 /* LeftTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTableCell.swift; sourceTree = "<group>"; };
+		224CEBB0255D3A460048B229 /* LeftTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftTableCell.xib; sourceTree = "<group>"; };
+		224CEBB3255D3A780048B229 /* RightTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightTableCell.swift; sourceTree = "<group>"; };
+		224CEBB4255D3A780048B229 /* RightTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightTableCell.xib; sourceTree = "<group>"; };
+		228346C8255BE0AD00075D43 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		228346CB255BEA4400075D43 /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
 		228E41A5255725E000F14F92 /* Bayram IOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bayram IOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		228E41A8255725E000F14F92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		228E41AA255725E000F14F92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +59,9 @@
 		228E41AF255725E000F14F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		228E41B6255725E300F14F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22EBCE9F255833AC001DBCB6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9D4B8728A1D24ED52D3CE438 /* Pods-Bayram IOS App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bayram IOS App.debug.xcconfig"; path = "Target Support Files/Pods-Bayram IOS App/Pods-Bayram IOS App.debug.xcconfig"; sourceTree = "<group>"; };
+		BF2FFF52EC4DC9CB6149CF4C /* Pods_Bayram_IOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bayram_IOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33027E435574F88655237B1 /* Pods-Bayram IOS App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bayram IOS App.release.xcconfig"; path = "Target Support Files/Pods-Bayram IOS App/Pods-Bayram IOS App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,12 +69,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60C83E830439039456D829B /* Pods_Bayram_IOS_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222D2DAC2559690D001FC284 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				222D2DAA255968FA001FC284 /* SideMenu.storyboard */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		22345233255DAD9F00C0486B /* AlertViews */ = {
+			isa = PBXGroup;
+			children = (
+				22345231255DAD9000C0486B /* AlertViewControllers.storyboard */,
+			);
+			path = AlertViews;
+			sourceTree = "<group>";
+		};
+		22345236255DB19900C0486B /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				22345234255DB19400C0486B /* InfoViewController.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
 		223EAD5F2557AE7A002FE9C1 /* Tab Bar  */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,11 +142,42 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		224CEBB7255D3A960048B229 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				224CEBAF255D3A460048B229 /* LeftTableCell.swift */,
+				224CEBB0255D3A460048B229 /* LeftTableCell.xib */,
+				224CEBB3255D3A780048B229 /* RightTableCell.swift */,
+				224CEBB4255D3A780048B229 /* RightTableCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		228346CA255BE0BA00075D43 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				224CEBB7255D3A960048B229 /* Cell */,
+				228346C8255BE0AD00075D43 /* AccountViewController.swift */,
+				22345257255DD02C00C0486B /* AlertService.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		228346CD255BEA4A00075D43 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				228346CB255BEA4400075D43 /* Account.storyboard */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
 		228E419C255725E000F14F92 = {
 			isa = PBXGroup;
 			children = (
 				228E41A7255725E000F14F92 /* Bayram IOS App */,
 				228E41A6255725E000F14F92 /* Products */,
+				C08854B017DCDD1B87F95687 /* Pods */,
+				2E287489A947D4083B715F9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,7 +194,9 @@
 			children = (
 				228E41BE2557262A00F14F92 /* Resources */,
 				228E41BD2557261B00F14F92 /* Controller */,
+				22193BC22559AAD200281D7D /* SideMenuController.swift */,
 				228E41BC2557260C00F14F92 /* Views */,
+				223EAD652557D4EA002FE9C1 /* LaunchScreen.storyboard */,
 				223EAD682557D4F2002FE9C1 /* Assets */,
 				22EBCEA1255833B4001DBCB6 /* Helpers */,
 				228E41B6255725E300F14F92 /* Info.plist */,
@@ -123,10 +207,12 @@
 		228E41BC2557260C00F14F92 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				223EAD652557D4EA002FE9C1 /* LaunchScreen.storyboard */,
+				222D2DAC2559690D001FC284 /* SideMenu */,
 				223EAD5F2557AE7A002FE9C1 /* Tab Bar  */,
 				228E41C02557267B00F14F92 /* Login */,
 				223EAD612557B3AB002FE9C1 /* Home */,
+				228346CD255BEA4A00075D43 /* Account */,
+				22345233255DAD9F00C0486B /* AlertViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,6 +222,8 @@
 			children = (
 				223F270625580C8E003DE430 /* Login */,
 				223F270125580BFE003DE430 /* Home */,
+				228346CA255BE0BA00075D43 /* Account */,
+				22345236255DB19900C0486B /* Alerts */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,6 +253,23 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		2E287489A947D4083B715F9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF2FFF52EC4DC9CB6149CF4C /* Pods_Bayram_IOS_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C08854B017DCDD1B87F95687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D4B8728A1D24ED52D3CE438 /* Pods-Bayram IOS App.debug.xcconfig */,
+				F33027E435574F88655237B1 /* Pods-Bayram IOS App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 228E41B9255725E300F14F92 /* Build configuration list for PBXNativeTarget "Bayram IOS App" */;
 			buildPhases = (
+				4A6733384F38F1C4E4EFCBC2 /* [CP] Check Pods Manifest.lock */,
 				228E41A1255725E000F14F92 /* Sources */,
 				228E41A2255725E000F14F92 /* Frameworks */,
 				228E41A3255725E000F14F92 /* Resources */,
+				571C32B726E78C391E4CED9C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,14 +332,61 @@
 			files = (
 				228E41B0255725E000F14F92 /* Main.storyboard in Resources */,
 				223EAD632557B3EE002FE9C1 /* TabBarRouter.storyboard in Resources */,
+				224CEBB2255D3A460048B229 /* LeftTableCell.xib in Resources */,
 				223EAD662557D4EA002FE9C1 /* Assets.xcassets in Resources */,
+				22345232255DAD9000C0486B /* AlertViewControllers.storyboard in Resources */,
 				223EAD672557D4EA002FE9C1 /* LaunchScreen.storyboard in Resources */,
+				224CEBB6255D3A780048B229 /* RightTableCell.xib in Resources */,
 				223F270C255814B3003DE430 /* HomeTableViewCell.xib in Resources */,
 				223EAD5E2557AE74002FE9C1 /* Home.storyboard in Resources */,
+				228346CC255BEA4400075D43 /* Account.storyboard in Resources */,
+				222D2DAB255968FA001FC284 /* SideMenu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A6733384F38F1C4E4EFCBC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bayram IOS App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		571C32B726E78C391E4CED9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bayram IOS App/Pods-Bayram IOS App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bayram IOS App/Pods-Bayram IOS App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bayram IOS App/Pods-Bayram IOS App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		228E41A1255725E000F14F92 /* Sources */ = {
@@ -240,11 +394,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				228E41AD255725E000F14F92 /* ViewController.swift in Sources */,
+				22345235255DB19400C0486B /* InfoViewController.swift in Sources */,
 				223F270B255814B3003DE430 /* HomeTableViewCell.swift in Sources */,
+				228346C9255BE0AD00075D43 /* AccountViewController.swift in Sources */,
 				228E41A9255725E000F14F92 /* AppDelegate.swift in Sources */,
 				228E41AB255725E000F14F92 /* SceneDelegate.swift in Sources */,
+				22193BC32559AAD200281D7D /* SideMenuController.swift in Sources */,
 				223F270025580BF4003DE430 /* HomeViewController.swift in Sources */,
 				22EBCEA0255833AC001DBCB6 /* Constants.swift in Sources */,
+				224CEBB1255D3A460048B229 /* LeftTableCell.swift in Sources */,
+				22345258255DD02C00C0486B /* AlertService.swift in Sources */,
+				224CEBB5255D3A780048B229 /* RightTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +538,7 @@
 		};
 		228E41BA255725E300F14F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4B8728A1D24ED52D3CE438 /* Pods-Bayram IOS App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +557,7 @@
 		};
 		228E41BB255725E300F14F92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F33027E435574F88655237B1 /* Pods-Bayram IOS App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SideMenu
 
 class HomeViewController: UIViewController {
     
@@ -14,31 +15,37 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let homeViewCell = HomeTableViewCell()
-    
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    
+        
         tableView.register(UINib(nibName: Constants.ServicesMenuCell.nibName, bundle: nil), forCellReuseIdentifier: Constants.ServicesMenuCell.identifier)
         
-        addTabBar()
+//        addTabBar()
     }
     
-    lazy var frontVC: UIViewController? = {
-        let storyboard = UIStoryboard(name: "TabBarRouter", bundle: nil)
-
-        let front = storyboard.instantiateViewController(withIdentifier: "FrontTabbar")
-        return front
-    }()
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        print("Feds")
+//    }
     
-    func addTabBar() {
-        if let vc = frontVC {
-            self.addChild(vc)
-            self.view.addSubview(vc.view)
-            vc.didMove(toParent: self)
-            
-            vc.view.frame = self.thisView.bounds
-        }
-    }
+    
+//    lazy var frontVC: UIViewController? = {
+//        let storyboard = UIStoryboard(name: "TabBarRouter", bundle: nil)
+//
+//        let front = storyboard.instantiateViewController(withIdentifier: "FrontTabbar")
+//        return front
+//    }()
+//
+//    func addTabBar() {
+//        if let vc = frontVC {
+//            self.addChild(vc)
+//            self.view.addSubview(vc.view)
+//            vc.didMove(toParent: self)
+//
+//            vc.view.frame = self.thisView.bounds
+//        }
+//    }
 }
 
 // MARK: - Configure cell options
@@ -70,5 +77,15 @@ extension HomeViewController: UITableViewDataSource {
         cell.icon.image = UIImage(named: services[indexPath.row].icon)
         cell.serviceName.text = services[indexPath.row].name
         return cell
+    }
+}
+
+// MARK: - TableView Delegate
+
+extension HomeViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let selected = tableView.indexPathForSelectedRow {
+            tableView.deselectRow(at: selected, animated: false)
+        }
     }
 }

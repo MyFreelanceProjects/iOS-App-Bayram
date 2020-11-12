@@ -10,7 +10,7 @@
         <!--Name of the Hotel-->
         <scene sceneID="B0c-M7-tb4">
             <objects>
-                <viewController id="h17-u7-PDZ" customClass="HomeViewController" customModule="Bayram_IOS_App" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="showMainPage" id="h17-u7-PDZ" customClass="HomeViewController" customModule="Bayram_IOS_App" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P56-uq-vmL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,7 +22,7 @@
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wf2-Ls-TEh" customClass="HomeTableView" customModule="Bayram_IOS_App" customModuleProvider="target">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wf2-Ls-TEh" customClass="HomeTableView" customModule="Bayram_IOS_App" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="168" width="414" height="744"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <connections>
@@ -46,6 +46,9 @@
                     <navigationItem key="navigationItem" title="Name of the Hotel" id="zYY-Ty-1gt">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="line.horizontal.3" catalog="system" id="3L9-WS-AUe">
                             <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <connections>
+                                <segue destination="qdR-cx-jlH" kind="presentation" id="V4M-qs-SzG"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="Image-3" id="wuR-ZK-llr"/>
                     </navigationItem>
@@ -57,7 +60,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="27o-r0-2kP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="739.13043478260875" y="-325.44642857142856"/>
+            <point key="canvasLocation" x="741" y="-325"/>
+        </scene>
+        <!--SideMenu-->
+        <scene sceneID="f7g-Cw-Yo5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SideMenu" id="qdR-cx-jlH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P4X-X0-EWe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1465" y="-325"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WuP-2b-2CA">

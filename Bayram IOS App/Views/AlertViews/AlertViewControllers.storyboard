@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Info View Controller-->
+        <scene sceneID="bNj-U1-iOs">
+            <objects>
+                <viewController storyboardIdentifier="infoAlert" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nJI-yC-i4U" customClass="InfoViewController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sok-ZS-J6G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oKu-eu-fSO">
+                                <rect key="frame" x="69.5" y="348" width="275" height="200.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBi-83-iog">
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYY-kI-IVa">
+                                                <rect key="frame" x="8" y="8" width="259" height="44"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottomMargin" secondItem="xYY-kI-IVa" secondAttribute="bottom" id="6NT-qn-3Uk"/>
+                                            <constraint firstItem="xYY-kI-IVa" firstAttribute="leading" secondItem="pBi-83-iog" secondAttribute="leadingMargin" id="8Mt-pw-sWn"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="xYY-kI-IVa" secondAttribute="trailing" id="JCj-MZ-bBO"/>
+                                            <constraint firstItem="xYY-kI-IVa" firstAttribute="top" secondItem="pBi-83-iog" secondAttribute="topMargin" id="K5Z-77-TeJ"/>
+                                            <constraint firstAttribute="height" constant="60" id="Ugl-zY-wGB"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2zS-Xu-7fa">
+                                        <rect key="frame" x="8" y="162.5" width="259" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MtY-E4-xb4">
+                                                <rect key="frame" x="0.0" y="0.0" width="259" height="30"/>
+                                                <color key="backgroundColor" red="0.8901960784313725" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Cancel">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="cancelButtonPressed:" destination="nJI-yC-i4U" eventType="touchUpInside" id="lab-ku-mTX"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a lot of text in the body and it demonstrates how the label will continue to grow and so will the container" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBN-tG-sdw">
+                                        <rect key="frame" x="16" y="65" width="243" height="81.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="pBi-83-iog" secondAttribute="trailing" id="91k-8m-3s0"/>
+                                    <constraint firstAttribute="trailing" secondItem="GBN-tG-sdw" secondAttribute="trailing" constant="16" id="FQT-Ch-8Te"/>
+                                    <constraint firstItem="2zS-Xu-7fa" firstAttribute="top" secondItem="GBN-tG-sdw" secondAttribute="bottom" constant="16" id="Rqi-At-Z53"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="2zS-Xu-7fa" secondAttribute="trailing" id="SJH-h8-div"/>
+                                    <constraint firstItem="GBN-tG-sdw" firstAttribute="leading" secondItem="oKu-eu-fSO" secondAttribute="leading" constant="16" id="XZa-1i-MgZ"/>
+                                    <constraint firstItem="pBi-83-iog" firstAttribute="top" secondItem="oKu-eu-fSO" secondAttribute="top" id="cEl-th-cKx"/>
+                                    <constraint firstItem="2zS-Xu-7fa" firstAttribute="leading" secondItem="oKu-eu-fSO" secondAttribute="leadingMargin" id="e1N-BG-xOl"/>
+                                    <constraint firstItem="pBi-83-iog" firstAttribute="leading" secondItem="oKu-eu-fSO" secondAttribute="leading" id="eXi-13-d8I"/>
+                                    <constraint firstItem="GBN-tG-sdw" firstAttribute="top" secondItem="pBi-83-iog" secondAttribute="bottom" constant="5" id="f8D-H4-EEh"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="2zS-Xu-7fa" secondAttribute="bottom" id="pHm-0W-qOg"/>
+                                    <constraint firstAttribute="width" constant="275" id="qTi-fL-Cqu"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="0.68680436643835618" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oKu-eu-fSO" firstAttribute="centerX" secondItem="sok-ZS-J6G" secondAttribute="centerX" id="AzT-ol-RVp"/>
+                            <constraint firstItem="oKu-eu-fSO" firstAttribute="centerY" secondItem="sok-ZS-J6G" secondAttribute="centerY" id="biY-lv-6f8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xuq-Ar-pQ2"/>
+                    </view>
+                    <connections>
+                        <outlet property="body" destination="GBN-tG-sdw" id="dwg-9U-vb8"/>
+                        <outlet property="buttonName" destination="MtY-E4-xb4" id="n2C-i3-fac"/>
+                        <outlet property="titleLabel" destination="xYY-kI-IVa" id="Z8A-ZY-rXq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fpg-va-ITf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="549" y="76"/>
+        </scene>
+    </scenes>
+</document>

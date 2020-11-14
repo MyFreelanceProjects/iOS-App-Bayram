@@ -32,4 +32,13 @@ class SideMenuController: UIViewController {
         }
     }
     
+    @IBAction func reservationPressed(_ sender: UIButton) {
+        if let viewController = UIStoryboard(name: "Reservations", bundle: nil).instantiateViewController(withIdentifier: "showReservation") as? ReservationsViewController {
+            if let navigator = navigationController {
+                navigator.pushViewController(viewController, animated: true)
+            }
+        }
+    }
+    
+    
 }

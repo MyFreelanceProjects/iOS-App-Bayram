@@ -23,7 +23,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wf2-Ls-TEh" customClass="HomeTableView" customModule="Bayram_IOS_App" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="168" width="414" height="744"/>
+                                <rect key="frame" x="0.0" y="168" width="414" height="694"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="h17-u7-PDZ" id="Os1-i0-IZq"/>
@@ -37,7 +37,7 @@
                             <constraint firstItem="op4-Nt-wx6" firstAttribute="top" secondItem="4JC-p1-clV" secondAttribute="top" constant="20" id="Bup-5l-Mcq"/>
                             <constraint firstItem="op4-Nt-wx6" firstAttribute="trailing" secondItem="4JC-p1-clV" secondAttribute="trailing" id="Lcs-cV-T5S"/>
                             <constraint firstItem="op4-Nt-wx6" firstAttribute="leading" secondItem="4JC-p1-clV" secondAttribute="leading" id="NqH-kA-1jk"/>
-                            <constraint firstItem="Wf2-Ls-TEh" firstAttribute="bottom" secondItem="4JC-p1-clV" secondAttribute="bottom" constant="50" id="Re8-UR-jMz"/>
+                            <constraint firstItem="Wf2-Ls-TEh" firstAttribute="bottom" secondItem="4JC-p1-clV" secondAttribute="bottom" id="Re8-UR-jMz"/>
                             <constraint firstItem="Wf2-Ls-TEh" firstAttribute="top" secondItem="op4-Nt-wx6" secondAttribute="bottom" constant="10" id="gdL-9c-w0t"/>
                             <constraint firstItem="Wf2-Ls-TEh" firstAttribute="trailing" secondItem="4JC-p1-clV" secondAttribute="trailing" id="mSX-LD-IKL"/>
                         </constraints>

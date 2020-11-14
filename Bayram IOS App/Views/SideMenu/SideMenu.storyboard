@@ -119,6 +119,9 @@
                                                         <state key="normal" title="My Reservations">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="reservationPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="RXK-kO-sBj"/>
+                                                        </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookmark-border" translatesAutoresizingMaskIntoConstraints="NO" id="JAP-df-abh">
                                                         <rect key="frame" x="176" y="0.0" width="40" height="60"/>

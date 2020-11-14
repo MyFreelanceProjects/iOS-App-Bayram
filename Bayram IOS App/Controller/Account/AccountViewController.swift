@@ -26,9 +26,9 @@ class AccountViewController: UIViewController {
     
     //MARK: - Buttons Pressed
     @IBAction func AboutButtonPressed(_ sender: UIButton) {
-        let alert = alertService.info(title: "About",
-                                      bodyText: "\"Guest Assistant\" is hotel-guest POS and management system...",
-                                      buttonTitle: "Close")
+        let alert = alertService.info(
+                                    bodyText: "\"Guest Assistant\" is hotel-guest POS and management system...",
+                                    buttonTitle: "Close")
         
         present(alert, animated: true)
     }

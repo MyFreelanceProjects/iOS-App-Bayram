@@ -12,7 +12,6 @@ class InfoViewController: UIViewController {
 
     @IBOutlet weak var body: UILabel!
     @IBOutlet weak var buttonName: UIButton!
-    @IBOutlet weak var titleLabel: UILabel!
     
     
     // initialize
@@ -29,12 +28,10 @@ class InfoViewController: UIViewController {
     func setupView() {
         self.body.text = bodyText
         self.buttonName.setTitle(buttonTitle, for: .normal)
-        self.titleLabel.text = alertTitle
     }
     
     @IBAction func cancelButtonPressed(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }
-    
     
 }

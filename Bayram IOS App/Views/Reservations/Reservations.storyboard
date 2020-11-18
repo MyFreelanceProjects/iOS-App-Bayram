@@ -273,37 +273,57 @@ page..</string>
                                     <outlet property="delegate" destination="JDu-WL-BYX" id="P55-Tx-bd0"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fz-pE-q4a">
-                                <rect key="frame" x="132" y="646" width="150" height="50"/>
-                                <color key="backgroundColor" name="DefCol"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iBd-qc-0z4">
+                                <rect key="frame" x="132" y="676" width="150" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fz-pE-q4a">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="50"/>
+                                        <color key="backgroundColor" name="DefCol"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="Send">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="7Kv-Ag-5s7"/>
-                                    <constraint firstAttribute="height" constant="50" id="QAS-UR-Uv9"/>
+                                    <constraint firstAttribute="trailing" secondItem="5fz-pE-q4a" secondAttribute="trailing" id="5hY-hV-LLk"/>
+                                    <constraint firstItem="5fz-pE-q4a" firstAttribute="centerX" secondItem="iBd-qc-0z4" secondAttribute="centerX" id="SLk-50-9qg"/>
+                                    <constraint firstAttribute="width" constant="150" id="UID-jA-gkJ"/>
+                                    <constraint firstAttribute="height" constant="50" id="agz-wE-RTD"/>
+                                    <constraint firstItem="5fz-pE-q4a" firstAttribute="top" secondItem="iBd-qc-0z4" secondAttribute="top" id="jTG-Xf-qKS"/>
+                                    <constraint firstAttribute="bottom" secondItem="5fz-pE-q4a" secondAttribute="bottom" id="wvE-fy-uHb"/>
+                                    <constraint firstItem="5fz-pE-q4a" firstAttribute="leading" secondItem="iBd-qc-0z4" secondAttribute="leading" id="zk1-1s-b1e"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <state key="normal" title="Send">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="trd-1E-8mG">
+                                <rect key="frame" x="15" y="419.66666666666669" width="384" height="206.33333333333331"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" name="ViewColor"/>
                         <constraints>
-                            <constraint firstItem="EDC-Fn-YsG" firstAttribute="bottom" secondItem="5fz-pE-q4a" secondAttribute="bottom" constant="40" id="76D-Ig-55Z"/>
+                            <constraint firstItem="iBd-qc-0z4" firstAttribute="top" secondItem="trd-1E-8mG" secondAttribute="bottom" constant="50" id="17r-86-tUP"/>
+                            <constraint firstItem="EDC-Fn-YsG" firstAttribute="trailing" secondItem="trd-1E-8mG" secondAttribute="trailing" constant="15" id="9RH-25-jcz"/>
                             <constraint firstItem="EDC-Fn-YsG" firstAttribute="trailing" secondItem="G8L-6g-S7I" secondAttribute="trailing" constant="15" id="A5h-yU-z8Y"/>
                             <constraint firstItem="lgC-6p-Arf" firstAttribute="leading" secondItem="EDC-Fn-YsG" secondAttribute="leading" constant="15" id="CCf-LK-xph"/>
                             <constraint firstItem="EDC-Fn-YsG" firstAttribute="trailing" secondItem="T1Z-Pj-JOa" secondAttribute="trailing" constant="10" id="FED-Lb-zCx"/>
                             <constraint firstItem="T1Z-Pj-JOa" firstAttribute="leading" secondItem="EDC-Fn-YsG" secondAttribute="leading" constant="10" id="JDx-Vg-rmA"/>
                             <constraint firstItem="lgC-6p-Arf" firstAttribute="top" secondItem="G8L-6g-S7I" secondAttribute="bottom" constant="15" id="MLm-nK-KHt"/>
                             <constraint firstItem="G8L-6g-S7I" firstAttribute="leading" secondItem="EDC-Fn-YsG" secondAttribute="leading" constant="15" id="S2y-Gx-dWh"/>
+                            <constraint firstItem="EDC-Fn-YsG" firstAttribute="bottom" secondItem="iBd-qc-0z4" secondAttribute="bottom" constant="10" id="U99-Ko-qdh"/>
                             <constraint firstItem="T1Z-Pj-JOa" firstAttribute="top" secondItem="EDC-Fn-YsG" secondAttribute="top" constant="10" id="bEJ-UN-oAb"/>
+                            <constraint firstItem="iBd-qc-0z4" firstAttribute="centerX" secondItem="UEa-r1-ET4" secondAttribute="centerX" id="f1U-EA-FGv"/>
+                            <constraint firstItem="trd-1E-8mG" firstAttribute="top" secondItem="lgC-6p-Arf" secondAttribute="bottom" constant="10" id="fgE-ce-zAT"/>
+                            <constraint firstItem="trd-1E-8mG" firstAttribute="leading" secondItem="EDC-Fn-YsG" secondAttribute="leading" constant="15" id="qpC-LZ-rY6"/>
                             <constraint firstItem="G8L-6g-S7I" firstAttribute="top" secondItem="T1Z-Pj-JOa" secondAttribute="bottom" constant="5" id="utb-pP-yER"/>
                             <constraint firstItem="EDC-Fn-YsG" firstAttribute="trailing" secondItem="lgC-6p-Arf" secondAttribute="trailing" constant="15" id="xIq-5F-0pl"/>
-                            <constraint firstItem="5fz-pE-q4a" firstAttribute="centerX" secondItem="UEa-r1-ET4" secondAttribute="centerX" id="xpM-af-oha"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EDC-Fn-YsG"/>
                     </view>

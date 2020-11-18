@@ -11,7 +11,7 @@ import UIKit
 class AlertService: UIViewController {
 
     func info (bodyText: String, buttonTitle: String) -> InfoViewController {
-        let alertVC = self.getViewController(storyboardName: "AlertViewControllers", identifier: "infoAlert") as! InfoViewController
+        let alertVC = self.getViewController(identifier: "infoAlert") as! InfoViewController
         
         alertVC.alertTitle = title
         alertVC.bodyText = bodyText
@@ -21,7 +21,7 @@ class AlertService: UIViewController {
     }
     
     func getDate(title: String, ButtonName: String, dataMode: UIDatePicker.Mode, completion: @escaping (_ settedTime: UIDatePicker) -> Void) -> DateViewController {
-        let alertVC = self.getViewController(storyboardName: "AlertViewControllers", identifier: "timeAlert") as! DateViewController
+        let alertVC = self.getViewController(identifier: "timeAlert") as! DateViewController
         
         alertVC.setTitle = title
 //        alertVC.setDate = date
@@ -33,10 +33,18 @@ class AlertService: UIViewController {
         return alertVC
     }
     
+    func addPerson(title: String, buttonName: String, completion: @escaping (_ first: String?, _ second: String?, _ third: String?) -> Void) -> addPersonViewController {
+        let alertVC = self.getViewController(identifier: "addPerson") as! addPersonViewController
+        
+        alertVC.setTitle = title
+        alertVC.setButtonName = buttonName
+        alertVC.buttonAction = completion
+        
+        return alertVC
+    }
     
-    
-    func getViewController(storyboardName: String, identifier: String) ->UIViewController {
-        let storyboard = UIStoryboard(name: storyboardName, bundle: .main)
+    func getViewController(identifier: String) ->UIViewController {
+        let storyboard = UIStoryboard(name: "AlertViewControllers", bundle: .main)
         let alertVC = storyboard.instantiateViewController(identifier: identifier)
     
         return alertVC

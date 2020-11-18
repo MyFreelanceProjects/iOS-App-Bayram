@@ -40,5 +40,14 @@ class SideMenuController: UIViewController {
         }
     }
     
+    @IBAction func feedbackPressed(_ sender: UIButton) {
+        print("clicked")
+        if let viewController = UIStoryboard(name: "Feedback", bundle: nil).instantiateViewController(withIdentifier: "showFeedback") as? FeedbackViewController {
+            if let navigator = navigationController {
+                navigator.pushViewController(viewController, animated: true)
+            }
+        }
+    }
+    
     
 }

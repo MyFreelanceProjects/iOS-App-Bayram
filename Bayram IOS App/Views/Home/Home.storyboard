@@ -44,7 +44,7 @@
                         <viewLayoutGuide key="safeArea" id="4JC-p1-clV"/>
                     </view>
                     <navigationItem key="navigationItem" title="Name of the Hotel" id="zYY-Ty-1gt">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="line.horizontal.3" catalog="system" id="3L9-WS-AUe">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="line.horizontal.3" catalog="system" style="done" id="3L9-WS-AUe">
                             <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                             <connections>
                                 <segue destination="qdR-cx-jlH" kind="presentation" id="V4M-qs-SzG"/>

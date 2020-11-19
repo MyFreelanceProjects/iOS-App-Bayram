@@ -16,12 +16,6 @@ class FeedbackViewController: UIViewController {
         
         tableView.register(UINib(nibName: "FeedbackViewCell", bundle: .main), forCellReuseIdentifier: "feedbackCell")
     }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "detailFeedback" {
-            let vc = segue.destination as! DetailFeedbackController
-        }
-    }
 }
 
 //MARK: - UITableView DataSource and Delegate methods
@@ -40,5 +34,11 @@ extension FeedbackViewController: UITableViewDataSource, UITableViewDelegate {
  
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "detailFeedback", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "detailFeedback" {
+            let vc = segue.destination as! DetailFeedbackController
+        }
     }
 }

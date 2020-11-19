@@ -18,7 +18,6 @@ class DetailFeedbackController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
         collectionView.register(UINib(nibName: "CustomImageCell", bundle: nil), forCellWithReuseIdentifier: "cell")
     }
@@ -26,10 +25,9 @@ class DetailFeedbackController: UIViewController {
 }
 
 //MARK: - CollectionView Data Source
-extension DetailFeedbackController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
+extension DetailFeedbackController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return ImageArray.count
-//        return 10
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -40,12 +38,21 @@ extension DetailFeedbackController: UICollectionViewDataSource, UICollectionView
         return cell
     }
     
-//  UICollectionViewDelegateFlowLayout
-    
+}
+
+//MARK: - UICollectionViewDelegate
+extension DetailFeedbackController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print(indexPath.row)
+    }
+}
+
+//MARK: - UICollectionViewDelegateFlowLayout
+extension DetailFeedbackController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let collectionSize = collectionView.frame.size
         
-        return CGSize(width: collectionSize.width, height: collectionSize.height)
+        return CGSize(width: collectionSize.width - 3, height: collectionSize.height)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {

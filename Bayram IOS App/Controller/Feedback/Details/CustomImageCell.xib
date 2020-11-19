@@ -19,16 +19,15 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iVV-tW-WPu">
                         <rect key="frame" x="0.0" y="0.0" width="219" height="165"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fmv-Bv-5Y6">
-                                <rect key="frame" x="0.0" y="0.0" width="219" height="165"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotel-1" translatesAutoresizingMaskIntoConstraints="NO" id="Fmv-Bv-5Y6">
+                                <rect key="frame" x="0.0" y="0.0" width="660" height="165"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Fmv-Bv-5Y6" secondAttribute="trailing" id="TvE-0v-tbv"/>
-                            <constraint firstItem="Fmv-Bv-5Y6" firstAttribute="leading" secondItem="iVV-tW-WPu" secondAttribute="leading" id="fQz-st-Pt2"/>
-                            <constraint firstAttribute="bottom" secondItem="Fmv-Bv-5Y6" secondAttribute="bottom" id="hle-eP-tRJ"/>
-                            <constraint firstItem="Fmv-Bv-5Y6" firstAttribute="top" secondItem="iVV-tW-WPu" secondAttribute="top" id="xqx-ta-YCx"/>
+                            <constraint firstItem="Fmv-Bv-5Y6" firstAttribute="leading" secondItem="iVV-tW-WPu" secondAttribute="leading" id="35d-NM-8xI"/>
+                            <constraint firstAttribute="bottom" secondItem="Fmv-Bv-5Y6" secondAttribute="bottom" id="8TJ-7F-mDn"/>
+                            <constraint firstItem="Fmv-Bv-5Y6" firstAttribute="top" secondItem="iVV-tW-WPu" secondAttribute="top" id="eIT-q6-xFG"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -47,4 +46,7 @@
             <point key="canvasLocation" x="254.34782608695653" y="136.94196428571428"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="hotel-1" width="660" height="373"/>
+    </resources>
 </document>

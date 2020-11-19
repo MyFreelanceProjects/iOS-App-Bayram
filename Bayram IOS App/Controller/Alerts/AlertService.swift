@@ -43,6 +43,33 @@ class AlertService: UIViewController {
         return alertVC
     }
     
+    func getLanguageSelectAlert(setTitle: String, ButtonName: String, completion: @escaping () -> Void) -> ChooseLanguageController {
+        let alertVC = self.getViewController(identifier: "chooseLanguage") as! ChooseLanguageController
+        
+        alertVC.setTitle = setTitle
+        alertVC.setButtonName = ButtonName
+        
+        return alertVC
+    }
+    
+    func getSoundsSelector(setTitle: String, completion: @escaping () -> Void) -> SoundsViewController {
+        let alertVC = self.getViewController(identifier: "chooseSounds") as! SoundsViewController
+        
+        alertVC.setTitle = setTitle
+        alertVC.buttonAction = completion
+        
+        return alertVC
+    }
+    func getSingleSoundsSelector(buttonName: String, completion: @escaping () -> Void) -> SelectSingleSoundController {
+        let alertVC = self.getViewController(identifier: "chooseSingleSound") as! SelectSingleSoundController
+        
+        alertVC.setButtonName = buttonName
+        alertVC.buttonAction = completion
+        
+        return alertVC
+    }
+    
+    
     func getViewController(identifier: String) ->UIViewController {
         let storyboard = UIStoryboard(name: "AlertViewControllers", bundle: .main)
         let alertVC = storyboard.instantiateViewController(identifier: identifier)

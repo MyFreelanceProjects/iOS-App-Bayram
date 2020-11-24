@@ -20,32 +20,9 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
     
         
-        tableView.register(UINib(nibName: Constants.ServicesMenuCell.nibName, bundle: nil), forCellReuseIdentifier: Constants.ServicesMenuCell.identifier)
-        
-//        addTabBar()
+        tableView.register(UINib(nibName: Constants.ServicesMenuCell.nibName, bundle: nil), forCellReuseIdentifier: Constants.ServicesMenuCell.identifier)        
     }
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        print("Feds")
-//    }
-    
-    
-//    lazy var frontVC: UIViewController? = {
-//        let storyboard = UIStoryboard(name: "TabBarRouter", bundle: nil)
-//
-//        let front = storyboard.instantiateViewController(withIdentifier: "FrontTabbar")
-//        return front
-//    }()
-//
-//    func addTabBar() {
-//        if let vc = frontVC {
-//            self.addChild(vc)
-//            self.view.addSubview(vc.view)
-//            vc.didMove(toParent: self)
-//
-//            vc.view.frame = self.thisView.bounds
-//        }
-//    }
 }
 
 // MARK: - Configure cell options
@@ -54,7 +31,7 @@ struct HomeCell {
     var icon: String
 }
 
-private let services = [
+let services = [
     HomeCell(name: "Restaurant", icon: "restaurant"),
     HomeCell(name: "Bar", icon: "bar"),
     HomeCell(name: "Room Service", icon: "room"),
@@ -86,6 +63,12 @@ extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let selected = tableView.indexPathForSelectedRow {
             tableView.deselectRow(at: selected, animated: false)
+            
+            performSegue(withIdentifier: "showRestaurant", sender: self)
         }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        navigationItem.backBarButtonItem = self.customBackButton
     }
 }

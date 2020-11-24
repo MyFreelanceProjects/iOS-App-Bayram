@@ -89,7 +89,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="bar" width="29" height="28"/>
+        <image name="bar" width="27" height="27"/>
         <namedColor name="DefCol">
             <color red="0.19599999487400055" green="0.74099999666213989" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

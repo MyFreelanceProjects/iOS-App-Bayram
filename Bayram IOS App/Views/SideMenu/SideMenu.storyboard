@@ -48,10 +48,10 @@
                                                             <constraint firstItem="2AS-Xz-cXc" firstAttribute="top" secondItem="6fV-3Z-jo1" secondAttribute="top" id="yHF-kI-oW1"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gi3-W8-G34">
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gi3-W8-G34">
                                                         <rect key="frame" x="0.0" y="0.0" width="250" height="60"/>
                                                         <connections>
-                                                            <action selector="mainPageButtonPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="jmr-8m-kF3"/>
+                                                            <action selector="sideMenuPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="aKp-gp-peR"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -98,10 +98,10 @@
                                                             <constraint firstItem="Ace-bs-ILr" firstAttribute="top" secondItem="UyF-cC-HnO" secondAttribute="top" id="evE-Bl-Hh4"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdS-jk-bkU">
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdS-jk-bkU">
                                                         <rect key="frame" x="0.0" y="0.0" width="250" height="60"/>
                                                         <connections>
-                                                            <action selector="accountButtonPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="Jvm-Tx-njp"/>
+                                                            <action selector="sideMenuPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="3EZ-cb-3pu"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -148,10 +148,10 @@
                                                             <constraint firstAttribute="bottom" secondItem="Cx0-56-Zx4" secondAttribute="bottom" id="LA9-Ac-Dvu"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AvZ-0a-egM">
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AvZ-0a-egM">
                                                         <rect key="frame" x="0.0" y="0.0" width="250" height="60"/>
                                                         <connections>
-                                                            <action selector="reservationPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="OZD-Nh-rOj"/>
+                                                            <action selector="sideMenuPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="Auw-o4-4yd"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -198,10 +198,10 @@
                                                             <constraint firstAttribute="bottom" secondItem="nKc-IK-Rez" secondAttribute="bottom" id="wIP-hS-sAZ"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIm-ji-w3Q">
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIm-ji-w3Q">
                                                         <rect key="frame" x="0.0" y="0.0" width="250" height="60"/>
                                                         <connections>
-                                                            <action selector="feedbackPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="gcV-OX-4DJ"/>
+                                                            <action selector="sideMenuPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="4T5-BT-nTV"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>

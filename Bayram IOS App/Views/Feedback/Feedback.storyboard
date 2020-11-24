@@ -11,7 +11,7 @@
         <!--My Feedback-->
         <scene sceneID="zu6-oH-Uze">
             <objects>
-                <viewController storyboardIdentifier="showFeedback" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5PZ-GL-VQh" customClass="FeedbackViewController" customModule="Bayram_IOS_App" sceneMemberID="viewController">
+                <viewController id="5PZ-GL-VQh" customClass="FeedbackViewController" customModule="Bayram_IOS_App" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I9s-eh-P0G">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,7 +66,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="v51-ed-kdV"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="c5d-uB-OS3">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="c5d-uB-OS3">
                                     <size key="itemSize" width="372" height="230"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -213,7 +213,7 @@
         <!--Navigation Controller-->
         <scene sceneID="BiN-CH-hVv">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aks-JQ-dGQ" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="showFeedback" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aks-JQ-dGQ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="72V-FZ-NpP"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iLQ-Qp-Bgw">

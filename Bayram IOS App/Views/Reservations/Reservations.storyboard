@@ -11,7 +11,7 @@
         <!--My Reservation-->
         <scene sceneID="yre-T3-Eyi">
             <objects>
-                <viewController storyboardIdentifier="showReservation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QHT-b2-gtZ" customClass="ReservationsViewController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="QHT-b2-gtZ" customClass="ReservationsViewController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="36b-jj-jON">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -302,14 +302,14 @@ page..</string>
                                 </constraints>
                             </view>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="trd-1E-8mG">
-                                <rect key="frame" x="15" y="419.66666666666669" width="384" height="206.33333333333331"/>
+                                <rect key="frame" x="15" y="419.66666666666669" width="384" height="246.33333333333331"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" name="ViewColor"/>
                         <constraints>
-                            <constraint firstItem="iBd-qc-0z4" firstAttribute="top" secondItem="trd-1E-8mG" secondAttribute="bottom" constant="50" id="17r-86-tUP"/>
+                            <constraint firstItem="iBd-qc-0z4" firstAttribute="top" secondItem="trd-1E-8mG" secondAttribute="bottom" constant="10" id="17r-86-tUP"/>
                             <constraint firstItem="EDC-Fn-YsG" firstAttribute="trailing" secondItem="trd-1E-8mG" secondAttribute="trailing" constant="15" id="9RH-25-jcz"/>
                             <constraint firstItem="EDC-Fn-YsG" firstAttribute="trailing" secondItem="G8L-6g-S7I" secondAttribute="trailing" constant="15" id="A5h-yU-z8Y"/>
                             <constraint firstItem="lgC-6p-Arf" firstAttribute="leading" secondItem="EDC-Fn-YsG" secondAttribute="leading" constant="15" id="CCf-LK-xph"/>
@@ -347,7 +347,7 @@ page..</string>
         <!--Navigation Controller-->
         <scene sceneID="XbY-n7-Kyh">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YnK-og-BYR" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="showReservation" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YnK-og-BYR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="afK-Tz-eEY"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hq2-3d-gBc">

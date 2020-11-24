@@ -94,7 +94,7 @@ extension EditReservationView: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "times", for: indexPath) as! EditReservationCell
-        
+        cell.avaible_place.isHidden = true
         switch indexPath.row {
             case 0:
                 cell.type = "date_year"

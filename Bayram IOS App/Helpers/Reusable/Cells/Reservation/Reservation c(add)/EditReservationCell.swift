@@ -11,6 +11,7 @@ import UIKit
 class EditReservationCell: UITableViewCell {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var icon: UIImageView!
+    @IBOutlet weak var avaible_place: UILabel!
     
     var type: String?
     

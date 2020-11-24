@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4yX-ia-5ED">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="chX-DO-j8f">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -10,7 +10,7 @@
         <!--Name of the Hotel-->
         <scene sceneID="B0c-M7-tb4">
             <objects>
-                <viewController storyboardIdentifier="showMainPage" id="h17-u7-PDZ" customClass="HomeViewController" customModule="Bayram_IOS_App" sceneMemberID="viewController">
+                <viewController id="h17-u7-PDZ" customClass="HomeViewController" customModule="Bayram_IOS_App" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P56-uq-vmL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,7 +22,7 @@
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wf2-Ls-TEh" customClass="HomeTableView" customModule="Bayram_IOS_App" customModuleProvider="target">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wf2-Ls-TEh" customClass="HomeTableView" customModule="Bayram_IOS_App" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="168" width="414" height="694"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <connections>
@@ -56,11 +56,22 @@
                         <outlet property="tableView" destination="Wf2-Ls-TEh" id="JDi-KS-XF4"/>
                         <outlet property="thisView" destination="P56-uq-vmL" id="613-xb-wvY"/>
                         <outlet property="view" destination="P56-uq-vmL" id="zau-Qi-S15"/>
+                        <segue destination="Y9i-O3-qKh" kind="show" identifier="showRestaurant" id="Zqg-YP-2FD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="27o-r0-2kP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="741" y="-325"/>
+            <point key="canvasLocation" x="19" y="-1044"/>
+        </scene>
+        <!--Restaurant-->
+        <scene sceneID="OFe-Ub-fpk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Restaurant" id="Y9i-O3-qKh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="sYu-tc-zwl"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0PW-bZ-AgE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116" y="-1061"/>
         </scene>
         <!--SideMenu-->
         <scene sceneID="f7g-Cw-Yo5">
@@ -68,12 +79,12 @@
                 <viewControllerPlaceholder storyboardName="SideMenu" id="qdR-cx-jlH" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P4X-X0-EWe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1465" y="-325"/>
+            <point key="canvasLocation" x="-381" y="-1306"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WuP-2b-2CA">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4yX-ia-5ED" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="showMainPage" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4yX-ia-5ED" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bed-HM-q3A">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -86,7 +97,56 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7V-Gl-QyC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-171.01449275362319" y="-325.44642857142856"/>
+            <point key="canvasLocation" x="-742" y="-1044"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="5rH-Nu-d6z">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="chX-DO-j8f" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CnN-sW-OZr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="HBK-KI-YnF" kind="relationship" relationship="viewControllers" id="8qR-0z-YzA"/>
+                        <segue destination="glj-n0-aE6" kind="relationship" relationship="viewControllers" id="i2t-JC-BOL"/>
+                        <segue destination="9lL-dc-YOg" kind="relationship" relationship="viewControllers" id="Jyo-nQ-uMG"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iJX-Uy-c8D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="190" y="-2143"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="rVS-44-vU0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Map" id="HBK-KI-YnF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="dAZ-Ie-oTO"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wrc-lo-RfR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-182" y="-1756"/>
+        </scene>
+        <!--Notification-->
+        <scene sceneID="2yD-hS-KSF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Notification" id="glj-n0-aE6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="uO2-67-9Zp"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AyV-Du-LEh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="191" y="-1756"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="kJw-0J-qZI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Chat" id="9lL-dc-YOg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="RJK-qN-eO6"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E83-ng-l65" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="533" y="-1756"/>
         </scene>
     </scenes>
     <resources>

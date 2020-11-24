@@ -102,7 +102,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="EZu-Y2-paR" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="Wo5-Tf-g39"/>
+                                    <action selector="loginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="smF-Y4-jQP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -123,18 +123,10 @@
             </objects>
             <point key="canvasLocation" x="-190" y="376"/>
         </scene>
-        <!--Home-->
-        <scene sceneID="VB6-z3-Q2C">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Home" id="EZu-Y2-paR" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cZp-wc-WDN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="517" y="337"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Sjb-OZ-yUq">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mN8-kW-ekp" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mN8-kW-ekp" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JwE-Jj-1qT">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

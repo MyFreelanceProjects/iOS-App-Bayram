@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cH5-zN-WkJ">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="EoF-C6-Qm0">
+            <objects>
+                <viewController id="cH5-zN-WkJ" customClass="RestaurantViewController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r8R-8d-mkk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9cd-uX-Hxe">
+                                <rect key="frame" x="15" y="10" width="345" height="657"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="cH5-zN-WkJ" id="9Pp-JJ-gl1"/>
+                                    <outlet property="delegate" destination="cH5-zN-WkJ" id="ld1-B1-O7R"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" name="ViewColor"/>
+                        <constraints>
+                            <constraint firstItem="9cd-uX-Hxe" firstAttribute="top" secondItem="pfd-ZY-jN9" secondAttribute="top" constant="10" id="03Z-I5-2iK"/>
+                            <constraint firstItem="pfd-ZY-jN9" firstAttribute="bottom" secondItem="9cd-uX-Hxe" secondAttribute="bottom" id="0Mn-KJ-oCh"/>
+                            <constraint firstItem="pfd-ZY-jN9" firstAttribute="trailing" secondItem="9cd-uX-Hxe" secondAttribute="trailing" constant="15" id="4rw-FE-Dag"/>
+                            <constraint firstItem="9cd-uX-Hxe" firstAttribute="leading" secondItem="pfd-ZY-jN9" secondAttribute="leading" constant="15" id="SZ5-uH-dZ8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pfd-ZY-jN9"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" largeTitleDisplayMode="always" id="dBw-EQ-b9E"/>
+                    <connections>
+                        <outlet property="tableView" destination="9cd-uX-Hxe" id="VuV-tr-Xpm"/>
+                        <segue destination="Pvx-CX-w8Y" kind="show" identifier="showRestaurantTable" id="LOm-Gn-Cdb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mOT-U8-w3e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17594" y="-3869"/>
+        </scene>
+        <!--RestaurantTableController-->
+        <scene sceneID="qhS-zH-kiG">
+            <objects>
+                <viewController id="Pvx-CX-w8Y" userLabel="RestaurantTableController" customClass="RestaurantTableController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TRS-wK-2Hp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mwZ-VY-I5A">
+                                <rect key="frame" x="15" y="10" width="345" height="637"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Pvx-CX-w8Y" id="32S-i2-TD0"/>
+                                    <outlet property="delegate" destination="Pvx-CX-w8Y" id="RgV-2f-AGN"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" name="ViewColor"/>
+                        <constraints>
+                            <constraint firstItem="mwZ-VY-I5A" firstAttribute="leading" secondItem="nWr-DB-1oB" secondAttribute="leading" constant="15" id="NOv-21-iUh"/>
+                            <constraint firstItem="mwZ-VY-I5A" firstAttribute="top" secondItem="nWr-DB-1oB" secondAttribute="top" constant="10" id="OMI-jC-kuK"/>
+                            <constraint firstItem="nWr-DB-1oB" firstAttribute="trailing" secondItem="mwZ-VY-I5A" secondAttribute="trailing" constant="15" id="XLo-e6-AD4"/>
+                            <constraint firstItem="nWr-DB-1oB" firstAttribute="bottom" secondItem="mwZ-VY-I5A" secondAttribute="bottom" id="s13-Wx-wNu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nWr-DB-1oB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" largeTitleDisplayMode="always" id="Ef4-Si-uzR"/>
+                    <connections>
+                        <outlet property="tableView" destination="mwZ-VY-I5A" id="6I1-JL-F3A"/>
+                        <segue destination="ZK2-kY-1ao" kind="show" identifier="showRestaurantDetail" id="gdI-VR-hie"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HSV-ra-9wZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16849" y="-3869"/>
+        </scene>
+        <!--Reservation Detail Controller-->
+        <scene sceneID="BfL-GU-uWE">
+            <objects>
+                <viewController id="ZK2-kY-1ao" customClass="ReservationDetailController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cdS-Xl-1Z6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="ViewColor"/>
+                        <viewLayoutGuide key="safeArea" id="HQU-EQ-bJw"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XI3-IH-UgQ"/>
+                    <connections>
+                        <segue destination="OBr-jK-aEl" kind="show" identifier="restaurantReservation" id="Jtr-cn-Ivk"/>
+                        <segue destination="g5p-rt-SnV" kind="show" identifier="restaurantFeedback" id="2lb-wU-xYb"/>
+                        <segue destination="xf0-PM-CXo" kind="show" identifier="RestaurantMenu" id="euI-bQ-IsF"/>
+                        <segue destination="Gx0-YN-cyK" kind="show" identifier="ResDressCodeController" id="8Dh-0U-Ysh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lqi-Q1-mgc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16025" y="-3869"/>
+        </scene>
+        <!--FeedbackRestaurant-->
+        <scene sceneID="dI8-EJ-vSe">
+            <objects>
+                <viewController id="g5p-rt-SnV" userLabel="FeedbackRestaurant" customClass="FeedbackRestaurant" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FWW-Fo-lyg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="o6d-i9-r4N"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="BrG-S2-5KH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BBC-si-I1s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15287" y="-3869"/>
+        </scene>
+        <!--Restaurant Menu-->
+        <scene sceneID="nuK-L3-KBL">
+            <objects>
+                <viewController storyboardIdentifier="RestaurantMenu" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xf0-PM-CXo" customClass="RestaurantMenu" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nsw-h3-JZZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pbs-PF-Vwm">
+                                <rect key="frame" x="15" y="5" width="345" height="642"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="xf0-PM-CXo" id="wyk-pr-Qnt"/>
+                                    <outlet property="delegate" destination="xf0-PM-CXo" id="jja-ri-d4d"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" name="ViewColor"/>
+                        <constraints>
+                            <constraint firstItem="04a-KX-k3B" firstAttribute="trailing" secondItem="Pbs-PF-Vwm" secondAttribute="trailing" constant="15" id="Dxn-uF-bV1"/>
+                            <constraint firstItem="Pbs-PF-Vwm" firstAttribute="top" secondItem="04a-KX-k3B" secondAttribute="top" constant="5" id="bBO-CY-ndJ"/>
+                            <constraint firstItem="Pbs-PF-Vwm" firstAttribute="leading" secondItem="04a-KX-k3B" secondAttribute="leading" constant="15" id="e0Z-0l-C70"/>
+                            <constraint firstItem="04a-KX-k3B" firstAttribute="bottom" secondItem="Pbs-PF-Vwm" secondAttribute="bottom" id="zhN-jh-Mmh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="04a-KX-k3B"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="f9B-Jb-jie"/>
+                    <connections>
+                        <outlet property="tableView" destination="Pbs-PF-Vwm" id="yyB-3M-lGr"/>
+                        <segue destination="Gx0-YN-cyK" kind="show" identifier="RestaurantMenuDressCode" id="Chw-nO-I6U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zsW-m3-1eo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16026" y="-3128"/>
+        </scene>
+        <!--Res Dress Code Controller-->
+        <scene sceneID="dmx-Mn-9Ou">
+            <objects>
+                <viewController id="Gx0-YN-cyK" customClass="ResDressCodeController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AiY-Y5-mDT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SKM-zc-9vx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="SKM-zc-9vx" firstAttribute="top" secondItem="eL1-Ya-uV0" secondAttribute="top" id="AOX-AB-G2c"/>
+                            <constraint firstItem="eL1-Ya-uV0" firstAttribute="trailing" secondItem="SKM-zc-9vx" secondAttribute="trailing" id="IUN-6r-Hk4"/>
+                            <constraint firstItem="SKM-zc-9vx" firstAttribute="leading" secondItem="eL1-Ya-uV0" secondAttribute="leading" id="fYL-tL-tCo"/>
+                            <constraint firstItem="eL1-Ya-uV0" firstAttribute="bottom" secondItem="SKM-zc-9vx" secondAttribute="bottom" id="k7S-Kq-dO1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eL1-Ya-uV0"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Eor-PJ-6EV"/>
+                    <connections>
+                        <outlet property="DressCodeView" destination="SKM-zc-9vx" id="yha-gZ-ter"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zqg-wj-VEO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15219" y="-3133"/>
+        </scene>
+        <!--AddReservationRestaurantController-->
+        <scene sceneID="niG-P9-tk5">
+            <objects>
+                <viewController id="OBr-jK-aEl" userLabel="AddReservationRestaurantController" customClass="AddReservationRestaurantController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XPv-zG-ltu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="cdu-cK-KQl"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="WcF-7C-azk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="agP-gp-nWb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15287" y="-4575"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Chw-nO-I6U"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <namedColor name="ViewColor">
+            <color red="0.98000001907348633" green="0.98000001907348633" blue="0.98000001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -55,7 +55,7 @@ class MapViewController: BaseVC {
                 delayAfter(seconds: 0.1) {
                     self.remove(previousController: self.children[0])
                     
-                    self.changeViewController(identifier: idf, storyboard: storyboard)
+                    self.getInitialVC(identifier: idf, storyboard: storyboard)
                 }
             }
         }
@@ -63,15 +63,8 @@ class MapViewController: BaseVC {
 }
 
 class BaseVC: UIViewController {
-    func getInitialVC() {
-        let vc = self.getController(id: "showMainPage", storyboard: "Home") as! UINavigationController
-        vc.modalPresentationStyle = .fullScreen
-        vc.modalTransitionStyle = .crossDissolve
-        self.add(vc, frame: self.view.frame)
-    }
-    
-    func changeViewController(identifier: String, storyboard: String) {
-        let vc = self.getController(id: identifier, storyboard: storyboard) as! UINavigationController
+    func getInitialVC(identifier: String? = "showMainPage", storyboard: String? = "Home") {
+        let vc = self.getController(id: identifier!, storyboard: storyboard!) as! UINavigationController
         vc.modalPresentationStyle = .fullScreen
         vc.modalTransitionStyle = .crossDissolve
         self.add(vc, frame: self.view.frame)

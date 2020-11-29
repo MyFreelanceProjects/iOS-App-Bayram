@@ -11,10 +11,7 @@ import UIKit
 class R_DetailFeedback: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
         
-    var ImageArray = [
-        UIImage(named: "hotel-1"),
-        UIImage(named: "hotel-2"),
-    ]
+    var ImageArray: Array<UIImage>?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,13 +24,14 @@ class R_DetailFeedback: UIViewController {
 //MARK: - CollectionView Data Source
 extension R_DetailFeedback: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return ImageArray.count
+//        return ImageArray?.count ?? 1
+        return 5
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CustomImageCell
         
-        cell.image.image = ImageArray[indexPath.row]
+        cell.image.image = ImageArray?[indexPath.row] ?? UIImage(named: "empty")
         
         return cell
     }

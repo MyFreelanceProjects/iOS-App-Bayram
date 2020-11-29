@@ -16,6 +16,20 @@
 		22151FAF256AA30500464500 /* RestaurantViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22151FAD256AA30500464500 /* RestaurantViewCell.swift */; };
 		22151FB0256AA30500464500 /* RestaurantViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22151FAE256AA30500464500 /* RestaurantViewCell.xib */; };
 		22193BC32559AAD200281D7D /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22193BC22559AAD200281D7D /* SideMenuController.swift */; };
+		222CD4F9256F98F5004DA0DB /* BarTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD4F8256F98F5004DA0DB /* BarTableController.swift */; };
+		222CD4FB256F9907004DA0DB /* BarReservationDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD4FA256F9907004DA0DB /* BarReservationDetailController.swift */; };
+		222CD4FD256F991B004DA0DB /* AddReservationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD4FC256F991B004DA0DB /* AddReservationBarController.swift */; };
+		222CD4FF256F992E004DA0DB /* BarDressCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD4FE256F992E004DA0DB /* BarDressCodeController.swift */; };
+		222CD501256F993C004DA0DB /* BarFeedbackRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD500256F993C004DA0DB /* BarFeedbackRestaurant.swift */; };
+		222CD503256F994F004DA0DB /* BarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD502256F994F004DA0DB /* BarMenu.swift */; };
+		222CD508256FED83004DA0DB /* CabanaReservationDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD507256FED83004DA0DB /* CabanaReservationDetailController.swift */; };
+		222CD50A256FED92004DA0DB /* CabanaTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD509256FED92004DA0DB /* CabanaTableController.swift */; };
+		222CD50C256FEDA7004DA0DB /* CabanaDressCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD50B256FEDA7004DA0DB /* CabanaDressCodeController.swift */; };
+		222CD50E256FEDB6004DA0DB /* CabanaFeedbackRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD50D256FEDB6004DA0DB /* CabanaFeedbackRestaurant.swift */; };
+		222CD510256FEDC9004DA0DB /* CabanaMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD50F256FEDC9004DA0DB /* CabanaMenu.swift */; };
+		222CD512256FEDD9004DA0DB /* AddReservationCabanaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD511256FEDD9004DA0DB /* AddReservationCabanaController.swift */; };
+		222CD514256FEFAF004DA0DB /* Bar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222CD513256FEFAF004DA0DB /* Bar.storyboard */; };
+		222CD51625701975004DA0DB /* Cabana.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222CD51525701975004DA0DB /* Cabana.storyboard */; };
 		222D2DAB255968FA001FC284 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D2DAA255968FA001FC284 /* SideMenu.storyboard */; };
 		2233652625682C8A00007D29 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2233652525682C8A00007D29 /* UIViewController.swift */; };
 		22339488256A519200F821C0 /* Restaurant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22339487256A519200F821C0 /* Restaurant.storyboard */; };
@@ -38,11 +52,17 @@
 		223F270025580BF4003DE430 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F26FF25580BF4003DE430 /* HomeViewController.swift */; };
 		223F270B255814B3003DE430 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F2709255814B3003DE430 /* HomeTableViewCell.swift */; };
 		223F270C255814B3003DE430 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223F270A255814B3003DE430 /* HomeTableViewCell.xib */; };
+		2240D6442572F63600CBD1BD /* SpaReadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2240D6432572F63600CBD1BD /* SpaReadMore.swift */; };
 		224CEBB1255D3A460048B229 /* LeftTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224CEBAF255D3A460048B229 /* LeftTableCell.swift */; };
 		224CEBB2255D3A460048B229 /* LeftTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224CEBB0255D3A460048B229 /* LeftTableCell.xib */; };
 		224CEBB5255D3A780048B229 /* RightTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224CEBB3255D3A780048B229 /* RightTableCell.swift */; };
 		224CEBB6255D3A780048B229 /* RightTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224CEBB4255D3A780048B229 /* RightTableCell.xib */; };
 		224FC240256EBEB400D8648C /* RestaurantMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224FC23F256EBEB400D8648C /* RestaurantMenu.swift */; };
+		2252F8EE2570E4F100562973 /* R_EditReservations2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252F8ED2570E4F100562973 /* R_EditReservations2.swift */; };
+		225EA054257239B9007BF29D /* SelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EA053257239B9007BF29D /* SelectorController.swift */; };
+		225EA05725724963007BF29D /* SpaTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EA05625724963007BF29D /* SpaTableController.swift */; };
+		225EA05B25724A6E007BF29D /* MenuViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EA05925724A6E007BF29D /* MenuViewCell2.swift */; };
+		225EA05C25724A6E007BF29D /* MenuViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225EA05A25724A6E007BF29D /* MenuViewCell2.xib */; };
 		2267966F256ADF0800C890BA /* ReservationDetailCell_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267966D256ADF0800C890BA /* ReservationDetailCell_1.swift */; };
 		22679670256ADF0800C890BA /* ReservationDetailCell_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2267966E256ADF0800C890BA /* ReservationDetailCell_1.xib */; };
 		22679673256ADF2D00C890BA /* ReservationDetailCell_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22679671256ADF2D00C890BA /* ReservationDetailCell_2.swift */; };
@@ -72,9 +92,11 @@
 		22A3405E256A80F50082C6DD /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3405C256A80F50082C6DD /* MenuViewCell.swift */; };
 		22A3405F256A80F50082C6DD /* MenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A3405D256A80F50082C6DD /* MenuViewCell.xib */; };
 		22A513CE255F0EBC00B5A357 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A513CD255F0EBC00B5A357 /* DateViewController.swift */; };
+		22A9FB9E2572C05F007F1339 /* R_EditReservations3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A9FB9D2572C05F007F1339 /* R_EditReservations3.swift */; };
 		22AF4F6B255E6D590093BB2C /* Reservations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AF4F6A255E6D590093BB2C /* Reservations.storyboard */; };
 		22AF4F6E255E6DBF0093BB2C /* ReservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF4F6D255E6DBF0093BB2C /* ReservationsViewController.swift */; };
 		22AF4F71255E73BE0093BB2C /* ReservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF4F70255E73BE0093BB2C /* ReservationCell.swift */; };
+		22C008EF25713F73002AE5FF /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C008EE25713F73002AE5FF /* CALayer.swift */; };
 		22CB193525655806001B9950 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CB193425655806001B9950 /* Settings.storyboard */; };
 		22CB19382565582D001B9950 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB19372565582D001B9950 /* SettingsViewController.swift */; };
 		22CB193E25655B5F001B9950 /* SettingsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB193C25655B5F001B9950 /* SettingsViewCell.swift */; };
@@ -86,6 +108,11 @@
 		22EBCEA0255833AC001DBCB6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBCE9F255833AC001DBCB6 /* Constants.swift */; };
 		22EEBE5A2566739F0049CB85 /* SoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EEBE592566739F0049CB85 /* SoundsViewController.swift */; };
 		22EEBE5D256685AB0049CB85 /* SelectSingleSoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EEBE5B2566836E0049CB85 /* SelectSingleSoundController.swift */; };
+		22EF46D8257251790099648A /* Spa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EF46D7257251790099648A /* Spa.storyboard */; };
+		22EF46DC257253020099648A /* SpaReservationDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF46DB257253010099648A /* SpaReservationDetailController.swift */; };
+		22EF46DE257253170099648A /* SpaDressCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF46DD257253170099648A /* SpaDressCodeController.swift */; };
+		22EF46E0257253260099648A /* SpaFeedbackRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF46DF257253260099648A /* SpaFeedbackRestaurant.swift */; };
+		22EF46E22572533C0099648A /* AddReservationSpaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF46E12572533C0099648A /* AddReservationSpaController.swift */; };
 		B60C83E830439039456D829B /* Pods_Bayram_IOS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2FFF52EC4DC9CB6149CF4C /* Pods_Bayram_IOS_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +126,20 @@
 		22151FAD256AA30500464500 /* RestaurantViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewCell.swift; sourceTree = "<group>"; };
 		22151FAE256AA30500464500 /* RestaurantViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantViewCell.xib; sourceTree = "<group>"; };
 		22193BC22559AAD200281D7D /* SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		222CD4F8256F98F5004DA0DB /* BarTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTableController.swift; sourceTree = "<group>"; };
+		222CD4FA256F9907004DA0DB /* BarReservationDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarReservationDetailController.swift; sourceTree = "<group>"; };
+		222CD4FC256F991B004DA0DB /* AddReservationBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReservationBarController.swift; sourceTree = "<group>"; };
+		222CD4FE256F992E004DA0DB /* BarDressCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarDressCodeController.swift; sourceTree = "<group>"; };
+		222CD500256F993C004DA0DB /* BarFeedbackRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarFeedbackRestaurant.swift; sourceTree = "<group>"; };
+		222CD502256F994F004DA0DB /* BarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarMenu.swift; sourceTree = "<group>"; };
+		222CD507256FED83004DA0DB /* CabanaReservationDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabanaReservationDetailController.swift; sourceTree = "<group>"; };
+		222CD509256FED92004DA0DB /* CabanaTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabanaTableController.swift; sourceTree = "<group>"; };
+		222CD50B256FEDA7004DA0DB /* CabanaDressCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabanaDressCodeController.swift; sourceTree = "<group>"; };
+		222CD50D256FEDB6004DA0DB /* CabanaFeedbackRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabanaFeedbackRestaurant.swift; sourceTree = "<group>"; };
+		222CD50F256FEDC9004DA0DB /* CabanaMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabanaMenu.swift; sourceTree = "<group>"; };
+		222CD511256FEDD9004DA0DB /* AddReservationCabanaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReservationCabanaController.swift; sourceTree = "<group>"; };
+		222CD513256FEFAF004DA0DB /* Bar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bar.storyboard; sourceTree = "<group>"; };
+		222CD51525701975004DA0DB /* Cabana.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cabana.storyboard; sourceTree = "<group>"; };
 		222D2DAA255968FA001FC284 /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
 		2233652525682C8A00007D29 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		22339487256A519200F821C0 /* Restaurant.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Restaurant.storyboard; sourceTree = "<group>"; };
@@ -121,11 +162,17 @@
 		223F26FF25580BF4003DE430 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		223F2709255814B3003DE430 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		223F270A255814B3003DE430 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		2240D6432572F63600CBD1BD /* SpaReadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaReadMore.swift; sourceTree = "<group>"; };
 		224CEBAF255D3A460048B229 /* LeftTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTableCell.swift; sourceTree = "<group>"; };
 		224CEBB0255D3A460048B229 /* LeftTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftTableCell.xib; sourceTree = "<group>"; };
 		224CEBB3255D3A780048B229 /* RightTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightTableCell.swift; sourceTree = "<group>"; };
 		224CEBB4255D3A780048B229 /* RightTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightTableCell.xib; sourceTree = "<group>"; };
 		224FC23F256EBEB400D8648C /* RestaurantMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenu.swift; sourceTree = "<group>"; };
+		2252F8ED2570E4F100562973 /* R_EditReservations2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_EditReservations2.swift; sourceTree = "<group>"; };
+		225EA053257239B9007BF29D /* SelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorController.swift; sourceTree = "<group>"; };
+		225EA05625724963007BF29D /* SpaTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaTableController.swift; sourceTree = "<group>"; };
+		225EA05925724A6E007BF29D /* MenuViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCell2.swift; sourceTree = "<group>"; };
+		225EA05A25724A6E007BF29D /* MenuViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewCell2.xib; sourceTree = "<group>"; };
 		2267966D256ADF0800C890BA /* ReservationDetailCell_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailCell_1.swift; sourceTree = "<group>"; };
 		2267966E256ADF0800C890BA /* ReservationDetailCell_1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReservationDetailCell_1.xib; sourceTree = "<group>"; };
 		22679671256ADF2D00C890BA /* ReservationDetailCell_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailCell_2.swift; sourceTree = "<group>"; };
@@ -157,9 +204,11 @@
 		22A3405C256A80F50082C6DD /* MenuViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCell.swift; sourceTree = "<group>"; };
 		22A3405D256A80F50082C6DD /* MenuViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewCell.xib; sourceTree = "<group>"; };
 		22A513CD255F0EBC00B5A357 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		22A9FB9D2572C05F007F1339 /* R_EditReservations3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_EditReservations3.swift; sourceTree = "<group>"; };
 		22AF4F6A255E6D590093BB2C /* Reservations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reservations.storyboard; sourceTree = "<group>"; };
 		22AF4F6D255E6DBF0093BB2C /* ReservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsViewController.swift; sourceTree = "<group>"; };
 		22AF4F70255E73BE0093BB2C /* ReservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCell.swift; sourceTree = "<group>"; };
+		22C008EE25713F73002AE5FF /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
 		22CB193425655806001B9950 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		22CB19372565582D001B9950 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		22CB193C25655B5F001B9950 /* SettingsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewCell.swift; sourceTree = "<group>"; };
@@ -171,6 +220,11 @@
 		22EBCE9F255833AC001DBCB6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		22EEBE592566739F0049CB85 /* SoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsViewController.swift; sourceTree = "<group>"; };
 		22EEBE5B2566836E0049CB85 /* SelectSingleSoundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSingleSoundController.swift; sourceTree = "<group>"; };
+		22EF46D7257251790099648A /* Spa.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Spa.storyboard; sourceTree = "<group>"; };
+		22EF46DB257253010099648A /* SpaReservationDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaReservationDetailController.swift; sourceTree = "<group>"; };
+		22EF46DD257253170099648A /* SpaDressCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaDressCodeController.swift; sourceTree = "<group>"; };
+		22EF46DF257253260099648A /* SpaFeedbackRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaFeedbackRestaurant.swift; sourceTree = "<group>"; };
+		22EF46E12572533C0099648A /* AddReservationSpaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReservationSpaController.swift; sourceTree = "<group>"; };
 		9D4B8728A1D24ED52D3CE438 /* Pods-Bayram IOS App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bayram IOS App.debug.xcconfig"; path = "Target Support Files/Pods-Bayram IOS App/Pods-Bayram IOS App.debug.xcconfig"; sourceTree = "<group>"; };
 		BF2FFF52EC4DC9CB6149CF4C /* Pods_Bayram_IOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bayram_IOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33027E435574F88655237B1 /* Pods-Bayram IOS App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bayram IOS App.release.xcconfig"; path = "Target Support Files/Pods-Bayram IOS App/Pods-Bayram IOS App.release.xcconfig"; sourceTree = "<group>"; };
@@ -204,6 +258,32 @@
 				22151FAE256AA30500464500 /* RestaurantViewCell.xib */,
 			);
 			path = "Restaurant Cell";
+			sourceTree = "<group>";
+		};
+		222CD4F5256F9856004DA0DB /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				222CD4FA256F9907004DA0DB /* BarReservationDetailController.swift */,
+				222CD4F8256F98F5004DA0DB /* BarTableController.swift */,
+				222CD4FE256F992E004DA0DB /* BarDressCodeController.swift */,
+				222CD500256F993C004DA0DB /* BarFeedbackRestaurant.swift */,
+				222CD502256F994F004DA0DB /* BarMenu.swift */,
+				222CD4FC256F991B004DA0DB /* AddReservationBarController.swift */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
+		222CD504256F9C7D004DA0DB /* Cabana */ = {
+			isa = PBXGroup;
+			children = (
+				222CD507256FED83004DA0DB /* CabanaReservationDetailController.swift */,
+				222CD509256FED92004DA0DB /* CabanaTableController.swift */,
+				222CD50B256FEDA7004DA0DB /* CabanaDressCodeController.swift */,
+				222CD50D256FEDB6004DA0DB /* CabanaFeedbackRestaurant.swift */,
+				222CD50F256FEDC9004DA0DB /* CabanaMenu.swift */,
+				222CD511256FEDD9004DA0DB /* AddReservationCabanaController.swift */,
+			);
+			path = Cabana;
 			sourceTree = "<group>";
 		};
 		222D2DAC2559690D001FC284 /* SideMenu */ = {
@@ -264,6 +344,8 @@
 				223D63DE256D516A00A5FC30 /* Reusable.storyboard */,
 				223D63E1256D530B00A5FC30 /* R_EditReservations.swift */,
 				223D63E7256D703B00A5FC30 /* R_ReservationDetailController.swift */,
+				2252F8ED2570E4F100562973 /* R_EditReservations2.swift */,
+				22A9FB9D2572C05F007F1339 /* R_EditReservations3.swift */,
 				223D63E3256D680900A5FC30 /* R_DetailFeedback.swift */,
 			);
 			path = "Scene and Controllers";
@@ -284,6 +366,9 @@
 			children = (
 				223EAD5D2557AE74002FE9C1 /* Home.storyboard */,
 				22339487256A519200F821C0 /* Restaurant.storyboard */,
+				222CD513256FEFAF004DA0DB /* Bar.storyboard */,
+				222CD51525701975004DA0DB /* Cabana.storyboard */,
+				22EF46D7257251790099648A /* Spa.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -299,8 +384,11 @@
 		223F270125580BFE003DE430 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				22A34062256A85A20082C6DD /* Main Page */,
+				225EA05525724237007BF29D /* Spa */,
 				2233948C256A533800F821C0 /* Restaurant */,
+				222CD4F5256F9856004DA0DB /* Bar */,
+				222CD504256F9C7D004DA0DB /* Cabana */,
+				22A34062256A85A20082C6DD /* Main Page */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -341,6 +429,37 @@
 				223F2709255814B3003DE430 /* HomeTableViewCell.swift */,
 			);
 			path = "Home Cell";
+			sourceTree = "<group>";
+		};
+		225EA05525724237007BF29D /* Spa */ = {
+			isa = PBXGroup;
+			children = (
+				225EA05625724963007BF29D /* SpaTableController.swift */,
+				22EF46DB257253010099648A /* SpaReservationDetailController.swift */,
+				22EF46DD257253170099648A /* SpaDressCodeController.swift */,
+				22EF46DF257253260099648A /* SpaFeedbackRestaurant.swift */,
+				22EF46E12572533C0099648A /* AddReservationSpaController.swift */,
+				2240D6432572F63600CBD1BD /* SpaReadMore.swift */,
+			);
+			path = Spa;
+			sourceTree = "<group>";
+		};
+		225EA05825724A27007BF29D /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				22A3405C256A80F50082C6DD /* MenuViewCell.swift */,
+				22A3405D256A80F50082C6DD /* MenuViewCell.xib */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		225EA05D25724A74007BF29D /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				225EA05A25724A6E007BF29D /* MenuViewCell2.xib */,
+				225EA05925724A6E007BF29D /* MenuViewCell2.swift */,
+			);
+			path = 2;
 			sourceTree = "<group>";
 		};
 		22679675256ADF3300C890BA /* 2 */ = {
@@ -438,6 +557,7 @@
 			isa = PBXGroup;
 			children = (
 				2277EEBB255FB80500ACF926 /* String.swift */,
+				22C008EE25713F73002AE5FF /* CALayer.swift */,
 				22DBBDD9256EA647003F4C46 /* WKWebView.swift */,
 				229BE1AE256C27940008057D /* UICollectionViewCell.swift */,
 				2233652525682C8A00007D29 /* UIViewController.swift */,
@@ -455,6 +575,7 @@
 				227E10AE25659A24003CE264 /* ChooseLanguageController.swift */,
 				22EEBE592566739F0049CB85 /* SoundsViewController.swift */,
 				22EEBE5B2566836E0049CB85 /* SelectSingleSoundController.swift */,
+				225EA053257239B9007BF29D /* SelectorController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -517,7 +638,7 @@
 			children = (
 				228E41BE2557262A00F14F92 /* Resources */,
 				2277EEBD255FB81400ACF926 /* Extensions */,
-				22EBCEA1255833B4001DBCB6 /* Helpers */,
+				22EBCEA1255833B4001DBCB6 /* Handlers */,
 				228E41BD2557261B00F14F92 /* Controller */,
 				228E41BC2557260C00F14F92 /* Views */,
 				223EAD682557D4F2002FE9C1 /* Assets */,
@@ -573,8 +694,8 @@
 		22A34060256A81100082C6DD /* Menu Item */ = {
 			isa = PBXGroup;
 			children = (
-				22A3405C256A80F50082C6DD /* MenuViewCell.swift */,
-				22A3405D256A80F50082C6DD /* MenuViewCell.xib */,
+				225EA05825724A27007BF29D /* 1 */,
+				225EA05D25724A74007BF29D /* 2 */,
 			);
 			path = "Menu Item";
 			sourceTree = "<group>";
@@ -659,14 +780,14 @@
 			path = Edit;
 			sourceTree = "<group>";
 		};
-		22EBCEA1255833B4001DBCB6 /* Helpers */ = {
+		22EBCEA1255833B4001DBCB6 /* Handlers */ = {
 			isa = PBXGroup;
 			children = (
 				22A34061256A81200082C6DD /* Reusable */,
 				22EBCE9F255833AC001DBCB6 /* Constants.swift */,
 				223D63E9256D72CC00A5FC30 /* Protocols.swift */,
 			);
-			path = Helpers;
+			path = Handlers;
 			sourceTree = "<group>";
 		};
 		2E287489A947D4083B715F9D /* Frameworks */ = {
@@ -757,14 +878,18 @@
 				22E29821255EEE3700F12C31 /* EditReservationCell.xib in Resources */,
 				223D63DF256D516A00A5FC30 /* Reusable.storyboard in Resources */,
 				223EAD662557D4EA002FE9C1 /* Assets.xcassets in Resources */,
+				225EA05C25724A6E007BF29D /* MenuViewCell2.xib in Resources */,
 				22679670256ADF0800C890BA /* ReservationDetailCell_1.xib in Resources */,
+				222CD51625701975004DA0DB /* Cabana.storyboard in Resources */,
 				22345232255DAD9000C0486B /* AlertViewControllers.storyboard in Resources */,
 				223EAD672557D4EA002FE9C1 /* LaunchScreen.storyboard in Resources */,
 				224CEBB6255D3A780048B229 /* RightTableCell.xib in Resources */,
+				22EF46D8257251790099648A /* Spa.storyboard in Resources */,
 				226C27A82566ECE500CB2A0D /* Map.storyboard in Resources */,
 				223F270C255814B3003DE430 /* HomeTableViewCell.xib in Resources */,
 				223EAD5E2557AE74002FE9C1 /* Home.storyboard in Resources */,
 				228346CC255BEA4400075D43 /* Account.storyboard in Resources */,
+				222CD514256FEFAF004DA0DB /* Bar.storyboard in Resources */,
 				222D2DAB255968FA001FC284 /* SideMenu.storyboard in Resources */,
 				22AF4F6B255E6D590093BB2C /* Reservations.storyboard in Resources */,
 				22151FB0256AA30500464500 /* RestaurantViewCell.xib in Resources */,
@@ -826,7 +951,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222CD4FD256F991B004DA0DB /* AddReservationBarController.swift in Sources */,
 				228E41AD255725E000F14F92 /* ViewController.swift in Sources */,
+				22EF46DC257253020099648A /* SpaReservationDetailController.swift in Sources */,
 				22151FAC256A932000464500 /* RestaurantTableController.swift in Sources */,
 				2277EEBC255FB80500ACF926 /* String.swift in Sources */,
 				220C40E92563B8C600AAC5EC /* UIView.swift in Sources */,
@@ -834,49 +961,70 @@
 				224FC240256EBEB400D8648C /* RestaurantMenu.swift in Sources */,
 				228396A125639FF400AFC70A /* FeedbackViewController.swift in Sources */,
 				22AF4F71255E73BE0093BB2C /* ReservationCell.swift in Sources */,
+				225EA05725724963007BF29D /* SpaTableController.swift in Sources */,
+				22C008EF25713F73002AE5FF /* CALayer.swift in Sources */,
 				228396A52563A20B00AFC70A /* FeedbackViewCell.swift in Sources */,
+				222CD50E256FEDB6004DA0DB /* CabanaFeedbackRestaurant.swift in Sources */,
+				222CD501256F993C004DA0DB /* BarFeedbackRestaurant.swift in Sources */,
 				229BE1AF256C27950008057D /* UICollectionViewCell.swift in Sources */,
+				222CD50C256FEDA7004DA0DB /* CabanaDressCodeController.swift in Sources */,
 				220C40EB2563C22100AAC5EC /* DetailFeedbackController.swift in Sources */,
+				222CD512256FEDD9004DA0DB /* AddReservationCabanaController.swift in Sources */,
 				22CB19382565582D001B9950 /* SettingsViewController.swift in Sources */,
 				227E10AF25659A24003CE264 /* ChooseLanguageController.swift in Sources */,
+				225EA05B25724A6E007BF29D /* MenuViewCell2.swift in Sources */,
 				223F270B255814B3003DE430 /* HomeTableViewCell.swift in Sources */,
 				228346C9255BE0AD00075D43 /* AccountViewController.swift in Sources */,
 				223D63E8256D703B00A5FC30 /* R_ReservationDetailController.swift in Sources */,
+				222CD503256F994F004DA0DB /* BarMenu.swift in Sources */,
 				223D63EA256D72CC00A5FC30 /* Protocols.swift in Sources */,
 				22EEBE5A2566739F0049CB85 /* SoundsViewController.swift in Sources */,
 				22679673256ADF2D00C890BA /* ReservationDetailCell_2.swift in Sources */,
 				226C279E2566EC6000CB2A0D /* MapViewController.swift in Sources */,
 				2233652625682C8A00007D29 /* UIViewController.swift in Sources */,
+				222CD4FB256F9907004DA0DB /* BarReservationDetailController.swift in Sources */,
 				22AF4F6E255E6DBF0093BB2C /* ReservationsViewController.swift in Sources */,
 				22A3405E256A80F50082C6DD /* MenuViewCell.swift in Sources */,
 				223D63DC256D50E600A5FC30 /* AddReservationRestaurantController.swift in Sources */,
 				2267967B256BAD4900C890BA /* ImageCollectionCell.swift in Sources */,
 				228E41A9255725E000F14F92 /* AppDelegate.swift in Sources */,
 				226C27A02566EC6D00CB2A0D /* NotificationViewController.swift in Sources */,
+				2252F8EE2570E4F100562973 /* R_EditReservations2.swift in Sources */,
+				222CD4F9256F98F5004DA0DB /* BarTableController.swift in Sources */,
 				228E41AB255725E000F14F92 /* SceneDelegate.swift in Sources */,
 				226C27A22566EC7400CB2A0D /* ChatViewController.swift in Sources */,
 				223D63EC256E463E00A5FC30 /* ResDressCodeController.swift in Sources */,
 				22193BC32559AAD200281D7D /* SideMenuController.swift in Sources */,
 				223D63E6256D69A200A5FC30 /* FeedbackRestaurant.swift in Sources */,
+				22EF46E22572533C0099648A /* AddReservationSpaController.swift in Sources */,
 				22CB193E25655B5F001B9950 /* SettingsViewCell.swift in Sources */,
 				223F270025580BF4003DE430 /* HomeViewController.swift in Sources */,
 				22E2981D255EEDD500F12C31 /* EditReservationView.swift in Sources */,
 				2212C7FA2561891F00D2A410 /* addPersonViewController.swift in Sources */,
+				22EF46DE257253170099648A /* SpaDressCodeController.swift in Sources */,
 				22DBBDDA256EA647003F4C46 /* WKWebView.swift in Sources */,
 				22EBCEA0255833AC001DBCB6 /* Constants.swift in Sources */,
+				222CD50A256FED92004DA0DB /* CabanaTableController.swift in Sources */,
+				22EF46E0257253260099648A /* SpaFeedbackRestaurant.swift in Sources */,
 				223D63E4256D680900A5FC30 /* R_DetailFeedback.swift in Sources */,
 				22E29820255EEE3700F12C31 /* EditReservationCell.swift in Sources */,
+				222CD4FF256F992E004DA0DB /* BarDressCodeController.swift in Sources */,
+				225EA054257239B9007BF29D /* SelectorController.swift in Sources */,
 				220BC99A256AD9160094040D /* ReservationDetailController.swift in Sources */,
 				2233948A256A531C00F821C0 /* RestaurantViewController.swift in Sources */,
+				2240D6442572F63600CBD1BD /* SpaReadMore.swift in Sources */,
 				224CEBB1255D3A460048B229 /* LeftTableCell.swift in Sources */,
+				222CD510256FEDC9004DA0DB /* CabanaMenu.swift in Sources */,
 				22345258255DD02C00C0486B /* AlertService.swift in Sources */,
 				22A513CE255F0EBC00B5A357 /* DateViewController.swift in Sources */,
+				222CD508256FED83004DA0DB /* CabanaReservationDetailController.swift in Sources */,
 				22151FAF256AA30500464500 /* RestaurantViewCell.swift in Sources */,
 				223D63E2256D530B00A5FC30 /* R_EditReservations.swift in Sources */,
 				2277A73425645FD700A88431 /* CustomImageCell.swift in Sources */,
 				224CEBB5255D3A780048B229 /* RightTableCell.swift in Sources */,
 				2267966F256ADF0800C890BA /* ReservationDetailCell_1.swift in Sources */,
 				22EEBE5D256685AB0049CB85 /* SelectSingleSoundController.swift in Sources */,
+				22A9FB9E2572C05F007F1339 /* R_EditReservations3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

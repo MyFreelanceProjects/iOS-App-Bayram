@@ -63,12 +63,37 @@ extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let selected = tableView.indexPathForSelectedRow {
             tableView.deselectRow(at: selected, animated: false)
-            
-            performSegue(withIdentifier: "showRestaurant", sender: self)
+            switch indexPath.row {
+                case 0:
+                    performSegue(withIdentifier: "showRestaurant", sender: self)
+                
+                case 1:
+                    performSegue(withIdentifier: "showBar", sender: self)
+                
+                case 2: break
+                    // performSegue(withIdentifier: "showBar", sender: self)
+                case 3:
+                    performSegue(withIdentifier: "showCabana", sender: self)
+                case 4:break
+                    // performSegue(withIdentifier: "showCabana", sender: self)
+                case 5:
+                     performSegue(withIdentifier: "showSpa", sender: self)
+                case 6:break
+                    // performSegue(withIdentifier: "showCabana", sender: self)
+                case 7:break
+                    // performSegue(withIdentifier: "showCabana", sender: self)
+                
+                default:
+                    break
+            }
         }
     }
     
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         navigationItem.backBarButtonItem = self.customBackButton
+        if let selected = tableView.indexPathForSelectedRow {
+            // 
+        }
     }
 }

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W4G-HF-B2A">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CabanaTableController-->
+        <scene sceneID="KNU-nX-i41">
+            <objects>
+                <viewController id="W4G-HF-B2A" userLabel="CabanaTableController" customClass="CabanaTableController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Fh-7p-Dgt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xgt-1e-L4I">
+                                <rect key="frame" x="15" y="54" width="384" height="808"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="W4G-HF-B2A" id="87o-mD-aJ5"/>
+                                    <outlet property="delegate" destination="W4G-HF-B2A" id="iGC-0P-taj"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" name="ViewColor"/>
+                        <constraints>
+                            <constraint firstItem="3yb-rx-RRa" firstAttribute="trailing" secondItem="xgt-1e-L4I" secondAttribute="trailing" constant="15" id="CgJ-n9-IlS"/>
+                            <constraint firstItem="xgt-1e-L4I" firstAttribute="leading" secondItem="3yb-rx-RRa" secondAttribute="leading" constant="15" id="Kfz-OS-UGB"/>
+                            <constraint firstItem="xgt-1e-L4I" firstAttribute="top" secondItem="3yb-rx-RRa" secondAttribute="top" constant="10" id="vML-eP-5Ea"/>
+                            <constraint firstItem="3yb-rx-RRa" firstAttribute="bottom" secondItem="xgt-1e-L4I" secondAttribute="bottom" id="zrY-Yo-eta"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3yb-rx-RRa"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" largeTitleDisplayMode="always" id="o4r-fa-u0c"/>
+                    <connections>
+                        <outlet property="tableView" destination="xgt-1e-L4I" id="xMG-C2-2H2"/>
+                        <segue destination="NRK-o0-JJz" kind="show" identifier="showCabanaDetail" id="Nbc-Cs-U0g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p3U-Xv-1CC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16849" y="-3869"/>
+        </scene>
+        <!--Cabana Reservation Detail Controller-->
+        <scene sceneID="Gus-IH-Hr4">
+            <objects>
+                <viewController id="NRK-o0-JJz" customClass="CabanaReservationDetailController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="89B-p5-viH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="ViewColor"/>
+                        <viewLayoutGuide key="safeArea" id="pdJ-Qq-1pk"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="moZ-wA-5o2"/>
+                    <connections>
+                        <segue destination="Lly-bl-4W3" kind="show" identifier="cabanaReservation" id="Ihp-Lq-0ni"/>
+                        <segue destination="h3W-Wx-LUQ" kind="show" identifier="cabanaFeedback" id="OzM-B3-Ljc"/>
+                        <segue destination="kxC-Q7-Icd" kind="show" identifier="CabanaMenu" id="QTW-0c-LYr"/>
+                        <segue destination="8S3-Rh-bGu" kind="show" identifier="CabanaDressCodeController" id="pqg-t7-urb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1L9-Ue-aUz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16025" y="-3869"/>
+        </scene>
+        <!--FeedbackCabana-->
+        <scene sceneID="Y2I-ig-7HZ">
+            <objects>
+                <viewController id="h3W-Wx-LUQ" userLabel="FeedbackCabana" customClass="CabanaFeedbackRestaurant" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8BD-F9-eKf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="tbV-bP-66m"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="tgV-YY-eTX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WXH-Vc-2Ai" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15287" y="-3869"/>
+        </scene>
+        <!--Cabana Menu-->
+        <scene sceneID="bkR-lC-RFV">
+            <objects>
+                <viewController storyboardIdentifier="RestaurantMenu" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kxC-Q7-Icd" customClass="CabanaMenu" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XZF-mM-RAc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Jbd-Mu-frg">
+                                <rect key="frame" x="15" y="5" width="384" height="803"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="kxC-Q7-Icd" id="Heg-qx-765"/>
+                                    <outlet property="delegate" destination="kxC-Q7-Icd" id="6AM-1m-dds"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" name="ViewColor"/>
+                        <constraints>
+                            <constraint firstItem="Jbd-Mu-frg" firstAttribute="leading" secondItem="ohV-4r-H4H" secondAttribute="leading" constant="15" id="4Yh-e4-YHx"/>
+                            <constraint firstItem="Jbd-Mu-frg" firstAttribute="top" secondItem="ohV-4r-H4H" secondAttribute="top" constant="5" id="BRT-7v-Oov"/>
+                            <constraint firstItem="ohV-4r-H4H" firstAttribute="bottom" secondItem="Jbd-Mu-frg" secondAttribute="bottom" id="BZc-hZ-Wyi"/>
+                            <constraint firstItem="ohV-4r-H4H" firstAttribute="trailing" secondItem="Jbd-Mu-frg" secondAttribute="trailing" constant="15" id="SHL-CH-d7J"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ohV-4r-H4H"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SHs-SO-Cr6"/>
+                    <connections>
+                        <outlet property="tableView" destination="Jbd-Mu-frg" id="DGu-nG-wLX"/>
+                        <segue destination="8S3-Rh-bGu" kind="show" identifier="CabanaMenuDressCode" id="QJN-v4-rEB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dQD-yq-8A5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16026" y="-3128"/>
+        </scene>
+        <!--Cabana Dress Code Controller-->
+        <scene sceneID="RaE-Bk-dKo">
+            <objects>
+                <viewController id="8S3-Rh-bGu" customClass="CabanaDressCodeController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8cq-IO-fcA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uvw-bj-EuL">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RQy-vh-scA" firstAttribute="bottom" secondItem="uvw-bj-EuL" secondAttribute="bottom" id="5zM-gI-unW"/>
+                            <constraint firstItem="uvw-bj-EuL" firstAttribute="top" secondItem="RQy-vh-scA" secondAttribute="top" id="EY3-Cx-hNX"/>
+                            <constraint firstItem="RQy-vh-scA" firstAttribute="trailing" secondItem="uvw-bj-EuL" secondAttribute="trailing" id="G3q-Dh-mH3"/>
+                            <constraint firstItem="uvw-bj-EuL" firstAttribute="leading" secondItem="RQy-vh-scA" secondAttribute="leading" id="Sg9-Hy-W4y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RQy-vh-scA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sMW-Rd-So8"/>
+                    <connections>
+                        <outlet property="DressCodeView" destination="uvw-bj-EuL" id="QJd-e8-JWf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NQN-Td-lgU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15219" y="-3133"/>
+        </scene>
+        <!--AddReservationCabanaController-->
+        <scene sceneID="tp1-1k-68T">
+            <objects>
+                <viewController id="Lly-bl-4W3" userLabel="AddReservationCabanaController" customClass="AddReservationCabanaController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z6T-Ea-NHO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="ViewColor"/>
+                        <viewLayoutGuide key="safeArea" id="WAB-PK-Tlb"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="xXh-7N-7m8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qSu-Mr-NtZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15287" y="-4575"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="pqg-t7-urb"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <namedColor name="ViewColor">
+            <color red="0.98000001907348633" green="0.98000001907348633" blue="0.98000001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

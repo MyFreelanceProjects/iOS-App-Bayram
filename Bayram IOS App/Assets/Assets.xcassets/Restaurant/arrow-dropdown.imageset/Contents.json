@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Rectangle 14.png",
+      "filename" : "Icon ionic-ios-arrow-dropdown.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Rectangle 14@2x.png",
+      "filename" : "Icon ionic-ios-arrow-dropdown@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Rectangle 14@3x.png",
+      "filename" : "Icon ionic-ios-arrow-dropdown@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

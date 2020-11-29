@@ -92,10 +92,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="XI3-IH-UgQ"/>
                     <connections>
-                        <segue destination="OBr-jK-aEl" kind="show" identifier="restaurantReservation" id="Jtr-cn-Ivk"/>
                         <segue destination="g5p-rt-SnV" kind="show" identifier="restaurantFeedback" id="2lb-wU-xYb"/>
                         <segue destination="xf0-PM-CXo" kind="show" identifier="RestaurantMenu" id="euI-bQ-IsF"/>
                         <segue destination="Gx0-YN-cyK" kind="show" identifier="ResDressCodeController" id="8Dh-0U-Ysh"/>
+                        <segue destination="enR-Dz-lzX" kind="show" identifier="restaurantReservation" id="lG2-Gm-roE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lqi-Q1-mgc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -187,31 +187,147 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zqg-wj-VEO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15219" y="-3133"/>
+            <point key="canvasLocation" x="-15287" y="-3128"/>
         </scene>
-        <!--AddReservationRestaurantController-->
-        <scene sceneID="niG-P9-tk5">
+        <!--Add Reservation Restaurant Controller-->
+        <scene sceneID="A39-xk-stT">
             <objects>
-                <viewController id="OBr-jK-aEl" userLabel="AddReservationRestaurantController" customClass="AddReservationRestaurantController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XPv-zG-ltu">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="enR-Dz-lzX" customClass="AddReservationRestaurantController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5qN-3c-hg2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="cdu-cK-KQl"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3S-gj-Kxy">
+                                <rect key="frame" x="10" y="10" width="355" height="140"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CbG-d6-yCq">
+                                        <rect key="frame" x="10" y="10" width="335" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="2kw-FK-u1L"/>
+                                        </constraints>
+                                        <string key="text">    We remind you that the reservation may be paid and today orders are accepted at least two hours before the time you reserve. If you order a table for another day, then you can do it at any time convenient for you. The table reserve is held for you 15 minutes. Please chat back if you are  late.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="CbG-d6-yCq" firstAttribute="leading" secondItem="S3S-gj-Kxy" secondAttribute="leading" constant="10" id="1Fs-nD-wLH"/>
+                                    <constraint firstAttribute="trailing" secondItem="CbG-d6-yCq" secondAttribute="trailing" constant="10" id="IYi-LK-KpT"/>
+                                    <constraint firstAttribute="bottom" secondItem="CbG-d6-yCq" secondAttribute="bottom" constant="10" id="QmC-AP-dy0"/>
+                                    <constraint firstItem="CbG-d6-yCq" firstAttribute="top" secondItem="S3S-gj-Kxy" secondAttribute="top" constant="10" id="StH-02-kpa"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
+                                        <color key="value" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity = 1">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.shadowOffset" value=".zero"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bos-0W-4rJ">
+                                <rect key="frame" x="15" y="155" width="345" height="1"/>
+                                <color key="backgroundColor" name="border"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="rWU-99-fqZ"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EIW-Sm-HQa">
+                                <rect key="frame" x="15" y="171" width="345" height="200"/>
+                                <color key="backgroundColor" name="ViewColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="29P-Va-Iwf"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="enR-Dz-lzX" id="us7-RU-2MW"/>
+                                    <outlet property="delegate" destination="enR-Dz-lzX" id="Vqd-iS-smI"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZV-fR-a2a">
+                                <rect key="frame" x="112.5" y="587" width="150" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FE8-br-kv7">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="50"/>
+                                        <color key="backgroundColor" name="DefCol"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="Send">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="FE8-br-kv7" firstAttribute="centerX" secondItem="aZV-fR-a2a" secondAttribute="centerX" id="1Gw-hS-g2d"/>
+                                    <constraint firstAttribute="bottom" secondItem="FE8-br-kv7" secondAttribute="bottom" id="9lP-DD-lmM"/>
+                                    <constraint firstAttribute="trailing" secondItem="FE8-br-kv7" secondAttribute="trailing" id="PD6-pc-Ukt"/>
+                                    <constraint firstAttribute="height" constant="50" id="Vtl-I9-bnf"/>
+                                    <constraint firstAttribute="width" constant="150" id="fQM-Y4-WCd"/>
+                                    <constraint firstItem="FE8-br-kv7" firstAttribute="top" secondItem="aZV-fR-a2a" secondAttribute="top" id="pWJ-fp-FwC"/>
+                                    <constraint firstItem="FE8-br-kv7" firstAttribute="leading" secondItem="aZV-fR-a2a" secondAttribute="leading" id="xwZ-k3-Cub"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gec-h8-ELo">
+                                <rect key="frame" x="15" y="381" width="345" height="196"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" name="ViewColor"/>
+                        <constraints>
+                            <constraint firstItem="aZV-fR-a2a" firstAttribute="top" secondItem="gec-h8-ELo" secondAttribute="bottom" constant="10" id="3gM-Rk-Lu8"/>
+                            <constraint firstItem="bos-0W-4rJ" firstAttribute="leading" secondItem="aLs-xj-6Dc" secondAttribute="leading" constant="15" id="7dO-PC-Ghk"/>
+                            <constraint firstItem="aLs-xj-6Dc" firstAttribute="trailing" secondItem="gec-h8-ELo" secondAttribute="trailing" constant="15" id="HCg-aq-oyH"/>
+                            <constraint firstItem="EIW-Sm-HQa" firstAttribute="top" secondItem="bos-0W-4rJ" secondAttribute="bottom" constant="15" id="Kf3-JT-W22"/>
+                            <constraint firstItem="gec-h8-ELo" firstAttribute="leading" secondItem="aLs-xj-6Dc" secondAttribute="leading" constant="15" id="Mij-x7-anp"/>
+                            <constraint firstItem="aLs-xj-6Dc" firstAttribute="bottom" secondItem="aZV-fR-a2a" secondAttribute="bottom" constant="10" id="T8c-Lx-7jQ"/>
+                            <constraint firstItem="gec-h8-ELo" firstAttribute="top" secondItem="EIW-Sm-HQa" secondAttribute="bottom" constant="10" id="TkP-aw-Pfz"/>
+                            <constraint firstItem="S3S-gj-Kxy" firstAttribute="leading" secondItem="aLs-xj-6Dc" secondAttribute="leading" constant="10" id="VTx-FU-g7n"/>
+                            <constraint firstItem="aZV-fR-a2a" firstAttribute="centerX" secondItem="5qN-3c-hg2" secondAttribute="centerX" id="Ytj-GA-2WJ"/>
+                            <constraint firstItem="aLs-xj-6Dc" firstAttribute="trailing" secondItem="bos-0W-4rJ" secondAttribute="trailing" constant="15" id="d8J-rx-unQ"/>
+                            <constraint firstItem="EIW-Sm-HQa" firstAttribute="leading" secondItem="aLs-xj-6Dc" secondAttribute="leading" constant="15" id="esb-sD-hZl"/>
+                            <constraint firstItem="bos-0W-4rJ" firstAttribute="top" secondItem="S3S-gj-Kxy" secondAttribute="bottom" constant="5" id="k5G-mJ-iyX"/>
+                            <constraint firstItem="aLs-xj-6Dc" firstAttribute="trailing" secondItem="EIW-Sm-HQa" secondAttribute="trailing" constant="15" id="nuG-aB-vDi"/>
+                            <constraint firstItem="S3S-gj-Kxy" firstAttribute="top" secondItem="aLs-xj-6Dc" secondAttribute="top" constant="10" id="sv5-bg-9YH"/>
+                            <constraint firstItem="aLs-xj-6Dc" firstAttribute="trailing" secondItem="S3S-gj-Kxy" secondAttribute="trailing" constant="10" id="t5m-uM-ZwR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aLs-xj-6Dc"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="WcF-7C-azk"/>
+                    <navigationItem key="navigationItem" id="Fv4-3q-FBh"/>
+                    <connections>
+                        <outlet property="tableView" destination="EIW-Sm-HQa" id="ApB-oE-Ews"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="agP-gp-nWb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4lv-66-TdG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15287" y="-4575"/>
+            <point key="canvasLocation" x="-14623" y="-4579"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Chw-nO-I6U"/>
+        <segue reference="8Dh-0U-Ysh"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <namedColor name="DefCol">
+            <color red="0.19599999487400055" green="0.74099999666213989" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="ViewColor">
             <color red="0.98000001907348633" green="0.98000001907348633" blue="0.98000001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="border">
+            <color red="0.43900001049041748" green="0.43900001049041748" blue="0.43900001049041748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

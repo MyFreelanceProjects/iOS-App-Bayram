@@ -57,11 +57,14 @@
                         <outlet property="thisView" destination="P56-uq-vmL" id="613-xb-wvY"/>
                         <outlet property="view" destination="P56-uq-vmL" id="zau-Qi-S15"/>
                         <segue destination="Y9i-O3-qKh" kind="show" identifier="showRestaurant" id="Zqg-YP-2FD"/>
+                        <segue destination="krz-ja-cYa" kind="show" identifier="showBar" id="wN3-xe-eI4"/>
+                        <segue destination="dcr-0P-JSC" kind="show" identifier="showCabana" id="xsr-c9-RlR"/>
+                        <segue destination="Ffb-QO-eGU" kind="show" identifier="showSpa" id="OdD-2l-YrB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="27o-r0-2kP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19" y="-1044"/>
+            <point key="canvasLocation" x="43" y="-1045"/>
         </scene>
         <!--Restaurant-->
         <scene sceneID="OFe-Ub-fpk">
@@ -71,7 +74,27 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0PW-bZ-AgE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1116" y="-1061"/>
+            <point key="canvasLocation" x="602" y="-1319"/>
+        </scene>
+        <!--Bar-->
+        <scene sceneID="gKJ-oF-GFe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Bar" id="krz-ja-cYa" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hkK-bJ-Alv"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ukZ-ac-gck" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="567" y="-1258"/>
+        </scene>
+        <!--Cabana-->
+        <scene sceneID="RuP-fc-YUd">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Cabana" id="dcr-0P-JSC" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="JLb-DJ-lG9"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vF2-0y-wSg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="586" y="-1203"/>
         </scene>
         <!--SideMenu-->
         <scene sceneID="f7g-Cw-Yo5">
@@ -79,7 +102,7 @@
                 <viewControllerPlaceholder storyboardName="SideMenu" id="qdR-cx-jlH" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P4X-X0-EWe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-381" y="-1306"/>
+            <point key="canvasLocation" x="-323" y="-1303"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WuP-2b-2CA">
@@ -147,6 +170,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E83-ng-l65" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="533" y="-1756"/>
+        </scene>
+        <!--Spa-->
+        <scene sceneID="uHR-La-p9F">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Spa" id="Ffb-QO-eGU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="U3V-yz-07F"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vY8-Ji-wZf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="586" y="-1165"/>
         </scene>
     </scenes>
     <resources>

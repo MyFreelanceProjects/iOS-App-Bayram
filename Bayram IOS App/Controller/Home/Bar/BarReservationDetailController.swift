@@ -1,19 +1,19 @@
 //
-//  ReservationDetailController.swift
+//  BarReservationDetailController.swift
 //  Bayram IOS App
 //
-//  Created by Kanan`s Macbook Pro on 11/22/20.
+//  Created by Kanan`s Macbook Pro on 11/26/20.
 //  Copyright © 2020 Kanan`s Macbook Pro. All rights reserved.
 //
 
 import UIKit
 
-class ReservationDetailController: BaseVC, ReservationDelegate {
+class BarReservationDetailController: BaseVC, ReservationDelegate {
     var delegate: ReservationDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Restaurant 1"
+        self.title = "Bar 1"
         
         addReusableView()
     }
@@ -21,15 +21,15 @@ class ReservationDetailController: BaseVC, ReservationDelegate {
     
     func addReusableView() {
         let vc = self.getController(id: "R_ReservationDetailController", storyboard: "Reusable") as! R_ReservationDetailController
-        vc.modalPresentationStyle = .fullScreen
-        vc.modalTransitionStyle = .crossDissolve
         vc.delegate = self
         
         // define initialize
-        vc.reservationIdentifier = "restaurantReservation"
-        vc.feedbackIdentifier = "restaurantFeedback"
-        vc.menuIdentifier = "RestaurantMenu"
+        vc.reservationIdentifier = "barReservation"
+        vc.feedbackIdentifier = "barFeedback"
+        vc.menuIdentifier = "BarMenu"
         
+        vc.modalPresentationStyle = .fullScreen
+        vc.modalTransitionStyle = .crossDissolve
         self.add(vc, frame: self.view.frame)
     }
  
@@ -42,11 +42,11 @@ class ReservationDetailController: BaseVC, ReservationDelegate {
         navigationItem.backBarButtonItem = self.customBackButton
         
         // set codeDress Controller Parameters
-        performSegue(withIdentifier: "ResDressCodeController", sender: self)
+        performSegue(withIdentifier: "BarDressCodeController", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destinationVC = segue.destination as? ResDressCodeController {
+        if let destinationVC = segue.destination as? BarDressCodeController {
             destinationVC.codeTitle = "DRESS CODE"
             // set htmlContent
         }

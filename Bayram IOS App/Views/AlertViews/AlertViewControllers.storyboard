@@ -631,6 +631,88 @@
             </objects>
             <point key="canvasLocation" x="2977" y="76"/>
         </scene>
+        <!--Selector Controller-->
+        <scene sceneID="ahg-bN-5tY">
+            <objects>
+                <viewController storyboardIdentifier="chooseAnySelect" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pfn-fN-nlb" customClass="SelectorController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rqS-oA-yeF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pa8-el-Zj1">
+                                <rect key="frame" x="69.666666666666686" y="298" width="275" height="300"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BcN-gd-MxX">
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="300"/>
+                                        <subviews>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cHH-OD-arn">
+                                                <rect key="frame" x="0.0" y="0.0" width="275" height="150"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="pfn-fN-nlb" id="Dtp-Dj-rHA"/>
+                                                    <outlet property="delegate" destination="pfn-fN-nlb" id="Vdu-Oh-A5Z"/>
+                                                </connections>
+                                            </pickerView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mSS-5g-b9e">
+                                                <rect key="frame" x="62.333333333333314" y="150" width="150" height="150"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8n3-5e-BSy">
+                                                        <rect key="frame" x="0.0" y="60" width="150" height="30"/>
+                                                        <color key="backgroundColor" name="DefCol"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="150" id="GdC-Pl-Bku"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Ok">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                <integer key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="buttonClicked:" destination="pfn-fN-nlb" eventType="touchUpInside" id="vhc-LT-0Bu"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="HLa-1J-1M0"/>
+                                            <constraint firstAttribute="width" constant="275" id="nsv-ve-axa"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="275" id="4NE-Wp-EDr"/>
+                                    <constraint firstItem="BcN-gd-MxX" firstAttribute="leading" secondItem="Pa8-el-Zj1" secondAttribute="leading" id="6gb-wz-JJl"/>
+                                    <constraint firstAttribute="bottom" secondItem="BcN-gd-MxX" secondAttribute="bottom" id="YtA-Wl-Y1F"/>
+                                    <constraint firstItem="BcN-gd-MxX" firstAttribute="top" secondItem="Pa8-el-Zj1" secondAttribute="top" id="gLF-TM-dn7"/>
+                                    <constraint firstAttribute="trailing" secondItem="BcN-gd-MxX" secondAttribute="trailing" id="gMs-7X-TV0"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="0.68680436639999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Pa8-el-Zj1" firstAttribute="centerX" secondItem="rqS-oA-yeF" secondAttribute="centerX" id="AH3-EK-ufU"/>
+                            <constraint firstItem="Pa8-el-Zj1" firstAttribute="centerY" secondItem="rqS-oA-yeF" secondAttribute="centerY" id="FHK-mR-Iub"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Sd-aU-Gzj"/>
+                    </view>
+                    <connections>
+                        <outlet property="alertButton" destination="8n3-5e-BSy" id="Lnq-YW-JV6"/>
+                        <outlet property="pickerView" destination="cHH-OD-arn" id="UKq-l8-kRU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WxX-nM-oaH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3817" y="76"/>
+        </scene>
     </scenes>
     <resources>
         <namedColor name="DefCol">

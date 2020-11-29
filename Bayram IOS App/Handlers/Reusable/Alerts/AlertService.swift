@@ -52,6 +52,16 @@ class AlertService: UIViewController {
         return alertVC
     }
     
+    func getSelector(selectorData: [String],buttonName: String, completion: @escaping () -> Void) -> SelectorController {
+        let alertVC = self.getViewController(identifier: "chooseAnySelect") as! SelectorController
+        
+        alertVC.setButtonName = buttonName
+        alertVC.buttonAction = completion
+        alertVC.selectorData = selectorData
+        
+        return alertVC
+    }
+    
     func getSoundsSelector(setTitle: String, completion: @escaping () -> Void) -> SoundsViewController {
         let alertVC = self.getViewController(identifier: "chooseSounds") as! SoundsViewController
         
@@ -60,6 +70,7 @@ class AlertService: UIViewController {
         
         return alertVC
     }
+    
     func getSingleSoundsSelector(buttonName: String, completion: @escaping () -> Void) -> SelectSingleSoundController {
         let alertVC = self.getViewController(identifier: "chooseSingleSound") as! SelectSingleSoundController
         

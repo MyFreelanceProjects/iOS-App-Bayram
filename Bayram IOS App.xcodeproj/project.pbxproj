@@ -12,6 +12,14 @@
 		220C40EB2563C22100AAC5EC /* DetailFeedbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C40EA2563C22100AAC5EC /* DetailFeedbackController.swift */; };
 		2212C7FA2561891F00D2A410 /* addPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2212C7F92561891F00D2A410 /* addPersonViewController.swift */; };
 		2212C7FC2562DE9A00D2A410 /* Feedback.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2212C7FB2562DE9A00D2A410 /* Feedback.storyboard */; };
+		2213B79E2577A3CF0042648B /* HouseK_Laundry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213B79D2577A3CF0042648B /* HouseK_Laundry.swift */; };
+		2213B7A12577AC980042648B /* OtherSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213B7A02577AC980042648B /* OtherSViewController.swift */; };
+		2213B7A32577AD760042648B /* OtherServices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2213B7A22577AD760042648B /* OtherServices.storyboard */; };
+		2213B7A52577D2220042648B /* ServiceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213B7A42577D2220042648B /* ServiceView1.swift */; };
+		2213B7A72577D2290042648B /* ServiceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213B7A62577D2290042648B /* ServiceView2.swift */; };
+		2213B7A92577D2310042648B /* ServiceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213B7A82577D2310042648B /* ServiceView3.swift */; };
+		2213B7AB2577D23A0042648B /* ServiceView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213B7AA2577D23A0042648B /* ServiceView4.swift */; };
+		2213B7AD2577D2440042648B /* ServiceView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213B7AC2577D2430042648B /* ServiceView5.swift */; };
 		22151FAC256A932000464500 /* RestaurantTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22151FAB256A932000464500 /* RestaurantTableController.swift */; };
 		22151FAF256AA30500464500 /* RestaurantViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22151FAD256AA30500464500 /* RestaurantViewCell.swift */; };
 		22151FB0256AA30500464500 /* RestaurantViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22151FAE256AA30500464500 /* RestaurantViewCell.xib */; };
@@ -37,6 +45,10 @@
 		22345232255DAD9000C0486B /* AlertViewControllers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22345231255DAD9000C0486B /* AlertViewControllers.storyboard */; };
 		22345235255DB19400C0486B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22345234255DB19400C0486B /* InfoViewController.swift */; };
 		22345258255DD02C00C0486B /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22345257255DD02C00C0486B /* AlertService.swift */; };
+		223547B525743808009758D5 /* House_Keeping.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223547B425743808009758D5 /* House_Keeping.storyboard */; };
+		223547B725743C93009758D5 /* HouseKeepingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223547B625743C93009758D5 /* HouseKeepingView.swift */; };
+		223547B92574D61E009758D5 /* HouseK_Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223547B82574D61E009758D5 /* HouseK_Information.swift */; };
+		223547BB2574D75C009758D5 /* HouseK_Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223547BA2574D75C009758D5 /* HouseK_Feedback.swift */; };
 		223D63DC256D50E600A5FC30 /* AddReservationRestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D63DB256D50E600A5FC30 /* AddReservationRestaurantController.swift */; };
 		223D63DF256D516A00A5FC30 /* Reusable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223D63DE256D516A00A5FC30 /* Reusable.storyboard */; };
 		223D63E2256D530B00A5FC30 /* R_EditReservations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D63E1256D530B00A5FC30 /* R_EditReservations.swift */; };
@@ -53,6 +65,11 @@
 		223F270B255814B3003DE430 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F2709255814B3003DE430 /* HomeTableViewCell.swift */; };
 		223F270C255814B3003DE430 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223F270A255814B3003DE430 /* HomeTableViewCell.xib */; };
 		2240D6442572F63600CBD1BD /* SpaReadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2240D6432572F63600CBD1BD /* SpaReadMore.swift */; };
+		22496EA5257A16A500DF0643 /* RoomServiceFinishOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22496EA4257A16A500DF0643 /* RoomServiceFinishOrder.swift */; };
+		22496EA8257A34E300DF0643 /* RoomServiceDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22496EA6257A34E300DF0643 /* RoomServiceDetailCell.swift */; };
+		22496EA9257A34E300DF0643 /* RoomServiceDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22496EA7257A34E300DF0643 /* RoomServiceDetailCell.xib */; };
+		224C622E257AD2BF0035DF7B /* RoomServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C622C257AD2BF0035DF7B /* RoomServiceCell.swift */; };
+		224C622F257AD2BF0035DF7B /* RoomServiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224C622D257AD2BF0035DF7B /* RoomServiceCell.xib */; };
 		224CEBB1255D3A460048B229 /* LeftTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224CEBAF255D3A460048B229 /* LeftTableCell.swift */; };
 		224CEBB2255D3A460048B229 /* LeftTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224CEBB0255D3A460048B229 /* LeftTableCell.xib */; };
 		224CEBB5255D3A780048B229 /* RightTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224CEBB3255D3A780048B229 /* RightTableCell.swift */; };
@@ -63,18 +80,38 @@
 		225EA05725724963007BF29D /* SpaTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EA05625724963007BF29D /* SpaTableController.swift */; };
 		225EA05B25724A6E007BF29D /* MenuViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EA05925724A6E007BF29D /* MenuViewCell2.swift */; };
 		225EA05C25724A6E007BF29D /* MenuViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225EA05A25724A6E007BF29D /* MenuViewCell2.xib */; };
+		22664D932578053F003E705B /* OtherSReadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22664D922578053F003E705B /* OtherSReadMore.swift */; };
+		22664D9525781332003E705B /* OtherSFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22664D9425781332003E705B /* OtherSFeedback.swift */; };
+		22664D972578158E003E705B /* OtherSReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22664D962578158E003E705B /* OtherSReservation.swift */; };
+		22664D99257815A1003E705B /* OtherSDressCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22664D98257815A1003E705B /* OtherSDressCode.swift */; };
+		22664D9B2578F071003E705B /* RoomService.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22664D9A2578F071003E705B /* RoomService.storyboard */; };
+		22664D9E2578F7EA003E705B /* RoomServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22664D9D2578F7EA003E705B /* RoomServiceView.swift */; };
+		22664DA025792384003E705B /* RoomServiceFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22664D9F25792384003E705B /* RoomServiceFeedback.swift */; };
+		22664DA2257923C6003E705B /* RoomServiceOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22664DA1257923C6003E705B /* RoomServiceOrder.swift */; };
+		22664DA4257923D8003E705B /* RoomServiceOrderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22664DA3257923D8003E705B /* RoomServiceOrderMenu.swift */; };
+		22664DA6257923EB003E705B /* RoomServiceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22664DA5257923EB003E705B /* RoomServiceDetailView.swift */; };
+		22664DAA2579584E003E705B /* ConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22664DA92579584E003E705B /* ConfirmationController.swift */; };
 		2267966F256ADF0800C890BA /* ReservationDetailCell_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267966D256ADF0800C890BA /* ReservationDetailCell_1.swift */; };
 		22679670256ADF0800C890BA /* ReservationDetailCell_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2267966E256ADF0800C890BA /* ReservationDetailCell_1.xib */; };
 		22679673256ADF2D00C890BA /* ReservationDetailCell_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22679671256ADF2D00C890BA /* ReservationDetailCell_2.swift */; };
 		22679674256ADF2D00C890BA /* ReservationDetailCell_2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22679672256ADF2D00C890BA /* ReservationDetailCell_2.xib */; };
 		2267967B256BAD4900C890BA /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22679679256BAD4900C890BA /* ImageCollectionCell.swift */; };
 		2267967C256BAD4900C890BA /* ImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2267967A256BAD4900C890BA /* ImageCollectionCell.xib */; };
+		226801DD257ADA4900926BC0 /* EventsAndActivities.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226801DC257ADA4900926BC0 /* EventsAndActivities.storyboard */; };
+		226801E0257ADAF500926BC0 /* EntertainmentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226801DF257ADAF500926BC0 /* EntertainmentsController.swift */; };
 		226C279E2566EC6000CB2A0D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226C279D2566EC6000CB2A0D /* MapViewController.swift */; };
 		226C27A02566EC6D00CB2A0D /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226C279F2566EC6D00CB2A0D /* NotificationViewController.swift */; };
 		226C27A22566EC7400CB2A0D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226C27A12566EC7400CB2A0D /* ChatViewController.swift */; };
 		226C27A82566ECE500CB2A0D /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226C27A72566ECE500CB2A0D /* Map.storyboard */; };
 		226C27AA2566ECF000CB2A0D /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226C27A92566ECF000CB2A0D /* Notification.storyboard */; };
 		226C27AC2566ECF900CB2A0D /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226C27AB2566ECF900CB2A0D /* Chat.storyboard */; };
+		2276F9FE257501E800D506FB /* HouseK_Repair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276F9FD257501E800D506FB /* HouseK_Repair.swift */; };
+		2276FA042575171B00D506FB /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276FA022575171B00D506FB /* SwitchTableViewCell.swift */; };
+		2276FA052575171B00D506FB /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2276FA032575171B00D506FB /* SwitchTableViewCell.xib */; };
+		2276FA072575826E00D506FB /* HouseK_Cleaning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276FA062575826E00D506FB /* HouseK_Cleaning.swift */; };
+		2276FA09257665EA00D506FB /* HouseK_Necessary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276FA08257665EA00D506FB /* HouseK_Necessary.swift */; };
+		2276FA0F2576664500D506FB /* SwitchTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276FA0D2576664500D506FB /* SwitchTableViewCell2.swift */; };
+		2276FA102576664500D506FB /* SwitchTableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2276FA0E2576664500D506FB /* SwitchTableViewCell2.xib */; };
 		2277A73425645FD700A88431 /* CustomImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2277A73225645FD700A88431 /* CustomImageCell.swift */; };
 		2277A73525645FD700A88431 /* CustomImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2277A73325645FD700A88431 /* CustomImageCell.xib */; };
 		2277EEBC255FB80500ACF926 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2277EEBB255FB80500ACF926 /* String.swift */; };
@@ -122,6 +159,14 @@
 		220C40EA2563C22100AAC5EC /* DetailFeedbackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFeedbackController.swift; sourceTree = "<group>"; };
 		2212C7F92561891F00D2A410 /* addPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPersonViewController.swift; sourceTree = "<group>"; };
 		2212C7FB2562DE9A00D2A410 /* Feedback.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feedback.storyboard; sourceTree = "<group>"; };
+		2213B79D2577A3CF0042648B /* HouseK_Laundry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseK_Laundry.swift; sourceTree = "<group>"; };
+		2213B7A02577AC980042648B /* OtherSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSViewController.swift; sourceTree = "<group>"; };
+		2213B7A22577AD760042648B /* OtherServices.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OtherServices.storyboard; sourceTree = "<group>"; };
+		2213B7A42577D2220042648B /* ServiceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView1.swift; sourceTree = "<group>"; };
+		2213B7A62577D2290042648B /* ServiceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView2.swift; sourceTree = "<group>"; };
+		2213B7A82577D2310042648B /* ServiceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView3.swift; sourceTree = "<group>"; };
+		2213B7AA2577D23A0042648B /* ServiceView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView4.swift; sourceTree = "<group>"; };
+		2213B7AC2577D2430042648B /* ServiceView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView5.swift; sourceTree = "<group>"; };
 		22151FAB256A932000464500 /* RestaurantTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableController.swift; sourceTree = "<group>"; };
 		22151FAD256AA30500464500 /* RestaurantViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewCell.swift; sourceTree = "<group>"; };
 		22151FAE256AA30500464500 /* RestaurantViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantViewCell.xib; sourceTree = "<group>"; };
@@ -147,6 +192,10 @@
 		22345231255DAD9000C0486B /* AlertViewControllers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlertViewControllers.storyboard; sourceTree = "<group>"; };
 		22345234255DB19400C0486B /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		22345257255DD02C00C0486B /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		223547B425743808009758D5 /* House_Keeping.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = House_Keeping.storyboard; sourceTree = "<group>"; };
+		223547B625743C93009758D5 /* HouseKeepingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeepingView.swift; sourceTree = "<group>"; };
+		223547B82574D61E009758D5 /* HouseK_Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseK_Information.swift; sourceTree = "<group>"; };
+		223547BA2574D75C009758D5 /* HouseK_Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseK_Feedback.swift; sourceTree = "<group>"; };
 		223D63DB256D50E600A5FC30 /* AddReservationRestaurantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReservationRestaurantController.swift; sourceTree = "<group>"; };
 		223D63DE256D516A00A5FC30 /* Reusable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reusable.storyboard; sourceTree = "<group>"; };
 		223D63E1256D530B00A5FC30 /* R_EditReservations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_EditReservations.swift; sourceTree = "<group>"; };
@@ -163,6 +212,11 @@
 		223F2709255814B3003DE430 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		223F270A255814B3003DE430 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		2240D6432572F63600CBD1BD /* SpaReadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaReadMore.swift; sourceTree = "<group>"; };
+		22496EA4257A16A500DF0643 /* RoomServiceFinishOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomServiceFinishOrder.swift; sourceTree = "<group>"; };
+		22496EA6257A34E300DF0643 /* RoomServiceDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomServiceDetailCell.swift; sourceTree = "<group>"; };
+		22496EA7257A34E300DF0643 /* RoomServiceDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomServiceDetailCell.xib; sourceTree = "<group>"; };
+		224C622C257AD2BF0035DF7B /* RoomServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomServiceCell.swift; sourceTree = "<group>"; };
+		224C622D257AD2BF0035DF7B /* RoomServiceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomServiceCell.xib; sourceTree = "<group>"; };
 		224CEBAF255D3A460048B229 /* LeftTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTableCell.swift; sourceTree = "<group>"; };
 		224CEBB0255D3A460048B229 /* LeftTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftTableCell.xib; sourceTree = "<group>"; };
 		224CEBB3255D3A780048B229 /* RightTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightTableCell.swift; sourceTree = "<group>"; };
@@ -173,18 +227,38 @@
 		225EA05625724963007BF29D /* SpaTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaTableController.swift; sourceTree = "<group>"; };
 		225EA05925724A6E007BF29D /* MenuViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCell2.swift; sourceTree = "<group>"; };
 		225EA05A25724A6E007BF29D /* MenuViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewCell2.xib; sourceTree = "<group>"; };
+		22664D922578053F003E705B /* OtherSReadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSReadMore.swift; sourceTree = "<group>"; };
+		22664D9425781332003E705B /* OtherSFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSFeedback.swift; sourceTree = "<group>"; };
+		22664D962578158E003E705B /* OtherSReservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSReservation.swift; sourceTree = "<group>"; };
+		22664D98257815A1003E705B /* OtherSDressCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSDressCode.swift; sourceTree = "<group>"; };
+		22664D9A2578F071003E705B /* RoomService.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RoomService.storyboard; sourceTree = "<group>"; };
+		22664D9D2578F7EA003E705B /* RoomServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomServiceView.swift; sourceTree = "<group>"; };
+		22664D9F25792384003E705B /* RoomServiceFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomServiceFeedback.swift; sourceTree = "<group>"; };
+		22664DA1257923C6003E705B /* RoomServiceOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomServiceOrder.swift; sourceTree = "<group>"; };
+		22664DA3257923D8003E705B /* RoomServiceOrderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomServiceOrderMenu.swift; sourceTree = "<group>"; };
+		22664DA5257923EB003E705B /* RoomServiceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomServiceDetailView.swift; sourceTree = "<group>"; };
+		22664DA92579584E003E705B /* ConfirmationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationController.swift; sourceTree = "<group>"; };
 		2267966D256ADF0800C890BA /* ReservationDetailCell_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailCell_1.swift; sourceTree = "<group>"; };
 		2267966E256ADF0800C890BA /* ReservationDetailCell_1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReservationDetailCell_1.xib; sourceTree = "<group>"; };
 		22679671256ADF2D00C890BA /* ReservationDetailCell_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailCell_2.swift; sourceTree = "<group>"; };
 		22679672256ADF2D00C890BA /* ReservationDetailCell_2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReservationDetailCell_2.xib; sourceTree = "<group>"; };
 		22679679256BAD4900C890BA /* ImageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
 		2267967A256BAD4900C890BA /* ImageCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionCell.xib; sourceTree = "<group>"; };
+		226801DC257ADA4900926BC0 /* EventsAndActivities.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EventsAndActivities.storyboard; sourceTree = "<group>"; };
+		226801DF257ADAF500926BC0 /* EntertainmentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentsController.swift; sourceTree = "<group>"; };
 		226C279D2566EC6000CB2A0D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		226C279F2566EC6D00CB2A0D /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		226C27A12566EC7400CB2A0D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		226C27A72566ECE500CB2A0D /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		226C27A92566ECF000CB2A0D /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
 		226C27AB2566ECF900CB2A0D /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		2276F9FD257501E800D506FB /* HouseK_Repair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseK_Repair.swift; sourceTree = "<group>"; };
+		2276FA022575171B00D506FB /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		2276FA032575171B00D506FB /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
+		2276FA062575826E00D506FB /* HouseK_Cleaning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseK_Cleaning.swift; sourceTree = "<group>"; };
+		2276FA08257665EA00D506FB /* HouseK_Necessary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseK_Necessary.swift; sourceTree = "<group>"; };
+		2276FA0D2576664500D506FB /* SwitchTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell2.swift; sourceTree = "<group>"; };
+		2276FA0E2576664500D506FB /* SwitchTableViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchTableViewCell2.xib; sourceTree = "<group>"; };
 		2277A73225645FD700A88431 /* CustomImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageCell.swift; sourceTree = "<group>"; };
 		2277A73325645FD700A88431 /* CustomImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomImageCell.xib; sourceTree = "<group>"; };
 		2277EEBB255FB80500ACF926 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
@@ -251,6 +325,23 @@
 			path = Feedback;
 			sourceTree = "<group>";
 		};
+		2213B79F2577AC370042648B /* Other Services */ = {
+			isa = PBXGroup;
+			children = (
+				2213B7A02577AC980042648B /* OtherSViewController.swift */,
+				2213B7A42577D2220042648B /* ServiceView1.swift */,
+				2213B7A62577D2290042648B /* ServiceView2.swift */,
+				2213B7A82577D2310042648B /* ServiceView3.swift */,
+				2213B7AA2577D23A0042648B /* ServiceView4.swift */,
+				2213B7AC2577D2430042648B /* ServiceView5.swift */,
+				22664D962578158E003E705B /* OtherSReservation.swift */,
+				22664D98257815A1003E705B /* OtherSDressCode.swift */,
+				22664D922578053F003E705B /* OtherSReadMore.swift */,
+				22664D9425781332003E705B /* OtherSFeedback.swift */,
+			);
+			path = "Other Services";
+			sourceTree = "<group>";
+		};
 		22151FB1256AA30800464500 /* Restaurant Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,12 +380,10 @@
 		222D2DAC2559690D001FC284 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				222D2DAA255968FA001FC284 /* SideMenu.storyboard */,
-				223EAD612557B3AB002FE9C1 /* Home */,
 				228346CD255BEA4A00075D43 /* Account */,
 				22AF4F6C255E6D5E0093BB2C /* Reservations */,
 				2212C7FD2562DEA300D2A410 /* Feedback */,
-				22CB193625655815001B9950 /* Settings */,
+				222D2DAA255968FA001FC284 /* SideMenu.storyboard */,
 			);
 			path = SideMenu;
 			sourceTree = "<group>";
@@ -328,6 +417,20 @@
 				227E10B02565A072003CE264 /* Controllers */,
 			);
 			path = Alerts;
+			sourceTree = "<group>";
+		};
+		223547B125741A70009758D5 /* House Keeping */ = {
+			isa = PBXGroup;
+			children = (
+				223547B625743C93009758D5 /* HouseKeepingView.swift */,
+				223547B82574D61E009758D5 /* HouseK_Information.swift */,
+				223547BA2574D75C009758D5 /* HouseK_Feedback.swift */,
+				2276F9FD257501E800D506FB /* HouseK_Repair.swift */,
+				2276FA062575826E00D506FB /* HouseK_Cleaning.swift */,
+				2276FA08257665EA00D506FB /* HouseK_Necessary.swift */,
+				2213B79D2577A3CF0042648B /* HouseK_Laundry.swift */,
+			);
+			path = "House Keeping";
 			sourceTree = "<group>";
 		};
 		2235706F2560692000A5F35B /* SideMenu */ = {
@@ -366,9 +469,13 @@
 			children = (
 				223EAD5D2557AE74002FE9C1 /* Home.storyboard */,
 				22339487256A519200F821C0 /* Restaurant.storyboard */,
+				226801DC257ADA4900926BC0 /* EventsAndActivities.storyboard */,
 				222CD513256FEFAF004DA0DB /* Bar.storyboard */,
+				2213B7A22577AD760042648B /* OtherServices.storyboard */,
+				22664D9A2578F071003E705B /* RoomService.storyboard */,
 				222CD51525701975004DA0DB /* Cabana.storyboard */,
 				22EF46D7257251790099648A /* Spa.storyboard */,
+				223547B425743808009758D5 /* House_Keeping.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -384,6 +491,10 @@
 		223F270125580BFE003DE430 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				226801DE257ADA6A00926BC0 /* Events And Activities */,
+				22664D9C2578F7D7003E705B /* Room Service */,
+				2213B79F2577AC370042648B /* Other Services */,
+				223547B125741A70009758D5 /* House Keeping */,
 				225EA05525724237007BF29D /* Spa */,
 				2233948C256A533800F821C0 /* Restaurant */,
 				222CD4F5256F9856004DA0DB /* Bar */,
@@ -399,6 +510,25 @@
 				228E41AC255725E000F14F92 /* ViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		22496EAA257A34E800DF0643 /* Room Service */ = {
+			isa = PBXGroup;
+			children = (
+				224C622B257AD2930035DF7B /* RoomS Cell */,
+				22496EA6257A34E300DF0643 /* RoomServiceDetailCell.swift */,
+				22496EA7257A34E300DF0643 /* RoomServiceDetailCell.xib */,
+			);
+			path = "Room Service";
+			sourceTree = "<group>";
+		};
+		224C622B257AD2930035DF7B /* RoomS Cell */ = {
+			isa = PBXGroup;
+			children = (
+				224C622C257AD2BF0035DF7B /* RoomServiceCell.swift */,
+				224C622D257AD2BF0035DF7B /* RoomServiceCell.xib */,
+			);
+			path = "RoomS Cell";
 			sourceTree = "<group>";
 		};
 		224CEBB7255D3A960048B229 /* Cell */ = {
@@ -462,6 +592,19 @@
 			path = 2;
 			sourceTree = "<group>";
 		};
+		22664D9C2578F7D7003E705B /* Room Service */ = {
+			isa = PBXGroup;
+			children = (
+				22664D9D2578F7EA003E705B /* RoomServiceView.swift */,
+				22664D9F25792384003E705B /* RoomServiceFeedback.swift */,
+				22664DA1257923C6003E705B /* RoomServiceOrder.swift */,
+				22664DA3257923D8003E705B /* RoomServiceOrderMenu.swift */,
+				22664DA5257923EB003E705B /* RoomServiceDetailView.swift */,
+				22496EA4257A16A500DF0643 /* RoomServiceFinishOrder.swift */,
+			);
+			path = "Room Service";
+			sourceTree = "<group>";
+		};
 		22679675256ADF3300C890BA /* 2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -483,9 +626,11 @@
 		22679677256ADF4D00C890BA /* Reservation */ = {
 			isa = PBXGroup;
 			children = (
+				2276F9FF257516E500D506FB /* Switch */,
 				22A513CC255EF1D300B5A357 /* Reservation c(add) */,
 				22151FB1256AA30800464500 /* Restaurant Cell */,
 				22679678256ADF5800C890BA /* ReservationDetail */,
+				22496EAA257A34E800DF0643 /* Room Service */,
 			);
 			path = Reservation;
 			sourceTree = "<group>";
@@ -507,6 +652,14 @@
 				2267967A256BAD4900C890BA /* ImageCollectionCell.xib */,
 			);
 			path = ImageCollectionCell;
+			sourceTree = "<group>";
+		};
+		226801DE257ADA6A00926BC0 /* Events And Activities */ = {
+			isa = PBXGroup;
+			children = (
+				226801DF257ADAF500926BC0 /* EntertainmentsController.swift */,
+			);
+			path = "Events And Activities";
 			sourceTree = "<group>";
 		};
 		226C27A32566EC7800CB2A0D /* Map */ = {
@@ -553,6 +706,33 @@
 			path = "Tab Bar";
 			sourceTree = "<group>";
 		};
+		2276F9FF257516E500D506FB /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				2276FA0A257665FD00D506FB /* 1 */,
+				2276FA112576665200D506FB /* 2 */,
+			);
+			path = Switch;
+			sourceTree = "<group>";
+		};
+		2276FA0A257665FD00D506FB /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				2276FA022575171B00D506FB /* SwitchTableViewCell.swift */,
+				2276FA032575171B00D506FB /* SwitchTableViewCell.xib */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		2276FA112576665200D506FB /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				2276FA0D2576664500D506FB /* SwitchTableViewCell2.swift */,
+				2276FA0E2576664500D506FB /* SwitchTableViewCell2.xib */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
 		2277EEBD255FB81400ACF926 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,6 +751,7 @@
 			children = (
 				22345234255DB19400C0486B /* InfoViewController.swift */,
 				22A513CD255F0EBC00B5A357 /* DateViewController.swift */,
+				22664DA92579584E003E705B /* ConfirmationController.swift */,
 				2212C7F92561891F00D2A410 /* addPersonViewController.swift */,
 				227E10AE25659A24003CE264 /* ChooseLanguageController.swift */,
 				22EEBE592566739F0049CB85 /* SoundsViewController.swift */,
@@ -650,6 +831,8 @@
 			isa = PBXGroup;
 			children = (
 				223EAD652557D4EA002FE9C1 /* LaunchScreen.storyboard */,
+				223EAD612557B3AB002FE9C1 /* Home */,
+				22CB193625655815001B9950 /* Settings */,
 				222D2DAC2559690D001FC284 /* SideMenu */,
 				228E41C02557267B00F14F92 /* Login */,
 				22345233255DAD9F00C0486B /* AlertViews */,
@@ -868,6 +1051,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2276FA102576664500D506FB /* SwitchTableViewCell2.xib in Resources */,
+				22496EA9257A34E300DF0643 /* RoomServiceDetailCell.xib in Resources */,
 				228E41B0255725E000F14F92 /* Main.storyboard in Resources */,
 				22CB193F25655B5F001B9950 /* SettingsViewCell.xib in Resources */,
 				22339488256A519200F821C0 /* Restaurant.storyboard in Resources */,
@@ -884,6 +1069,7 @@
 				22345232255DAD9000C0486B /* AlertViewControllers.storyboard in Resources */,
 				223EAD672557D4EA002FE9C1 /* LaunchScreen.storyboard in Resources */,
 				224CEBB6255D3A780048B229 /* RightTableCell.xib in Resources */,
+				224C622F257AD2BF0035DF7B /* RoomServiceCell.xib in Resources */,
 				22EF46D8257251790099648A /* Spa.storyboard in Resources */,
 				226C27A82566ECE500CB2A0D /* Map.storyboard in Resources */,
 				223F270C255814B3003DE430 /* HomeTableViewCell.xib in Resources */,
@@ -893,12 +1079,17 @@
 				222D2DAB255968FA001FC284 /* SideMenu.storyboard in Resources */,
 				22AF4F6B255E6D590093BB2C /* Reservations.storyboard in Resources */,
 				22151FB0256AA30500464500 /* RestaurantViewCell.xib in Resources */,
+				223547B525743808009758D5 /* House_Keeping.storyboard in Resources */,
+				2213B7A32577AD760042648B /* OtherServices.storyboard in Resources */,
 				228396A62563A20B00AFC70A /* FeedbackViewCell.xib in Resources */,
+				2276FA052575171B00D506FB /* SwitchTableViewCell.xib in Resources */,
 				22679674256ADF2D00C890BA /* ReservationDetailCell_2.xib in Resources */,
 				226C27AC2566ECF900CB2A0D /* Chat.storyboard in Resources */,
 				226C27AA2566ECF000CB2A0D /* Notification.storyboard in Resources */,
+				226801DD257ADA4900926BC0 /* EventsAndActivities.storyboard in Resources */,
 				22A3405F256A80F50082C6DD /* MenuViewCell.xib in Resources */,
 				2267967C256BAD4900C890BA /* ImageCollectionCell.xib in Resources */,
+				22664D9B2578F071003E705B /* RoomService.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -953,6 +1144,7 @@
 			files = (
 				222CD4FD256F991B004DA0DB /* AddReservationBarController.swift in Sources */,
 				228E41AD255725E000F14F92 /* ViewController.swift in Sources */,
+				2213B7A92577D2310042648B /* ServiceView3.swift in Sources */,
 				22EF46DC257253020099648A /* SpaReservationDetailController.swift in Sources */,
 				22151FAC256A932000464500 /* RestaurantTableController.swift in Sources */,
 				2277EEBC255FB80500ACF926 /* String.swift in Sources */,
@@ -961,7 +1153,12 @@
 				224FC240256EBEB400D8648C /* RestaurantMenu.swift in Sources */,
 				228396A125639FF400AFC70A /* FeedbackViewController.swift in Sources */,
 				22AF4F71255E73BE0093BB2C /* ReservationCell.swift in Sources */,
+				2213B79E2577A3CF0042648B /* HouseK_Laundry.swift in Sources */,
+				2213B7A52577D2220042648B /* ServiceView1.swift in Sources */,
+				22664D932578053F003E705B /* OtherSReadMore.swift in Sources */,
+				2276FA0F2576664500D506FB /* SwitchTableViewCell2.swift in Sources */,
 				225EA05725724963007BF29D /* SpaTableController.swift in Sources */,
+				2276FA09257665EA00D506FB /* HouseK_Necessary.swift in Sources */,
 				22C008EF25713F73002AE5FF /* CALayer.swift in Sources */,
 				228396A52563A20B00AFC70A /* FeedbackViewCell.swift in Sources */,
 				222CD50E256FEDB6004DA0DB /* CabanaFeedbackRestaurant.swift in Sources */,
@@ -973,21 +1170,28 @@
 				22CB19382565582D001B9950 /* SettingsViewController.swift in Sources */,
 				227E10AF25659A24003CE264 /* ChooseLanguageController.swift in Sources */,
 				225EA05B25724A6E007BF29D /* MenuViewCell2.swift in Sources */,
+				22664DA4257923D8003E705B /* RoomServiceOrderMenu.swift in Sources */,
 				223F270B255814B3003DE430 /* HomeTableViewCell.swift in Sources */,
 				228346C9255BE0AD00075D43 /* AccountViewController.swift in Sources */,
 				223D63E8256D703B00A5FC30 /* R_ReservationDetailController.swift in Sources */,
 				222CD503256F994F004DA0DB /* BarMenu.swift in Sources */,
 				223D63EA256D72CC00A5FC30 /* Protocols.swift in Sources */,
+				2276F9FE257501E800D506FB /* HouseK_Repair.swift in Sources */,
 				22EEBE5A2566739F0049CB85 /* SoundsViewController.swift in Sources */,
 				22679673256ADF2D00C890BA /* ReservationDetailCell_2.swift in Sources */,
+				223547BB2574D75C009758D5 /* HouseK_Feedback.swift in Sources */,
 				226C279E2566EC6000CB2A0D /* MapViewController.swift in Sources */,
 				2233652625682C8A00007D29 /* UIViewController.swift in Sources */,
 				222CD4FB256F9907004DA0DB /* BarReservationDetailController.swift in Sources */,
 				22AF4F6E255E6DBF0093BB2C /* ReservationsViewController.swift in Sources */,
 				22A3405E256A80F50082C6DD /* MenuViewCell.swift in Sources */,
 				223D63DC256D50E600A5FC30 /* AddReservationRestaurantController.swift in Sources */,
+				2213B7A72577D2290042648B /* ServiceView2.swift in Sources */,
+				22664D99257815A1003E705B /* OtherSDressCode.swift in Sources */,
+				224C622E257AD2BF0035DF7B /* RoomServiceCell.swift in Sources */,
 				2267967B256BAD4900C890BA /* ImageCollectionCell.swift in Sources */,
 				228E41A9255725E000F14F92 /* AppDelegate.swift in Sources */,
+				2213B7AB2577D23A0042648B /* ServiceView4.swift in Sources */,
 				226C27A02566EC6D00CB2A0D /* NotificationViewController.swift in Sources */,
 				2252F8EE2570E4F100562973 /* R_EditReservations2.swift in Sources */,
 				222CD4F9256F98F5004DA0DB /* BarTableController.swift in Sources */,
@@ -995,7 +1199,12 @@
 				226C27A22566EC7400CB2A0D /* ChatViewController.swift in Sources */,
 				223D63EC256E463E00A5FC30 /* ResDressCodeController.swift in Sources */,
 				22193BC32559AAD200281D7D /* SideMenuController.swift in Sources */,
+				22664DA025792384003E705B /* RoomServiceFeedback.swift in Sources */,
 				223D63E6256D69A200A5FC30 /* FeedbackRestaurant.swift in Sources */,
+				2213B7AD2577D2440042648B /* ServiceView5.swift in Sources */,
+				2276FA072575826E00D506FB /* HouseK_Cleaning.swift in Sources */,
+				22496EA5257A16A500DF0643 /* RoomServiceFinishOrder.swift in Sources */,
+				22664DA2257923C6003E705B /* RoomServiceOrder.swift in Sources */,
 				22EF46E22572533C0099648A /* AddReservationSpaController.swift in Sources */,
 				22CB193E25655B5F001B9950 /* SettingsViewCell.swift in Sources */,
 				223F270025580BF4003DE430 /* HomeViewController.swift in Sources */,
@@ -1003,26 +1212,37 @@
 				2212C7FA2561891F00D2A410 /* addPersonViewController.swift in Sources */,
 				22EF46DE257253170099648A /* SpaDressCodeController.swift in Sources */,
 				22DBBDDA256EA647003F4C46 /* WKWebView.swift in Sources */,
+				22664DA6257923EB003E705B /* RoomServiceDetailView.swift in Sources */,
 				22EBCEA0255833AC001DBCB6 /* Constants.swift in Sources */,
+				226801E0257ADAF500926BC0 /* EntertainmentsController.swift in Sources */,
+				22664D972578158E003E705B /* OtherSReservation.swift in Sources */,
 				222CD50A256FED92004DA0DB /* CabanaTableController.swift in Sources */,
 				22EF46E0257253260099648A /* SpaFeedbackRestaurant.swift in Sources */,
 				223D63E4256D680900A5FC30 /* R_DetailFeedback.swift in Sources */,
 				22E29820255EEE3700F12C31 /* EditReservationCell.swift in Sources */,
 				222CD4FF256F992E004DA0DB /* BarDressCodeController.swift in Sources */,
 				225EA054257239B9007BF29D /* SelectorController.swift in Sources */,
+				2276FA042575171B00D506FB /* SwitchTableViewCell.swift in Sources */,
+				22496EA8257A34E300DF0643 /* RoomServiceDetailCell.swift in Sources */,
 				220BC99A256AD9160094040D /* ReservationDetailController.swift in Sources */,
+				22664DAA2579584E003E705B /* ConfirmationController.swift in Sources */,
 				2233948A256A531C00F821C0 /* RestaurantViewController.swift in Sources */,
 				2240D6442572F63600CBD1BD /* SpaReadMore.swift in Sources */,
 				224CEBB1255D3A460048B229 /* LeftTableCell.swift in Sources */,
 				222CD510256FEDC9004DA0DB /* CabanaMenu.swift in Sources */,
 				22345258255DD02C00C0486B /* AlertService.swift in Sources */,
 				22A513CE255F0EBC00B5A357 /* DateViewController.swift in Sources */,
+				22664D9525781332003E705B /* OtherSFeedback.swift in Sources */,
 				222CD508256FED83004DA0DB /* CabanaReservationDetailController.swift in Sources */,
+				22664D9E2578F7EA003E705B /* RoomServiceView.swift in Sources */,
 				22151FAF256AA30500464500 /* RestaurantViewCell.swift in Sources */,
 				223D63E2256D530B00A5FC30 /* R_EditReservations.swift in Sources */,
+				223547B725743C93009758D5 /* HouseKeepingView.swift in Sources */,
 				2277A73425645FD700A88431 /* CustomImageCell.swift in Sources */,
+				223547B92574D61E009758D5 /* HouseK_Information.swift in Sources */,
 				224CEBB5255D3A780048B229 /* RightTableCell.swift in Sources */,
 				2267966F256ADF0800C890BA /* ReservationDetailCell_1.swift in Sources */,
+				2213B7A12577AC980042648B /* OtherSViewController.swift in Sources */,
 				22EEBE5D256685AB0049CB85 /* SelectSingleSoundController.swift in Sources */,
 				22A9FB9E2572C05F007F1339 /* R_EditReservations3.swift in Sources */,
 			);

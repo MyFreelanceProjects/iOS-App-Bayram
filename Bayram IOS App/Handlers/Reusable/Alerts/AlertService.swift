@@ -20,6 +20,19 @@ class AlertService: UIViewController {
         return alertVC
     }
     
+    func confirmation (bodyText: String? = nil, buttonFirst: String, buttonSecond: String, buttonTextHidden: Bool = false , completetion: @escaping () -> Void) -> ConfirmationController {
+        let alertVC = self.getViewController(identifier: "confirmationAlert") as! ConfirmationController
+        
+        alertVC.alertTitle = title
+        alertVC.bodyText = bodyText
+        alertVC.buttonFirst = buttonFirst
+        alertVC.buttonSecond = buttonSecond
+        alertVC.buttonAction = completetion
+        alertVC.buttonTextHidden = buttonTextHidden
+        
+        return alertVC
+    }
+    
     func getDate(title: String, ButtonName: String, dataMode: UIDatePicker.Mode, completion: @escaping (_ settedTime: UIDatePicker) -> Void) -> DateViewController {
         let alertVC = self.getViewController(identifier: "timeAlert") as! DateViewController
         

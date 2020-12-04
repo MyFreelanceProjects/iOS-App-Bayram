@@ -193,16 +193,16 @@
                                 </connections>
                             </collectionView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5iF-6c-dT3">
-                                <rect key="frame" x="15" y="210" width="290" height="175"/>
+                                <rect key="frame" x="15" y="210" width="290" height="215"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1j-Ks-gF1">
-                                        <rect key="frame" x="105" y="0.0" width="80" height="40"/>
+                                        <rect key="frame" x="105" y="0.0" width="80" height="50"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v2J-P4-mh9" customClass="CosmosView" customModule="Cosmos">
-                                        <rect key="frame" x="35" y="45" width="220" height="40"/>
+                                        <rect key="frame" x="35" y="55" width="220" height="50"/>
                                         <color key="backgroundColor" name="ViewColor"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="rating">
@@ -226,13 +226,13 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food/Beverage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9c-MN-O26">
-                                        <rect key="frame" x="63.5" y="90" width="163.5" height="40"/>
+                                        <rect key="frame" x="63.5" y="110" width="163.5" height="50"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKu-mK-8EE" customClass="CosmosView" customModule="Cosmos">
-                                        <rect key="frame" x="35" y="135" width="220" height="40"/>
+                                        <rect key="frame" x="35" y="165" width="220" height="50"/>
                                         <color key="backgroundColor" name="ViewColor"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="rating">
@@ -258,15 +258,15 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2ui-lv-MUo">
-                                <rect key="frame" x="15" y="395" width="290" height="153"/>
+                                <rect key="frame" x="15" y="435" width="290" height="113"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cg0-Yp-dOZ">
-                                        <rect key="frame" x="15" y="0.0" width="260" height="93"/>
+                                        <rect key="frame" x="15" y="0.0" width="260" height="53"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeC-LI-6U0">
-                                        <rect key="frame" x="85" y="103" width="120" height="50"/>
+                                        <rect key="frame" x="85" y="63" width="120" height="50"/>
                                         <color key="backgroundColor" name="DefCol"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="LUA-tB-11f"/>
@@ -1166,27 +1166,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oZv-Bk-hPi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-386199.375" y="-72354.929577464791"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="eff-zI-AFV">
-            <objects>
-                <viewController id="sCU-Tp-YeY" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="how-gz-qLy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ZYL-gd-KTW">
-                                <rect key="frame" x="77" y="150" width="94" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stepper>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="1xQ-Q7-auD"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QDX-ey-y2B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-385480" y="-72357"/>
         </scene>
     </scenes>
     <resources>

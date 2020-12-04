@@ -54,7 +54,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mwZ-VY-I5A">
                                 <rect key="frame" x="15" y="10" width="345" height="637"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" name="ViewColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="Pvx-CX-w8Y" id="32S-i2-TD0"/>
                                     <outlet property="delegate" destination="Pvx-CX-w8Y" id="RgV-2f-AGN"/>

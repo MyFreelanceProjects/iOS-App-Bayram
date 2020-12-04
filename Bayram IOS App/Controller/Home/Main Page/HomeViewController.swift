@@ -30,7 +30,6 @@ struct HomeCell {
     var name: String
     var icon: String
 }
-
 let services = [
     HomeCell(name: "Restaurant", icon: "restaurant"),
     HomeCell(name: "Bar", icon: "bar"),
@@ -66,22 +65,20 @@ extension HomeViewController: UITableViewDelegate {
             switch indexPath.row {
                 case 0:
                     performSegue(withIdentifier: "showRestaurant", sender: self)
-                
                 case 1:
                     performSegue(withIdentifier: "showBar", sender: self)
-                
-                case 2: break
-                    // performSegue(withIdentifier: "showBar", sender: self)
+                case 2:
+                     performSegue(withIdentifier: "showRoomService", sender: self)
                 case 3:
                     performSegue(withIdentifier: "showCabana", sender: self)
-                case 4:break
-                    // performSegue(withIdentifier: "showCabana", sender: self)
+                case 4:
+                     performSegue(withIdentifier: "showHouseKeeping", sender: self)
                 case 5:
                      performSegue(withIdentifier: "showSpa", sender: self)
-                case 6:break
-                    // performSegue(withIdentifier: "showCabana", sender: self)
-                case 7:break
-                    // performSegue(withIdentifier: "showCabana", sender: self)
+                case 6:
+                     performSegue(withIdentifier: "showEventsAndActivities", sender: self)
+                case 7:
+                     performSegue(withIdentifier: "showOtherServices", sender: self)
                 
                 default:
                     break

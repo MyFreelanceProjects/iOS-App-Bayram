@@ -24,6 +24,22 @@
 		22151FAF256AA30500464500 /* RestaurantViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22151FAD256AA30500464500 /* RestaurantViewCell.swift */; };
 		22151FB0256AA30500464500 /* RestaurantViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22151FAE256AA30500464500 /* RestaurantViewCell.xib */; };
 		22193BC32559AAD200281D7D /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22193BC22559AAD200281D7D /* SideMenuController.swift */; };
+		221BA970257D016E000E38F6 /* ConcertSingleMenu2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BA96F257D016E000E38F6 /* ConcertSingleMenu2.swift */; };
+		221BA972257D2535000E38F6 /* SportDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BA971257D2535000E38F6 /* SportDetailController.swift */; };
+		221BA974257D428D000E38F6 /* SportFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BA973257D428D000E38F6 /* SportFeedback.swift */; };
+		221BA976257D42A2000E38F6 /* SportJoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BA975257D42A2000E38F6 /* SportJoin.swift */; };
+		221BA978257D442D000E38F6 /* SportReadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BA977257D442D000E38F6 /* SportReadMore.swift */; };
+		221BA97A257D4837000E38F6 /* R_EventAndActivityJoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BA979257D4837000E38F6 /* R_EventAndActivityJoin.swift */; };
+		221BA97C257D5123000E38F6 /* ActivityTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BA97B257D5123000E38F6 /* ActivityTable.swift */; };
+		221BA97F257D5192000E38F6 /* ActivityJoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BA97E257D5192000E38F6 /* ActivityJoin.swift */; };
+		221BA983257D5300000E38F6 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BA981257D5300000E38F6 /* ActivityCell.swift */; };
+		221BA984257D5300000E38F6 /* ActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 221BA982257D5300000E38F6 /* ActivityCell.xib */; };
+		221FC707257B9C1B00784B62 /* SDinnerTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FC706257B9C1B00784B62 /* SDinnerTableController.swift */; };
+		221FC709257B9C5600784B62 /* SDinnerDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FC708257B9C5600784B62 /* SDinnerDetailController.swift */; };
+		221FC70B257B9C6C00784B62 /* AddReservationSDinnerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FC70A257B9C6C00784B62 /* AddReservationSDinnerController.swift */; };
+		221FC70D257B9C7A00784B62 /* SDinnerDressCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FC70C257B9C7A00784B62 /* SDinnerDressCodeController.swift */; };
+		221FC70F257B9CC000784B62 /* FeedbackSDinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FC70E257B9CC000784B62 /* FeedbackSDinner.swift */; };
+		221FC711257B9CD400784B62 /* SDinnerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FC710257B9CD400784B62 /* SDinnerMenu.swift */; };
 		222CD4F9256F98F5004DA0DB /* BarTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD4F8256F98F5004DA0DB /* BarTableController.swift */; };
 		222CD4FB256F9907004DA0DB /* BarReservationDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD4FA256F9907004DA0DB /* BarReservationDetailController.swift */; };
 		222CD4FD256F991B004DA0DB /* AddReservationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CD4FC256F991B004DA0DB /* AddReservationBarController.swift */; };
@@ -49,6 +65,7 @@
 		223547B725743C93009758D5 /* HouseKeepingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223547B625743C93009758D5 /* HouseKeepingView.swift */; };
 		223547B92574D61E009758D5 /* HouseK_Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223547B82574D61E009758D5 /* HouseK_Information.swift */; };
 		223547BB2574D75C009758D5 /* HouseK_Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223547BA2574D75C009758D5 /* HouseK_Feedback.swift */; };
+		223CC37C257B8F6D00A32DD4 /* Concerts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223CC37B257B8F6D00A32DD4 /* Concerts.storyboard */; };
 		223D63DC256D50E600A5FC30 /* AddReservationRestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D63DB256D50E600A5FC30 /* AddReservationRestaurantController.swift */; };
 		223D63DF256D516A00A5FC30 /* Reusable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223D63DE256D516A00A5FC30 /* Reusable.storyboard */; };
 		223D63E2256D530B00A5FC30 /* R_EditReservations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D63E1256D530B00A5FC30 /* R_EditReservations.swift */; };
@@ -65,6 +82,13 @@
 		223F270B255814B3003DE430 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F2709255814B3003DE430 /* HomeTableViewCell.swift */; };
 		223F270C255814B3003DE430 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223F270A255814B3003DE430 /* HomeTableViewCell.xib */; };
 		2240D6442572F63600CBD1BD /* SpaReadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2240D6432572F63600CBD1BD /* SpaReadMore.swift */; };
+		22486D82257CC1AA00EAE9B7 /* ConcertDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22486D81257CC1AA00EAE9B7 /* ConcertDetailController.swift */; };
+		22486D86257CCE0200EAE9B7 /* EventsAndActivitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22486D84257CCE0200EAE9B7 /* EventsAndActivitiesCell.swift */; };
+		22486D87257CCE0200EAE9B7 /* EventsAndActivitiesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22486D85257CCE0200EAE9B7 /* EventsAndActivitiesCell.xib */; };
+		22486D89257CE84500EAE9B7 /* ConcertReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22486D88257CE84500EAE9B7 /* ConcertReservation.swift */; };
+		22486D8B257CE85300EAE9B7 /* ConcertFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22486D8A257CE85300EAE9B7 /* ConcertFeedback.swift */; };
+		22486D8D257CE85D00EAE9B7 /* ConcertDressCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22486D8C257CE85D00EAE9B7 /* ConcertDressCode.swift */; };
+		22486D8F257CE88D00EAE9B7 /* ConcertSingleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22486D8E257CE88D00EAE9B7 /* ConcertSingleMenu.swift */; };
 		22496EA5257A16A500DF0643 /* RoomServiceFinishOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22496EA4257A16A500DF0643 /* RoomServiceFinishOrder.swift */; };
 		22496EA8257A34E300DF0643 /* RoomServiceDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22496EA6257A34E300DF0643 /* RoomServiceDetailCell.swift */; };
 		22496EA9257A34E300DF0643 /* RoomServiceDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22496EA7257A34E300DF0643 /* RoomServiceDetailCell.xib */; };
@@ -133,6 +157,9 @@
 		22AF4F6B255E6D590093BB2C /* Reservations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AF4F6A255E6D590093BB2C /* Reservations.storyboard */; };
 		22AF4F6E255E6DBF0093BB2C /* ReservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF4F6D255E6DBF0093BB2C /* ReservationsViewController.swift */; };
 		22AF4F71255E73BE0093BB2C /* ReservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF4F70255E73BE0093BB2C /* ReservationCell.swift */; };
+		22B93001257B722800E7B3D2 /* ConcertsMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B93000257B722800E7B3D2 /* ConcertsMenuController.swift */; };
+		22B93003257B723A00E7B3D2 /* SportsAndActivitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B93002257B723A00E7B3D2 /* SportsAndActivitiesController.swift */; };
+		22B93006257B764A00E7B3D2 /* SpecialDinner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B93005257B764A00E7B3D2 /* SpecialDinner.storyboard */; };
 		22C008EF25713F73002AE5FF /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C008EE25713F73002AE5FF /* CALayer.swift */; };
 		22CB193525655806001B9950 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CB193425655806001B9950 /* Settings.storyboard */; };
 		22CB19382565582D001B9950 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB19372565582D001B9950 /* SettingsViewController.swift */; };
@@ -171,6 +198,22 @@
 		22151FAD256AA30500464500 /* RestaurantViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewCell.swift; sourceTree = "<group>"; };
 		22151FAE256AA30500464500 /* RestaurantViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantViewCell.xib; sourceTree = "<group>"; };
 		22193BC22559AAD200281D7D /* SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		221BA96F257D016E000E38F6 /* ConcertSingleMenu2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertSingleMenu2.swift; sourceTree = "<group>"; };
+		221BA971257D2535000E38F6 /* SportDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportDetailController.swift; sourceTree = "<group>"; };
+		221BA973257D428D000E38F6 /* SportFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportFeedback.swift; sourceTree = "<group>"; };
+		221BA975257D42A2000E38F6 /* SportJoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportJoin.swift; sourceTree = "<group>"; };
+		221BA977257D442D000E38F6 /* SportReadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportReadMore.swift; sourceTree = "<group>"; };
+		221BA979257D4837000E38F6 /* R_EventAndActivityJoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_EventAndActivityJoin.swift; sourceTree = "<group>"; };
+		221BA97B257D5123000E38F6 /* ActivityTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTable.swift; sourceTree = "<group>"; };
+		221BA97E257D5192000E38F6 /* ActivityJoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityJoin.swift; sourceTree = "<group>"; };
+		221BA981257D5300000E38F6 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		221BA982257D5300000E38F6 /* ActivityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityCell.xib; sourceTree = "<group>"; };
+		221FC706257B9C1B00784B62 /* SDinnerTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDinnerTableController.swift; sourceTree = "<group>"; };
+		221FC708257B9C5600784B62 /* SDinnerDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDinnerDetailController.swift; sourceTree = "<group>"; };
+		221FC70A257B9C6C00784B62 /* AddReservationSDinnerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReservationSDinnerController.swift; sourceTree = "<group>"; };
+		221FC70C257B9C7A00784B62 /* SDinnerDressCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDinnerDressCodeController.swift; sourceTree = "<group>"; };
+		221FC70E257B9CC000784B62 /* FeedbackSDinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackSDinner.swift; sourceTree = "<group>"; };
+		221FC710257B9CD400784B62 /* SDinnerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDinnerMenu.swift; sourceTree = "<group>"; };
 		222CD4F8256F98F5004DA0DB /* BarTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTableController.swift; sourceTree = "<group>"; };
 		222CD4FA256F9907004DA0DB /* BarReservationDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarReservationDetailController.swift; sourceTree = "<group>"; };
 		222CD4FC256F991B004DA0DB /* AddReservationBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReservationBarController.swift; sourceTree = "<group>"; };
@@ -196,6 +239,7 @@
 		223547B625743C93009758D5 /* HouseKeepingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeepingView.swift; sourceTree = "<group>"; };
 		223547B82574D61E009758D5 /* HouseK_Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseK_Information.swift; sourceTree = "<group>"; };
 		223547BA2574D75C009758D5 /* HouseK_Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseK_Feedback.swift; sourceTree = "<group>"; };
+		223CC37B257B8F6D00A32DD4 /* Concerts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Concerts.storyboard; sourceTree = "<group>"; };
 		223D63DB256D50E600A5FC30 /* AddReservationRestaurantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReservationRestaurantController.swift; sourceTree = "<group>"; };
 		223D63DE256D516A00A5FC30 /* Reusable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reusable.storyboard; sourceTree = "<group>"; };
 		223D63E1256D530B00A5FC30 /* R_EditReservations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_EditReservations.swift; sourceTree = "<group>"; };
@@ -212,6 +256,13 @@
 		223F2709255814B3003DE430 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		223F270A255814B3003DE430 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		2240D6432572F63600CBD1BD /* SpaReadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaReadMore.swift; sourceTree = "<group>"; };
+		22486D81257CC1AA00EAE9B7 /* ConcertDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertDetailController.swift; sourceTree = "<group>"; };
+		22486D84257CCE0200EAE9B7 /* EventsAndActivitiesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsAndActivitiesCell.swift; sourceTree = "<group>"; };
+		22486D85257CCE0200EAE9B7 /* EventsAndActivitiesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsAndActivitiesCell.xib; sourceTree = "<group>"; };
+		22486D88257CE84500EAE9B7 /* ConcertReservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertReservation.swift; sourceTree = "<group>"; };
+		22486D8A257CE85300EAE9B7 /* ConcertFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertFeedback.swift; sourceTree = "<group>"; };
+		22486D8C257CE85D00EAE9B7 /* ConcertDressCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertDressCode.swift; sourceTree = "<group>"; };
+		22486D8E257CE88D00EAE9B7 /* ConcertSingleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertSingleMenu.swift; sourceTree = "<group>"; };
 		22496EA4257A16A500DF0643 /* RoomServiceFinishOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomServiceFinishOrder.swift; sourceTree = "<group>"; };
 		22496EA6257A34E300DF0643 /* RoomServiceDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomServiceDetailCell.swift; sourceTree = "<group>"; };
 		22496EA7257A34E300DF0643 /* RoomServiceDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomServiceDetailCell.xib; sourceTree = "<group>"; };
@@ -282,6 +333,9 @@
 		22AF4F6A255E6D590093BB2C /* Reservations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reservations.storyboard; sourceTree = "<group>"; };
 		22AF4F6D255E6DBF0093BB2C /* ReservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsViewController.swift; sourceTree = "<group>"; };
 		22AF4F70255E73BE0093BB2C /* ReservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCell.swift; sourceTree = "<group>"; };
+		22B93000257B722800E7B3D2 /* ConcertsMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertsMenuController.swift; sourceTree = "<group>"; };
+		22B93002257B723A00E7B3D2 /* SportsAndActivitiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsAndActivitiesController.swift; sourceTree = "<group>"; };
+		22B93005257B764A00E7B3D2 /* SpecialDinner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpecialDinner.storyboard; sourceTree = "<group>"; };
 		22C008EE25713F73002AE5FF /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
 		22CB193425655806001B9950 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		22CB19372565582D001B9950 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -349,6 +403,33 @@
 				22151FAE256AA30500464500 /* RestaurantViewCell.xib */,
 			);
 			path = "Restaurant Cell";
+			sourceTree = "<group>";
+		};
+		221BA97D257D5128000E38F6 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				221BA97B257D5123000E38F6 /* ActivityTable.swift */,
+				221BA97E257D5192000E38F6 /* ActivityJoin.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		221BA980257D52D1000E38F6 /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+				22486D84257CCE0200EAE9B7 /* EventsAndActivitiesCell.swift */,
+				22486D85257CCE0200EAE9B7 /* EventsAndActivitiesCell.xib */,
+			);
+			path = Sport;
+			sourceTree = "<group>";
+		};
+		221BA985257D5306000E38F6 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				221BA981257D5300000E38F6 /* ActivityCell.swift */,
+				221BA982257D5300000E38F6 /* ActivityCell.xib */,
+			);
+			path = Activity;
 			sourceTree = "<group>";
 		};
 		222CD4F5256F9856004DA0DB /* Bar */ = {
@@ -441,6 +522,31 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+		223CC37A257B8DB500A32DD4 /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				221BA971257D2535000E38F6 /* SportDetailController.swift */,
+				221BA973257D428D000E38F6 /* SportFeedback.swift */,
+				221BA975257D42A2000E38F6 /* SportJoin.swift */,
+				221BA977257D442D000E38F6 /* SportReadMore.swift */,
+			);
+			path = Sports;
+			sourceTree = "<group>";
+		};
+		223CC37D257B901000A32DD4 /* Concerts */ = {
+			isa = PBXGroup;
+			children = (
+				22B93000257B722800E7B3D2 /* ConcertsMenuController.swift */,
+				22486D81257CC1AA00EAE9B7 /* ConcertDetailController.swift */,
+				22486D88257CE84500EAE9B7 /* ConcertReservation.swift */,
+				22486D8A257CE85300EAE9B7 /* ConcertFeedback.swift */,
+				22486D8C257CE85D00EAE9B7 /* ConcertDressCode.swift */,
+				22486D8E257CE88D00EAE9B7 /* ConcertSingleMenu.swift */,
+				221BA96F257D016E000E38F6 /* ConcertSingleMenu2.swift */,
+			);
+			path = Concerts;
+			sourceTree = "<group>";
+		};
 		223D63DD256D514D00A5FC30 /* Scene and Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +555,7 @@
 				223D63E7256D703B00A5FC30 /* R_ReservationDetailController.swift */,
 				2252F8ED2570E4F100562973 /* R_EditReservations2.swift */,
 				22A9FB9D2572C05F007F1339 /* R_EditReservations3.swift */,
+				221BA979257D4837000E38F6 /* R_EventAndActivityJoin.swift */,
 				223D63E3256D680900A5FC30 /* R_DetailFeedback.swift */,
 			);
 			path = "Scene and Controllers";
@@ -467,9 +574,9 @@
 		223EAD612557B3AB002FE9C1 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				22B93004257B760700E7B3D2 /* Events And Activities */,
 				223EAD5D2557AE74002FE9C1 /* Home.storyboard */,
 				22339487256A519200F821C0 /* Restaurant.storyboard */,
-				226801DC257ADA4900926BC0 /* EventsAndActivities.storyboard */,
 				222CD513256FEFAF004DA0DB /* Bar.storyboard */,
 				2213B7A22577AD760042648B /* OtherServices.storyboard */,
 				22664D9A2578F071003E705B /* RoomService.storyboard */,
@@ -512,6 +619,15 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		22486D83257CCDD400EAE9B7 /* Events And Activities */ = {
+			isa = PBXGroup;
+			children = (
+				221BA980257D52D1000E38F6 /* Sport */,
+				221BA985257D5306000E38F6 /* Activity */,
+			);
+			path = "Events And Activities";
+			sourceTree = "<group>";
+		};
 		22496EAA257A34E800DF0643 /* Room Service */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,6 +661,7 @@
 		22513959256D1DD70016DC44 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				22486D83257CCDD400EAE9B7 /* Events And Activities */,
 				228396A72563A21600AFC70A /* Feedback */,
 				22A34060256A81100082C6DD /* Menu Item */,
 				22679677256ADF4D00C890BA /* Reservation */,
@@ -658,6 +775,11 @@
 			isa = PBXGroup;
 			children = (
 				226801DF257ADAF500926BC0 /* EntertainmentsController.swift */,
+				22B93002257B723A00E7B3D2 /* SportsAndActivitiesController.swift */,
+				22B93007257B76B100E7B3D2 /* Special Dinner */,
+				223CC37A257B8DB500A32DD4 /* Sports */,
+				223CC37D257B901000A32DD4 /* Concerts */,
+				221BA97D257D5128000E38F6 /* Activity */,
 			);
 			path = "Events And Activities";
 			sourceTree = "<group>";
@@ -929,6 +1051,29 @@
 			path = Reservations;
 			sourceTree = "<group>";
 		};
+		22B93004257B760700E7B3D2 /* Events And Activities */ = {
+			isa = PBXGroup;
+			children = (
+				226801DC257ADA4900926BC0 /* EventsAndActivities.storyboard */,
+				22B93005257B764A00E7B3D2 /* SpecialDinner.storyboard */,
+				223CC37B257B8F6D00A32DD4 /* Concerts.storyboard */,
+			);
+			path = "Events And Activities";
+			sourceTree = "<group>";
+		};
+		22B93007257B76B100E7B3D2 /* Special Dinner */ = {
+			isa = PBXGroup;
+			children = (
+				221FC706257B9C1B00784B62 /* SDinnerTableController.swift */,
+				221FC708257B9C5600784B62 /* SDinnerDetailController.swift */,
+				221FC70A257B9C6C00784B62 /* AddReservationSDinnerController.swift */,
+				221FC70C257B9C7A00784B62 /* SDinnerDressCodeController.swift */,
+				221FC70E257B9CC000784B62 /* FeedbackSDinner.swift */,
+				221FC710257B9CD400784B62 /* SDinnerMenu.swift */,
+			);
+			path = "Special Dinner";
+			sourceTree = "<group>";
+		};
 		22CB193625655815001B9950 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
@@ -1052,6 +1197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2276FA102576664500D506FB /* SwitchTableViewCell2.xib in Resources */,
+				221BA984257D5300000E38F6 /* ActivityCell.xib in Resources */,
 				22496EA9257A34E300DF0643 /* RoomServiceDetailCell.xib in Resources */,
 				228E41B0255725E000F14F92 /* Main.storyboard in Resources */,
 				22CB193F25655B5F001B9950 /* SettingsViewCell.xib in Resources */,
@@ -1075,6 +1221,7 @@
 				223F270C255814B3003DE430 /* HomeTableViewCell.xib in Resources */,
 				223EAD5E2557AE74002FE9C1 /* Home.storyboard in Resources */,
 				228346CC255BEA4400075D43 /* Account.storyboard in Resources */,
+				22B93006257B764A00E7B3D2 /* SpecialDinner.storyboard in Resources */,
 				222CD514256FEFAF004DA0DB /* Bar.storyboard in Resources */,
 				222D2DAB255968FA001FC284 /* SideMenu.storyboard in Resources */,
 				22AF4F6B255E6D590093BB2C /* Reservations.storyboard in Resources */,
@@ -1085,6 +1232,8 @@
 				2276FA052575171B00D506FB /* SwitchTableViewCell.xib in Resources */,
 				22679674256ADF2D00C890BA /* ReservationDetailCell_2.xib in Resources */,
 				226C27AC2566ECF900CB2A0D /* Chat.storyboard in Resources */,
+				22486D87257CCE0200EAE9B7 /* EventsAndActivitiesCell.xib in Resources */,
+				223CC37C257B8F6D00A32DD4 /* Concerts.storyboard in Resources */,
 				226C27AA2566ECF000CB2A0D /* Notification.storyboard in Resources */,
 				226801DD257ADA4900926BC0 /* EventsAndActivities.storyboard in Resources */,
 				22A3405F256A80F50082C6DD /* MenuViewCell.xib in Resources */,
@@ -1143,8 +1292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				222CD4FD256F991B004DA0DB /* AddReservationBarController.swift in Sources */,
+				22B93001257B722800E7B3D2 /* ConcertsMenuController.swift in Sources */,
 				228E41AD255725E000F14F92 /* ViewController.swift in Sources */,
 				2213B7A92577D2310042648B /* ServiceView3.swift in Sources */,
+				221BA983257D5300000E38F6 /* ActivityCell.swift in Sources */,
 				22EF46DC257253020099648A /* SpaReservationDetailController.swift in Sources */,
 				22151FAC256A932000464500 /* RestaurantTableController.swift in Sources */,
 				2277EEBC255FB80500ACF926 /* String.swift in Sources */,
@@ -1155,24 +1306,34 @@
 				22AF4F71255E73BE0093BB2C /* ReservationCell.swift in Sources */,
 				2213B79E2577A3CF0042648B /* HouseK_Laundry.swift in Sources */,
 				2213B7A52577D2220042648B /* ServiceView1.swift in Sources */,
+				221FC707257B9C1B00784B62 /* SDinnerTableController.swift in Sources */,
 				22664D932578053F003E705B /* OtherSReadMore.swift in Sources */,
+				221BA972257D2535000E38F6 /* SportDetailController.swift in Sources */,
+				221BA976257D42A2000E38F6 /* SportJoin.swift in Sources */,
+				22486D8F257CE88D00EAE9B7 /* ConcertSingleMenu.swift in Sources */,
 				2276FA0F2576664500D506FB /* SwitchTableViewCell2.swift in Sources */,
+				22486D86257CCE0200EAE9B7 /* EventsAndActivitiesCell.swift in Sources */,
 				225EA05725724963007BF29D /* SpaTableController.swift in Sources */,
 				2276FA09257665EA00D506FB /* HouseK_Necessary.swift in Sources */,
 				22C008EF25713F73002AE5FF /* CALayer.swift in Sources */,
 				228396A52563A20B00AFC70A /* FeedbackViewCell.swift in Sources */,
+				221FC709257B9C5600784B62 /* SDinnerDetailController.swift in Sources */,
 				222CD50E256FEDB6004DA0DB /* CabanaFeedbackRestaurant.swift in Sources */,
 				222CD501256F993C004DA0DB /* BarFeedbackRestaurant.swift in Sources */,
+				221BA974257D428D000E38F6 /* SportFeedback.swift in Sources */,
 				229BE1AF256C27950008057D /* UICollectionViewCell.swift in Sources */,
 				222CD50C256FEDA7004DA0DB /* CabanaDressCodeController.swift in Sources */,
+				221BA97C257D5123000E38F6 /* ActivityTable.swift in Sources */,
 				220C40EB2563C22100AAC5EC /* DetailFeedbackController.swift in Sources */,
 				222CD512256FEDD9004DA0DB /* AddReservationCabanaController.swift in Sources */,
 				22CB19382565582D001B9950 /* SettingsViewController.swift in Sources */,
+				22B93003257B723A00E7B3D2 /* SportsAndActivitiesController.swift in Sources */,
 				227E10AF25659A24003CE264 /* ChooseLanguageController.swift in Sources */,
 				225EA05B25724A6E007BF29D /* MenuViewCell2.swift in Sources */,
 				22664DA4257923D8003E705B /* RoomServiceOrderMenu.swift in Sources */,
 				223F270B255814B3003DE430 /* HomeTableViewCell.swift in Sources */,
 				228346C9255BE0AD00075D43 /* AccountViewController.swift in Sources */,
+				22486D8B257CE85300EAE9B7 /* ConcertFeedback.swift in Sources */,
 				223D63E8256D703B00A5FC30 /* R_ReservationDetailController.swift in Sources */,
 				222CD503256F994F004DA0DB /* BarMenu.swift in Sources */,
 				223D63EA256D72CC00A5FC30 /* Protocols.swift in Sources */,
@@ -1191,15 +1352,18 @@
 				224C622E257AD2BF0035DF7B /* RoomServiceCell.swift in Sources */,
 				2267967B256BAD4900C890BA /* ImageCollectionCell.swift in Sources */,
 				228E41A9255725E000F14F92 /* AppDelegate.swift in Sources */,
+				221BA970257D016E000E38F6 /* ConcertSingleMenu2.swift in Sources */,
 				2213B7AB2577D23A0042648B /* ServiceView4.swift in Sources */,
 				226C27A02566EC6D00CB2A0D /* NotificationViewController.swift in Sources */,
 				2252F8EE2570E4F100562973 /* R_EditReservations2.swift in Sources */,
+				221FC711257B9CD400784B62 /* SDinnerMenu.swift in Sources */,
 				222CD4F9256F98F5004DA0DB /* BarTableController.swift in Sources */,
 				228E41AB255725E000F14F92 /* SceneDelegate.swift in Sources */,
 				226C27A22566EC7400CB2A0D /* ChatViewController.swift in Sources */,
 				223D63EC256E463E00A5FC30 /* ResDressCodeController.swift in Sources */,
 				22193BC32559AAD200281D7D /* SideMenuController.swift in Sources */,
 				22664DA025792384003E705B /* RoomServiceFeedback.swift in Sources */,
+				221BA97A257D4837000E38F6 /* R_EventAndActivityJoin.swift in Sources */,
 				223D63E6256D69A200A5FC30 /* FeedbackRestaurant.swift in Sources */,
 				2213B7AD2577D2440042648B /* ServiceView5.swift in Sources */,
 				2276FA072575826E00D506FB /* HouseK_Cleaning.swift in Sources */,
@@ -1219,8 +1383,13 @@
 				222CD50A256FED92004DA0DB /* CabanaTableController.swift in Sources */,
 				22EF46E0257253260099648A /* SpaFeedbackRestaurant.swift in Sources */,
 				223D63E4256D680900A5FC30 /* R_DetailFeedback.swift in Sources */,
+				221FC70B257B9C6C00784B62 /* AddReservationSDinnerController.swift in Sources */,
 				22E29820255EEE3700F12C31 /* EditReservationCell.swift in Sources */,
+				221BA97F257D5192000E38F6 /* ActivityJoin.swift in Sources */,
 				222CD4FF256F992E004DA0DB /* BarDressCodeController.swift in Sources */,
+				22486D8D257CE85D00EAE9B7 /* ConcertDressCode.swift in Sources */,
+				221FC70F257B9CC000784B62 /* FeedbackSDinner.swift in Sources */,
+				22486D89257CE84500EAE9B7 /* ConcertReservation.swift in Sources */,
 				225EA054257239B9007BF29D /* SelectorController.swift in Sources */,
 				2276FA042575171B00D506FB /* SwitchTableViewCell.swift in Sources */,
 				22496EA8257A34E300DF0643 /* RoomServiceDetailCell.swift in Sources */,
@@ -1228,6 +1397,7 @@
 				22664DAA2579584E003E705B /* ConfirmationController.swift in Sources */,
 				2233948A256A531C00F821C0 /* RestaurantViewController.swift in Sources */,
 				2240D6442572F63600CBD1BD /* SpaReadMore.swift in Sources */,
+				22486D82257CC1AA00EAE9B7 /* ConcertDetailController.swift in Sources */,
 				224CEBB1255D3A460048B229 /* LeftTableCell.swift in Sources */,
 				222CD510256FEDC9004DA0DB /* CabanaMenu.swift in Sources */,
 				22345258255DD02C00C0486B /* AlertService.swift in Sources */,
@@ -1240,9 +1410,11 @@
 				223547B725743C93009758D5 /* HouseKeepingView.swift in Sources */,
 				2277A73425645FD700A88431 /* CustomImageCell.swift in Sources */,
 				223547B92574D61E009758D5 /* HouseK_Information.swift in Sources */,
+				221FC70D257B9C7A00784B62 /* SDinnerDressCodeController.swift in Sources */,
 				224CEBB5255D3A780048B229 /* RightTableCell.swift in Sources */,
 				2267966F256ADF0800C890BA /* ReservationDetailCell_1.swift in Sources */,
 				2213B7A12577AC980042648B /* OtherSViewController.swift in Sources */,
+				221BA978257D442D000E38F6 /* SportReadMore.swift in Sources */,
 				22EEBE5D256685AB0049CB85 /* SelectSingleSoundController.swift in Sources */,
 				22A9FB9E2572C05F007F1339 /* R_EditReservations3.swift in Sources */,
 			);

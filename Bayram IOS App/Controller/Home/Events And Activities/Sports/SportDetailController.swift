@@ -1,14 +1,14 @@
 //
-//  ServiceView4.swift
+//  SportDetailController.swift
 //  Bayram IOS App
 //
-//  Created by Kanan`s Macbook Pro on 12/2/20.
+//  Created by Kanan`s Macbook Pro on 12/6/20.
 //  Copyright © 2020 Kanan`s Macbook Pro. All rights reserved.
 //
 
 import UIKit
 
-class ServiceView4: UIViewController {
+class SportDetailController: UIViewController {
     @IBOutlet weak var imageCollection: UICollectionView!
     @IBOutlet weak var textView: UIView!
     @IBOutlet weak var firstCollectionView: UICollectionView!
@@ -17,7 +17,7 @@ class ServiceView4: UIViewController {
     
     let alert = AlertService()
     
-    var viewTitle: String = "Other Service 4" {
+    var viewTitle: String = "Sport 1" {
         didSet {
             self.title = viewTitle.uppercased()
         }
@@ -36,33 +36,30 @@ class ServiceView4: UIViewController {
     }
     
     @IBAction func readMorePressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "OtherSMore", sender: self)
+        performSegue(withIdentifier: "showSportMore", sender: self)
     }
     
 }
 
-//MARK: - CollectionViewData
-let FirstCollectionViewData3: [CollectionViewStruct] = [
-    CollectionViewStruct(image: UIImage(named: "library-add"), label: "RESERVATION"),
-    CollectionViewStruct(image: UIImage(named: "material-feedback"), label: "FEEDBACK"),
-    CollectionViewStruct(image: UIImage(named: "material-person-pin"), label: "DRESS CODE"),
-]
 
+let SportDetailCollection: [CollectionViewStruct] = [
+    CollectionViewStruct(image: UIImage(named: "reservationTime"), label: "09:00-20:00"),
+    CollectionViewStruct(image: UIImage(named: "material-feedback"), label: "FEEDBACK"),
+    CollectionViewStruct(image: UIImage(named: "person-add"), label: "Join"),
+]
 //MARK: - UICollectionViewDelegate
 
-extension ServiceView4: UICollectionViewDelegate {
+extension SportDetailController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == firstCollectionView {
             // performSegues
             navigationItem.backBarButtonItem = self.customBackButton
-            if indexPath.row == 0 {
-                performSegue(withIdentifier: "showOtherSReservation", sender: self)
-            }
-            else if indexPath.row == 1 {
-                performSegue(withIdentifier: "showOtherSFeedback", sender: self)
+            
+            if indexPath.row == 1 {
+                performSegue(withIdentifier: "showSportFeedback", sender: self)
             }
             else if indexPath.row == 2 {
-                performSegue(withIdentifier: "showOtherSDressCode", sender: self)
+                performSegue(withIdentifier: "showSportJoin", sender: self)
             }
         }
     }
@@ -72,10 +69,9 @@ extension ServiceView4: UICollectionViewDelegate {
             navigationItem.backBarButtonItem = self.customBackButton
             
             switch identifier {
-                case "OtherSMore":
-                    let destinationVC = segue.destination as! OtherSReadMore
+                case "showSportMore":
+                    let destinationVC = segue.destination as! SportReadMore
                     destinationVC.viewTitle = self.navigationItem.title!
-                
                 default:
                     return
             }
@@ -85,17 +81,17 @@ extension ServiceView4: UICollectionViewDelegate {
 }
 
 //MARK: - UICollectionViewDataSource
-extension ServiceView4: UICollectionViewDataSource {
+extension SportDetailController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return FirstCollectionViewData3.count
+        return SportDetailCollection.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == firstCollectionView {
             let cell = firstCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! ReservationDetailCell_1
             
-            cell.img.image = FirstCollectionViewData3[indexPath.row].image
-            cell.label.text = FirstCollectionViewData3[indexPath.row].label
+            cell.img.image = SportDetailCollection[indexPath.row].image
+            cell.label.text = SportDetailCollection[indexPath.row].label
             
             return cell
         } else {
@@ -114,7 +110,7 @@ extension ServiceView4: UICollectionViewDataSource {
 
 
 //MARK: - UICollectionViewDelegateFlowLayout
-extension ServiceView4: UICollectionViewDelegateFlowLayout {
+extension SportDetailController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let collectionSize = collectionView.frame.size
         

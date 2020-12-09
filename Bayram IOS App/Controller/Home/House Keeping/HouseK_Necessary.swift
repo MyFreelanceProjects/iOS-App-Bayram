@@ -16,7 +16,7 @@ class HouseK_Necessary: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Cleaning".uppercased()
+        self.title = "Necessary".uppercased()
         
         finishOrder.isHidden = true
 

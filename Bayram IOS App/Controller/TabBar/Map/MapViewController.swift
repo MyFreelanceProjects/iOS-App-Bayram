@@ -14,13 +14,34 @@ class MapViewController: BaseVC {
         super.viewDidLoad()
 
         // for side menu
-        NotificationCenter.default.addObserver(self,
-                                               selector: #selector(sideMenuPressing(_:)),
-                                               name: NSNotification.Name("sideMenuPressed"),
-                                               object: nil)
+        NotificationCenter.default.addObserver(
+                                        self,
+                                       selector: #selector(sideMenuPressing(_:)),
+                                       name: NSNotification.Name("sideMenuPressed"),
+                                       object: nil)
+        
+        NotificationCenter.default.addObserver(
+                                         self,
+                                        selector: #selector(tabBarClicked(_:)),
+                                        name: NSNotification.Name("tabBarChanged"),
+                                        object: nil)
         
         delayAfter(seconds: 0.1) {
             self.getInitialVC()
+        }
+
+    }
+    
+    @objc func tabBarClicked(_ notification: NSNotification) {
+        if let user_info = notification.userInfo as NSDictionary? {
+            if let selected = user_info["selected"] as! Int? {
+                if selected == 0 {
+                    delayAfter(seconds: 0.1) {
+                        self.remove(previousController: self.children[0])
+                        self.getInitialVC(identifier: "Map", storyboard: "Map")
+                    }
+                }
+            }
         }
     }
     

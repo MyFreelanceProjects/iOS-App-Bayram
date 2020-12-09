@@ -12,8 +12,6 @@ import IQKeyboardManager
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
          
@@ -22,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // change TabBar color
         UITabBar.appearance().tintColor = UIColor(named: "DefCol")
+        UITabBar.appearance().backgroundColor = .white
+        
         
         return true
     }

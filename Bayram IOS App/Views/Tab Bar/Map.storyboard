@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uVj-1k-lju">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="uVj-1k-lju" customClass="MapViewController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MPA-pf-let">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="9uK-eQ-MNj"/>
@@ -25,8 +25,79 @@
             </objects>
             <point key="canvasLocation" x="-112" y="-1418"/>
         </scene>
+        <!--SideMenu-->
+        <scene sceneID="4Br-u7-Ge6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SideMenu" id="hiW-dt-elr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="eQX-Z7-lxh"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8dR-O7-g4o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-508" y="-991"/>
+        </scene>
+        <!--MAP-->
+        <scene sceneID="wYr-CX-jQS">
+            <objects>
+                <viewController id="RLu-Ma-tuA" customClass="Map" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pgf-QJ-h3c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lAc-rA-G89">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="lAc-rA-G89" firstAttribute="leading" secondItem="Gs1-FM-P5d" secondAttribute="leading" id="NVZ-L6-NvS"/>
+                            <constraint firstItem="Gs1-FM-P5d" firstAttribute="trailing" secondItem="lAc-rA-G89" secondAttribute="trailing" id="eFp-XG-Emg"/>
+                            <constraint firstItem="lAc-rA-G89" firstAttribute="top" secondItem="Gs1-FM-P5d" secondAttribute="top" id="lLs-Nj-xXz"/>
+                            <constraint firstItem="Gs1-FM-P5d" firstAttribute="bottom" secondItem="lAc-rA-G89" secondAttribute="bottom" id="mBL-s6-Gs2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Gs1-FM-P5d"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="MAP" id="oTW-Ai-4Vg">
+                        <barButtonItem key="leftBarButtonItem" image="line.horizontal.3" catalog="system" style="done" id="D9t-sF-194">
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <connections>
+                                <segue destination="hiW-dt-elr" kind="show" id="lwl-hp-gCs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="MapView" destination="lAc-rA-G89" id="t0Y-Ta-sbe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1nQ-ER-dr3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-68" y="-709.29535232383819"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="b5S-Di-01N">
+            <objects>
+                <navigationController storyboardIdentifier="Map" automaticallyAdjustsScrollViewInsets="NO" id="Cuu-af-9z4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="I4n-Ma-knf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RLu-Ma-tuA" kind="relationship" relationship="rootViewController" id="32u-5v-dUa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CwX-uk-ZvH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1007.2" y="-709.29535232383819"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Image" width="48" height="48"/>
+        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
     </resources>
 </document>

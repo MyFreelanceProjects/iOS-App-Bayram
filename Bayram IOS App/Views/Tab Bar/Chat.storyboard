@@ -10,7 +10,6 @@
         <!--Chat View Controller-->
         <scene sceneID="dQn-WH-1BL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Fde-Nw-AIy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="ux8-be-dsp" customClass="ChatViewController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bix-cw-Jbj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -18,9 +17,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="btV-5G-jq2"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Image-2" selectedImage="Image-2" id="r5a-tv-KPy"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="" image="Image-2" selectedImage="Image-2" id="r5a-tv-KPy"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fde-Nw-AIy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="941" y="-1404"/>
         </scene>

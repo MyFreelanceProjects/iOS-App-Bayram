@@ -10,7 +10,6 @@
         <!--Notification View Controller-->
         <scene sceneID="bbZ-EP-Uov">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jA1-dg-VL0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Vhx-uu-Kx2" customClass="NotificationViewController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="60L-JN-Zdy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -18,11 +17,27 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="BBt-cO-G1C"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Image-1" selectedImage="Image-1" id="dNP-7R-K3F"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="Image-1" selectedImage="Image-1" id="dNP-7R-K3F"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jA1-dg-VL0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="190" y="-1404"/>
+        </scene>
+        <!--Notification-->
+        <scene sceneID="Zfp-Nh-KDI">
+            <objects>
+                <viewController storyboardIdentifier="Notification" id="eaU-Bt-7G3" customClass="Notification" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ny7-2x-3sz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Cka-CC-ez1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tZe-W9-YfP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189.85507246376812" y="-721.20535714285711"/>
         </scene>
     </scenes>
     <resources>

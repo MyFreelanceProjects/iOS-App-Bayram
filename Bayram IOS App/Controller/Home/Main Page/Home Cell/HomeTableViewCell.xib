@@ -18,13 +18,13 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qRx-rb-e7p">
-                        <rect key="frame" x="20" y="0.0" width="344" height="70"/>
+                        <rect key="frame" x="0.0" y="0.0" width="384" height="70"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xq0-qE-hSo">
-                                <rect key="frame" x="0.0" y="0.0" width="344" height="60"/>
+                                <rect key="frame" x="0.0" y="0.0" width="384" height="60"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J5B-sY-ySS">
-                                        <rect key="frame" x="0.0" y="0.0" width="344" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="60"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bar" translatesAutoresizingMaskIntoConstraints="NO" id="xBo-dP-BOE">
                                                 <rect key="frame" x="20" y="20" width="35" height="35"/>
@@ -74,10 +74,10 @@
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="qRx-rb-e7p" secondAttribute="trailing" constant="20" id="1M1-bF-1HU"/>
+                    <constraint firstAttribute="trailing" secondItem="qRx-rb-e7p" secondAttribute="trailing" id="1M1-bF-1HU"/>
                     <constraint firstAttribute="bottom" secondItem="qRx-rb-e7p" secondAttribute="bottom" id="CcS-MB-YP2"/>
                     <constraint firstItem="qRx-rb-e7p" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="F8a-Mp-o8l"/>
-                    <constraint firstItem="qRx-rb-e7p" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="aHl-WG-Fch"/>
+                    <constraint firstItem="qRx-rb-e7p" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="aHl-WG-Fch"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

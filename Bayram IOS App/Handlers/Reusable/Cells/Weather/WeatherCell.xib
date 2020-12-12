@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="101" id="KGk-i7-Jjw" customClass="WeatherCell" customModule="Bayram_IOS_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="159" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="159" height="101"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VBN-bc-DMP">
+                        <rect key="frame" x="10" y="10" width="139" height="81"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="08:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbs-5y-6aB">
+                                <rect key="frame" x="0.0" y="0.0" width="139" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="hvP-rx-myv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.rain" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bZM-z7-Xnp">
+                                <rect key="frame" x="0.0" y="30" width="25" height="21.5"/>
+                                <color key="tintColor" name="DefCol"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="guv-xx-UdE"/>
+                                    <constraint firstAttribute="width" constant="25" id="lga-FQ-3Dt"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpO-8L-tlC">
+                                <rect key="frame" x="35" y="30" width="104" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="wMJ-ir-Oq6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paperplane.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="C1f-Cj-erj">
+                                <rect key="frame" x="0.0" y="60.5" width="25" height="19.5"/>
+                                <color key="tintColor" name="DefCol"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="MsI-Zv-LiN"/>
+                                    <constraint firstAttribute="height" constant="20" id="xPE-sk-cOd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 m/s" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctU-nf-8Ie">
+                                <rect key="frame" x="35" y="60" width="104" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="pDt-ie-QWh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bZM-z7-Xnp" firstAttribute="leading" secondItem="VBN-bc-DMP" secondAttribute="leading" id="1am-4J-z3G"/>
+                            <constraint firstItem="C1f-Cj-erj" firstAttribute="top" secondItem="bZM-z7-Xnp" secondAttribute="bottom" constant="10" id="7ZQ-Ad-Vbj"/>
+                            <constraint firstItem="mbs-5y-6aB" firstAttribute="top" secondItem="VBN-bc-DMP" secondAttribute="top" id="7vl-rI-hKT"/>
+                            <constraint firstItem="dpO-8L-tlC" firstAttribute="top" secondItem="mbs-5y-6aB" secondAttribute="bottom" constant="10" id="9aQ-f6-jKP"/>
+                            <constraint firstItem="C1f-Cj-erj" firstAttribute="leading" secondItem="VBN-bc-DMP" secondAttribute="leading" id="KZ1-CS-Roi"/>
+                            <constraint firstItem="bZM-z7-Xnp" firstAttribute="top" secondItem="mbs-5y-6aB" secondAttribute="bottom" constant="10" id="QWS-Js-0K6"/>
+                            <constraint firstAttribute="trailing" secondItem="ctU-nf-8Ie" secondAttribute="trailing" id="RFA-9D-JKt"/>
+                            <constraint firstItem="dpO-8L-tlC" firstAttribute="leading" secondItem="bZM-z7-Xnp" secondAttribute="trailing" constant="10" id="XC2-uJ-ltA"/>
+                            <constraint firstItem="ctU-nf-8Ie" firstAttribute="top" secondItem="dpO-8L-tlC" secondAttribute="bottom" constant="10" id="a47-hR-exx"/>
+                            <constraint firstItem="ctU-nf-8Ie" firstAttribute="leading" secondItem="C1f-Cj-erj" secondAttribute="trailing" constant="10" id="fZN-6C-vza"/>
+                            <constraint firstAttribute="trailing" secondItem="dpO-8L-tlC" secondAttribute="trailing" id="h6i-46-cpN"/>
+                            <constraint firstAttribute="trailing" secondItem="mbs-5y-6aB" secondAttribute="trailing" id="lFI-jp-u0u"/>
+                            <constraint firstItem="mbs-5y-6aB" firstAttribute="leading" secondItem="VBN-bc-DMP" secondAttribute="leading" id="oup-Th-B3f"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="VBN-bc-DMP" secondAttribute="trailing" constant="10" id="IAW-XI-Lxz"/>
+                    <constraint firstItem="VBN-bc-DMP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="IRh-G8-b7h"/>
+                    <constraint firstItem="VBN-bc-DMP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="JJZ-zh-fNi"/>
+                    <constraint firstAttribute="bottom" secondItem="VBN-bc-DMP" secondAttribute="bottom" constant="10" id="Lha-1M-djw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="15.217391304347828" y="116.18303571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cloud.rain" catalog="system" width="128" height="125"/>
+        <image name="paperplane.fill" catalog="system" width="128" height="121"/>
+        <namedColor name="DefCol">
+            <color red="0.19599999487400055" green="0.74099999666213989" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -23,6 +23,13 @@ class HomeViewController: UIViewController {
         tableView.register(UINib(nibName: Constants.ServicesMenuCell.nibName, bundle: nil), forCellReuseIdentifier: Constants.ServicesMenuCell.identifier)        
     }
     
+    
+    @IBAction func weatherClicked(_ sender: UIBarButtonItem) {
+        NotificationCenter.default.post(name: NSNotification.Name("sideMenuPressed"),
+                                        object: nil,
+                                        userInfo: ["sideMenuID": 5])
+    }
+    
 }
 
 // MARK: - Configure cell options

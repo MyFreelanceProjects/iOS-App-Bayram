@@ -82,6 +82,8 @@
 		223F270025580BF4003DE430 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F26FF25580BF4003DE430 /* HomeViewController.swift */; };
 		223F270B255814B3003DE430 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F2709255814B3003DE430 /* HomeTableViewCell.swift */; };
 		223F270C255814B3003DE430 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223F270A255814B3003DE430 /* HomeTableViewCell.xib */; };
+		2240A5FE25834AA50010A7C4 /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2240A5FD25834AA50010A7C4 /* Weather.storyboard */; };
+		2240A60025834ACA0010A7C4 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2240A5FF25834ACA0010A7C4 /* WeatherViewController.swift */; };
 		2240D6442572F63600CBD1BD /* SpaReadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2240D6432572F63600CBD1BD /* SpaReadMore.swift */; };
 		22486D82257CC1AA00EAE9B7 /* ConcertDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22486D81257CC1AA00EAE9B7 /* ConcertDetailController.swift */; };
 		22486D86257CCE0200EAE9B7 /* EventsAndActivitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22486D84257CCE0200EAE9B7 /* EventsAndActivitiesCell.swift */; };
@@ -105,6 +107,7 @@
 		225EA05725724963007BF29D /* SpaTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EA05625724963007BF29D /* SpaTableController.swift */; };
 		225EA05B25724A6E007BF29D /* MenuViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EA05925724A6E007BF29D /* MenuViewCell2.swift */; };
 		225EA05C25724A6E007BF29D /* MenuViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225EA05A25724A6E007BF29D /* MenuViewCell2.xib */; };
+		225EF4442582682600247820 /* EventNotf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EF4432582682600247820 /* EventNotf.swift */; };
 		226068D1257F58950028EF68 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226068D0257F58950028EF68 /* Map.swift */; };
 		226068D3257F58AA0028EF68 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226068D2257F58AA0028EF68 /* Notification.swift */; };
 		226068D5257F58C10028EF68 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226068D4257F58C10028EF68 /* Chat.swift */; };
@@ -154,6 +157,8 @@
 		228E41AD255725E000F14F92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E41AC255725E000F14F92 /* ViewController.swift */; };
 		228E41B0255725E000F14F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228E41AE255725E000F14F92 /* Main.storyboard */; };
 		229BE1AF256C27950008057D /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BE1AE256C27940008057D /* UICollectionViewCell.swift */; };
+		229C1F4C258391C5005DF4DD /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229C1F4A258391C5005DF4DD /* WeatherCell.swift */; };
+		229C1F4D258391C5005DF4DD /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229C1F4B258391C5005DF4DD /* WeatherCell.xib */; };
 		22A3405E256A80F50082C6DD /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3405C256A80F50082C6DD /* MenuViewCell.swift */; };
 		22A3405F256A80F50082C6DD /* MenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A3405D256A80F50082C6DD /* MenuViewCell.xib */; };
 		22A513CE255F0EBC00B5A357 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A513CD255F0EBC00B5A357 /* DateViewController.swift */; };
@@ -169,6 +174,10 @@
 		22CB19382565582D001B9950 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB19372565582D001B9950 /* SettingsViewController.swift */; };
 		22CB193E25655B5F001B9950 /* SettingsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB193C25655B5F001B9950 /* SettingsViewCell.swift */; };
 		22CB193F25655B5F001B9950 /* SettingsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CB193D25655B5F001B9950 /* SettingsViewCell.xib */; };
+		22CE36A42582939700039CF4 /* NotifyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE36A22582939700039CF4 /* NotifyCell.swift */; };
+		22CE36A52582939700039CF4 /* NotifyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CE36A32582939700039CF4 /* NotifyCell.xib */; };
+		22CE36A72582B80700039CF4 /* ServiceNotf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE36A62582B80700039CF4 /* ServiceNotf.swift */; };
+		22CE36A92582BBBE00039CF4 /* ReservationNotf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE36A82582BBBE00039CF4 /* ReservationNotf.swift */; };
 		22DBBDDA256EA647003F4C46 /* WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DBBDD9256EA647003F4C46 /* WKWebView.swift */; };
 		22E2981D255EEDD500F12C31 /* EditReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2981C255EEDD500F12C31 /* EditReservationView.swift */; };
 		22E29820255EEE3700F12C31 /* EditReservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2981E255EEE3700F12C31 /* EditReservationCell.swift */; };
@@ -260,6 +269,8 @@
 		223F26FF25580BF4003DE430 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		223F2709255814B3003DE430 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		223F270A255814B3003DE430 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		2240A5FD25834AA50010A7C4 /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
+		2240A5FF25834ACA0010A7C4 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		2240D6432572F63600CBD1BD /* SpaReadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaReadMore.swift; sourceTree = "<group>"; };
 		22486D81257CC1AA00EAE9B7 /* ConcertDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertDetailController.swift; sourceTree = "<group>"; };
 		22486D84257CCE0200EAE9B7 /* EventsAndActivitiesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsAndActivitiesCell.swift; sourceTree = "<group>"; };
@@ -283,6 +294,7 @@
 		225EA05625724963007BF29D /* SpaTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaTableController.swift; sourceTree = "<group>"; };
 		225EA05925724A6E007BF29D /* MenuViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCell2.swift; sourceTree = "<group>"; };
 		225EA05A25724A6E007BF29D /* MenuViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewCell2.xib; sourceTree = "<group>"; };
+		225EF4432582682600247820 /* EventNotf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventNotf.swift; sourceTree = "<group>"; };
 		226068D0257F58950028EF68 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		226068D2257F58AA0028EF68 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		226068D4257F58C10028EF68 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
@@ -334,6 +346,8 @@
 		228E41AF255725E000F14F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		228E41B6255725E300F14F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		229BE1AE256C27940008057D /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		229C1F4A258391C5005DF4DD /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		229C1F4B258391C5005DF4DD /* WeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
 		22A3405C256A80F50082C6DD /* MenuViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCell.swift; sourceTree = "<group>"; };
 		22A3405D256A80F50082C6DD /* MenuViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewCell.xib; sourceTree = "<group>"; };
 		22A513CD255F0EBC00B5A357 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
@@ -349,6 +363,10 @@
 		22CB19372565582D001B9950 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		22CB193C25655B5F001B9950 /* SettingsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewCell.swift; sourceTree = "<group>"; };
 		22CB193D25655B5F001B9950 /* SettingsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewCell.xib; sourceTree = "<group>"; };
+		22CE36A22582939700039CF4 /* NotifyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyCell.swift; sourceTree = "<group>"; };
+		22CE36A32582939700039CF4 /* NotifyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotifyCell.xib; sourceTree = "<group>"; };
+		22CE36A62582B80700039CF4 /* ServiceNotf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceNotf.swift; sourceTree = "<group>"; };
+		22CE36A82582BBBE00039CF4 /* ReservationNotf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationNotf.swift; sourceTree = "<group>"; };
 		22DBBDD9256EA647003F4C46 /* WKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebView.swift; sourceTree = "<group>"; };
 		22E2981C255EEDD500F12C31 /* EditReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReservationView.swift; sourceTree = "<group>"; };
 		22E2981E255EEE3700F12C31 /* EditReservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReservationCell.swift; sourceTree = "<group>"; };
@@ -585,6 +603,7 @@
 			children = (
 				22B93004257B760700E7B3D2 /* Events And Activities */,
 				223EAD5D2557AE74002FE9C1 /* Home.storyboard */,
+				2240A5FD25834AA50010A7C4 /* Weather.storyboard */,
 				22339487256A519200F821C0 /* Restaurant.storyboard */,
 				222CD513256FEFAF004DA0DB /* Bar.storyboard */,
 				2213B7A22577AD760042648B /* OtherServices.storyboard */,
@@ -626,6 +645,14 @@
 				228E41AC255725E000F14F92 /* ViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		2240A60125834AE80010A7C4 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				2240A5FF25834ACA0010A7C4 /* WeatherViewController.swift */,
+			);
+			path = Weather;
 			sourceTree = "<group>";
 		};
 		22486D83257CCDD400EAE9B7 /* Events And Activities */ = {
@@ -670,6 +697,8 @@
 		22513959256D1DD70016DC44 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				229C1F4925839186005DF4DD /* Weather */,
+				22CE36A12582937700039CF4 /* Notification */,
 				22486D83257CCDD400EAE9B7 /* Events And Activities */,
 				228396A72563A21600AFC70A /* Feedback */,
 				22A34060256A81100082C6DD /* Menu Item */,
@@ -807,6 +836,9 @@
 			children = (
 				226C279F2566EC6D00CB2A0D /* NotificationViewController.swift */,
 				226068D2257F58AA0028EF68 /* Notification.swift */,
+				225EF4432582682600247820 /* EventNotf.swift */,
+				22CE36A62582B80700039CF4 /* ServiceNotf.swift */,
+				22CE36A82582BBBE00039CF4 /* ReservationNotf.swift */,
 			);
 			path = Notification;
 			sourceTree = "<group>";
@@ -1008,6 +1040,15 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		229C1F4925839186005DF4DD /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				229C1F4A258391C5005DF4DD /* WeatherCell.swift */,
+				229C1F4B258391C5005DF4DD /* WeatherCell.xib */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
 		22A34060256A81100082C6DD /* Menu Item */ = {
 			isa = PBXGroup;
 			children = (
@@ -1032,6 +1073,7 @@
 			children = (
 				2251395A256D204D0016DC44 /* Home Cell */,
 				223F26FF25580BF4003DE430 /* HomeViewController.swift */,
+				2240A60125834AE80010A7C4 /* Weather */,
 			);
 			path = "Main Page";
 			sourceTree = "<group>";
@@ -1110,6 +1152,15 @@
 				22CB193D25655B5F001B9950 /* SettingsViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		22CE36A12582937700039CF4 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				22CE36A22582939700039CF4 /* NotifyCell.swift */,
+				22CE36A32582939700039CF4 /* NotifyCell.xib */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 		22E29822255EEE4700F12C31 /* Edit */ = {
@@ -1209,6 +1260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2276FA102576664500D506FB /* SwitchTableViewCell2.xib in Resources */,
+				2240A5FE25834AA50010A7C4 /* Weather.storyboard in Resources */,
 				221BA984257D5300000E38F6 /* ActivityCell.xib in Resources */,
 				22496EA9257A34E300DF0643 /* RoomServiceDetailCell.xib in Resources */,
 				228E41B0255725E000F14F92 /* Main.storyboard in Resources */,
@@ -1236,12 +1288,14 @@
 				22B93006257B764A00E7B3D2 /* SpecialDinner.storyboard in Resources */,
 				222CD514256FEFAF004DA0DB /* Bar.storyboard in Resources */,
 				222D2DAB255968FA001FC284 /* SideMenu.storyboard in Resources */,
+				22CE36A52582939700039CF4 /* NotifyCell.xib in Resources */,
 				22AF4F6B255E6D590093BB2C /* Reservations.storyboard in Resources */,
 				22151FB0256AA30500464500 /* RestaurantViewCell.xib in Resources */,
 				223547B525743808009758D5 /* House_Keeping.storyboard in Resources */,
 				2213B7A32577AD760042648B /* OtherServices.storyboard in Resources */,
 				228396A62563A20B00AFC70A /* FeedbackViewCell.xib in Resources */,
 				2276FA052575171B00D506FB /* SwitchTableViewCell.xib in Resources */,
+				229C1F4D258391C5005DF4DD /* WeatherCell.xib in Resources */,
 				22679674256ADF2D00C890BA /* ReservationDetailCell_2.xib in Resources */,
 				226C27AC2566ECF900CB2A0D /* Chat.storyboard in Resources */,
 				22486D87257CCE0200EAE9B7 /* EventsAndActivitiesCell.xib in Resources */,
@@ -1303,6 +1357,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22CE36A42582939700039CF4 /* NotifyCell.swift in Sources */,
+				2240A60025834ACA0010A7C4 /* WeatherViewController.swift in Sources */,
 				222CD4FD256F991B004DA0DB /* AddReservationBarController.swift in Sources */,
 				22B93001257B722800E7B3D2 /* ConcertsMenuController.swift in Sources */,
 				228E41AD255725E000F14F92 /* ViewController.swift in Sources */,
@@ -1313,6 +1369,7 @@
 				2277EEBC255FB80500ACF926 /* String.swift in Sources */,
 				220C40E92563B8C600AAC5EC /* UIView.swift in Sources */,
 				22345235255DB19400C0486B /* InfoViewController.swift in Sources */,
+				22CE36A92582BBBE00039CF4 /* ReservationNotf.swift in Sources */,
 				224FC240256EBEB400D8648C /* RestaurantMenu.swift in Sources */,
 				228396A125639FF400AFC70A /* FeedbackViewController.swift in Sources */,
 				22AF4F71255E73BE0093BB2C /* ReservationCell.swift in Sources */,
@@ -1387,6 +1444,7 @@
 				22CB193E25655B5F001B9950 /* SettingsViewCell.swift in Sources */,
 				223F270025580BF4003DE430 /* HomeViewController.swift in Sources */,
 				22E2981D255EEDD500F12C31 /* EditReservationView.swift in Sources */,
+				22CE36A72582B80700039CF4 /* ServiceNotf.swift in Sources */,
 				2212C7FA2561891F00D2A410 /* addPersonViewController.swift in Sources */,
 				22EF46DE257253170099648A /* SpaDressCodeController.swift in Sources */,
 				22DBBDDA256EA647003F4C46 /* WKWebView.swift in Sources */,
@@ -1424,12 +1482,14 @@
 				223D63E2256D530B00A5FC30 /* R_EditReservations.swift in Sources */,
 				223547B725743C93009758D5 /* HouseKeepingView.swift in Sources */,
 				2277A73425645FD700A88431 /* CustomImageCell.swift in Sources */,
+				225EF4442582682600247820 /* EventNotf.swift in Sources */,
 				223547B92574D61E009758D5 /* HouseK_Information.swift in Sources */,
 				221FC70D257B9C7A00784B62 /* SDinnerDressCodeController.swift in Sources */,
 				224CEBB5255D3A780048B229 /* RightTableCell.swift in Sources */,
 				226068D3257F58AA0028EF68 /* Notification.swift in Sources */,
 				2267966F256ADF0800C890BA /* ReservationDetailCell_1.swift in Sources */,
 				2213B7A12577AC980042648B /* OtherSViewController.swift in Sources */,
+				229C1F4C258391C5005DF4DD /* WeatherCell.swift in Sources */,
 				221BA978257D442D000E38F6 /* SportReadMore.swift in Sources */,
 				22EEBE5D256685AB0049CB85 /* SelectSingleSoundController.swift in Sources */,
 				22A9FB9E2572C05F007F1339 /* R_EditReservations3.swift in Sources */,

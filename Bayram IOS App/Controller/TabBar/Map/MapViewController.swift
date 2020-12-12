@@ -12,7 +12,7 @@ class MapViewController: BaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // for side menu
         NotificationCenter.default.addObserver(
                                         self,
@@ -44,7 +44,7 @@ class MapViewController: BaseVC {
             }
         }
     }
-    
+
     @objc func sideMenuPressing(_ notification: NSNotification) {
         if let user_info = notification.userInfo as NSDictionary? {
             if let sideMenuID = user_info["sideMenuID"] as? Int {
@@ -68,6 +68,10 @@ class MapViewController: BaseVC {
                     case 4:
                         idf = "showFeedback"
                         storyboard = "Feedback"
+                    
+                    case 5:
+                        idf = "WeatherViewController"
+                        storyboard = "Weather"
                     
                     default:
                         idf = "showMainPage"

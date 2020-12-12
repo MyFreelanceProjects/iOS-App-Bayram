@@ -11,7 +11,7 @@
         <!--Name of the Hotel-->
         <scene sceneID="B0c-M7-tb4">
             <objects>
-                <viewController id="h17-u7-PDZ" customClass="HomeViewController" customModule="Bayram_IOS_App" sceneMemberID="viewController">
+                <viewController id="h17-u7-PDZ" customClass="HomeViewController" customModule="Bayram_IOS_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P56-uq-vmL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,7 +24,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wf2-Ls-TEh" customClass="HomeTableView" customModule="Bayram_IOS_App" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="168" width="414" height="694"/>
+                                <rect key="frame" x="20" y="168" width="374" height="694"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="h17-u7-PDZ" id="Os1-i0-IZq"/>
@@ -34,13 +34,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Wf2-Ls-TEh" firstAttribute="leading" secondItem="4JC-p1-clV" secondAttribute="leading" id="75j-kd-UrP"/>
+                            <constraint firstItem="Wf2-Ls-TEh" firstAttribute="leading" secondItem="4JC-p1-clV" secondAttribute="leading" constant="20" id="75j-kd-UrP"/>
                             <constraint firstItem="op4-Nt-wx6" firstAttribute="top" secondItem="4JC-p1-clV" secondAttribute="top" constant="20" id="Bup-5l-Mcq"/>
                             <constraint firstItem="op4-Nt-wx6" firstAttribute="trailing" secondItem="4JC-p1-clV" secondAttribute="trailing" id="Lcs-cV-T5S"/>
                             <constraint firstItem="op4-Nt-wx6" firstAttribute="leading" secondItem="4JC-p1-clV" secondAttribute="leading" id="NqH-kA-1jk"/>
                             <constraint firstItem="Wf2-Ls-TEh" firstAttribute="bottom" secondItem="4JC-p1-clV" secondAttribute="bottom" id="Re8-UR-jMz"/>
                             <constraint firstItem="Wf2-Ls-TEh" firstAttribute="top" secondItem="op4-Nt-wx6" secondAttribute="bottom" constant="10" id="gdL-9c-w0t"/>
-                            <constraint firstItem="Wf2-Ls-TEh" firstAttribute="trailing" secondItem="4JC-p1-clV" secondAttribute="trailing" id="mSX-LD-IKL"/>
+                            <constraint firstItem="Wf2-Ls-TEh" firstAttribute="trailing" secondItem="4JC-p1-clV" secondAttribute="trailing" constant="-20" id="mSX-LD-IKL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4JC-p1-clV"/>
                     </view>
@@ -51,7 +51,12 @@
                                 <segue destination="qdR-cx-jlH" kind="presentation" id="V4M-qs-SzG"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="Image-3" id="wuR-ZK-llr"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="sun.haze" catalog="system" id="wuR-ZK-llr">
+                            <color key="tintColor" name="DefCol"/>
+                            <connections>
+                                <action selector="weatherClicked:" destination="h17-u7-PDZ" id="oyJ-mm-thd"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="Wf2-Ls-TEh" id="JDi-KS-XF4"/>
@@ -69,7 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="27o-r0-2kP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="43" y="-1045"/>
+            <point key="canvasLocation" x="26" y="-1123"/>
         </scene>
         <!--Restaurant-->
         <scene sceneID="OFe-Ub-fpk">
@@ -79,7 +84,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0PW-bZ-AgE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="618" y="-1317"/>
+            <point key="canvasLocation" x="601" y="-1395"/>
         </scene>
         <!--Bar-->
         <scene sceneID="gKJ-oF-GFe">
@@ -89,7 +94,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ukZ-ac-gck" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="583" y="-1264"/>
+            <point key="canvasLocation" x="566" y="-1342"/>
         </scene>
         <!--Cabana-->
         <scene sceneID="RuP-fc-YUd">
@@ -99,7 +104,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vF2-0y-wSg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="603" y="-1209"/>
+            <point key="canvasLocation" x="587" y="-1287"/>
         </scene>
         <!--SideMenu-->
         <scene sceneID="f7g-Cw-Yo5">
@@ -107,7 +112,7 @@
                 <viewControllerPlaceholder storyboardName="SideMenu" id="qdR-cx-jlH" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P4X-X0-EWe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-323" y="-1303"/>
+            <point key="canvasLocation" x="-339" y="-1381"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WuP-2b-2CA">
@@ -125,7 +130,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7V-Gl-QyC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-742" y="-1044"/>
+            <point key="canvasLocation" x="-758" y="-1122"/>
         </scene>
         <!--My Tab Bar Controller-->
         <scene sceneID="5rH-Nu-d6z">
@@ -186,7 +191,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vY8-Ji-wZf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="586" y="-1155"/>
+            <point key="canvasLocation" x="569" y="-1233"/>
         </scene>
         <!--House_Keeping-->
         <scene sceneID="M4Q-wj-BKI">
@@ -196,7 +201,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D8c-5n-v16" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="637" y="-1104"/>
+            <point key="canvasLocation" x="621" y="-1182"/>
         </scene>
         <!--OtherServices-->
         <scene sceneID="0Ec-Pe-4Nb">
@@ -206,7 +211,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mr7-Gv-qZj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="633" y="-1054"/>
+            <point key="canvasLocation" x="617" y="-1132"/>
         </scene>
         <!--RoomService-->
         <scene sceneID="sZM-x8-Z8V">
@@ -216,7 +221,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sja-DY-qxq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="625" y="-996"/>
+            <point key="canvasLocation" x="609" y="-1074"/>
         </scene>
         <!--EventsAndActivities-->
         <scene sceneID="lsm-mq-z4l">
@@ -226,12 +231,12 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c12-C0-FyA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="655" y="-943"/>
+            <point key="canvasLocation" x="638" y="-1021"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Image-3" width="44" height="44"/>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="sun.haze" catalog="system" width="128" height="119"/>
         <namedColor name="DefCol">
             <color red="0.19599999487400055" green="0.74099999666213989" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

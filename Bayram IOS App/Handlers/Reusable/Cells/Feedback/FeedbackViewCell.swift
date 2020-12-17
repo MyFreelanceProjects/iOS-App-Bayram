@@ -32,6 +32,7 @@ class FeedbackViewCell: UITableViewCell {
         super.layoutSubviews()
         
         thisView.cornerRadius = 10
+        thisView.dropShadowView(color: .black, opacity: 0.5, offSet: CGSize(width: -3, height: 6), radius: 3, scale: true)
     }
     
 }

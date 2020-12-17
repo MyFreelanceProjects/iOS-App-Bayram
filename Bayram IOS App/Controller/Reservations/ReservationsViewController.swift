@@ -14,7 +14,7 @@ class ReservationsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.rowHeight = 300
-
+        
     }
     
     @objc func getAction (_ sender: UIButton) {

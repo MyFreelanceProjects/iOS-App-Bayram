@@ -34,7 +34,7 @@ class RestaurantViewCell: UITableViewCell {
         
         thisView.cornerRadius = 5
         thisImage.cornerRadius = 5
-        thisView.dropShadowView(color: .gray, opacity: 0.5, offSet: CGSize(width: -1, height: 1), radius: 1, scale: true)
+        thisView.dropShadowView(color: .gray, opacity: 0.5, offSet: CGSize(width: -1, height: 1), radius: 3, scale: true)
     }
     
     static func nib() -> UINib {

@@ -21,17 +21,16 @@ class FeedbackViewController: UIViewController {
 //MARK: - UITableView DataSource and Delegate methods
 extension FeedbackViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "feedbackCell", for: indexPath)
         
-        
         return cell
     }
- 
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "detailFeedback", sender: self)
     }

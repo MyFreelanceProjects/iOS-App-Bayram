@@ -22,6 +22,7 @@ class ReservationCell: UITableViewCell {
     @IBOutlet weak var people: UILabel!
     @IBOutlet weak var editButton: UIButton!
     @IBOutlet weak var cancelButton: UIButton!
+    @IBOutlet weak var cellView: UIView!
     
     var delegate: ReservationCellDelegate?
     
@@ -32,10 +33,13 @@ class ReservationCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        layoutMargins = UIEdgeInsets(top: 8, left: 0, bottom: 8, right: 0)
     }
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        cellView.dropShadowView(color: .black, opacity: 0.5, offSet: CGSize(width: -1, height: 1), radius: 3, scale: true)
+    }
     
     @IBAction func editPressed(_ label: UILabel) {
         delegate?.editReservation(with: self.label)

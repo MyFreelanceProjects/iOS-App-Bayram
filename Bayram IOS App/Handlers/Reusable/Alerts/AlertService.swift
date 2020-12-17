@@ -20,6 +20,17 @@ class AlertService: UIViewController {
         return alertVC
     }
     
+    func info (setUserName: String, setUserStatus: String, setButtonTitle: String, setTimeInterval: String) -> AssistantController {
+        let alertVC = self.getViewController(identifier: "AssistantController") as! AssistantController
+        
+        alertVC.userName = setUserName
+        alertVC.userStatus = setUserStatus
+        alertVC.timeInterval = setTimeInterval
+        alertVC.buttonTitle = setButtonTitle
+        
+        return alertVC
+    }
+    
     func confirmation (bodyText: String? = nil, buttonFirst: String, buttonSecond: String, buttonTextHidden: Bool = false , completetion: @escaping () -> Void) -> ConfirmationController {
         let alertVC = self.getViewController(identifier: "confirmationAlert") as! ConfirmationController
         

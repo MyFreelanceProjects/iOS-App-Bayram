@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          
         // configure IQKeyboardManager
         IQKeyboardManager.shared().isEnabled = true
+        IQKeyboardManager.shared().isEnableAutoToolbar = false
+        IQKeyboardManager.shared().shouldResignOnTouchOutside = true
         
         // change TabBar color
         UITabBar.appearance().tintColor = UIColor(named: "DefCol")

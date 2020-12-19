@@ -40,4 +40,9 @@ extension UIViewController {
         backItem.title = ""
         return backItem
     }
+    
+    func getFcmToken() -> String {
+        let fcm_token = UserDefaults.standard.string(forKey: "fcm_token")
+        return fcm_token!
+    }
 }

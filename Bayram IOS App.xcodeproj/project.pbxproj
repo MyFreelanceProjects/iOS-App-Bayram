@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2205E8B4257E8712001316EF /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2205E8B3257E8712001316EF /* MyTabBarController.swift */; };
+		220B9DF7258E8605000E5A13 /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 220B9DF6258E8605000E5A13 /* BebasNeue-Regular.ttf */; };
+		220B9DF9258E861D000E5A13 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 220B9DF8258E861D000E5A13 /* Roboto-Regular.ttf */; };
 		220BC99A256AD9160094040D /* ReservationDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220BC999256AD9160094040D /* ReservationDetailController.swift */; };
 		220C40E92563B8C600AAC5EC /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C40E82563B8C600AAC5EC /* UIView.swift */; };
 		220C40EB2563C22100AAC5EC /* DetailFeedbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C40EA2563C22100AAC5EC /* DetailFeedbackController.swift */; };
@@ -160,6 +162,7 @@
 		228396A125639FF400AFC70A /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228396A025639FF400AFC70A /* FeedbackViewController.swift */; };
 		228396A52563A20B00AFC70A /* FeedbackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228396A32563A20B00AFC70A /* FeedbackViewCell.swift */; };
 		228396A62563A20B00AFC70A /* FeedbackViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228396A42563A20B00AFC70A /* FeedbackViewCell.xib */; };
+		22875B96258E82BB00B8B7E2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 228E41B6255725E300F14F92 /* Info.plist */; };
 		228E41A9255725E000F14F92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E41A8255725E000F14F92 /* AppDelegate.swift */; };
 		228E41AB255725E000F14F92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E41AA255725E000F14F92 /* SceneDelegate.swift */; };
 		228E41AD255725E000F14F92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E41AC255725E000F14F92 /* ViewController.swift */; };
@@ -206,6 +209,8 @@
 
 /* Begin PBXFileReference section */
 		2205E8B3257E8712001316EF /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		220B9DF6258E8605000E5A13 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
+		220B9DF8258E861D000E5A13 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		220BC999256AD9160094040D /* ReservationDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailController.swift; sourceTree = "<group>"; };
 		220C40E82563B8C600AAC5EC /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		220C40EA2563C22100AAC5EC /* DetailFeedbackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFeedbackController.swift; sourceTree = "<group>"; };
@@ -1099,6 +1104,8 @@
 		228FBF21258E66590058BFFB /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				220B9DF6258E8605000E5A13 /* BebasNeue-Regular.ttf */,
+				220B9DF8258E861D000E5A13 /* Roboto-Regular.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -1348,7 +1355,9 @@
 				22339488256A519200F821C0 /* Restaurant.storyboard in Resources */,
 				22CB193525655806001B9950 /* Settings.storyboard in Resources */,
 				2212C7FC2562DE9A00D2A410 /* Feedback.storyboard in Resources */,
+				220B9DF9258E861D000E5A13 /* Roboto-Regular.ttf in Resources */,
 				2277A73525645FD700A88431 /* CustomImageCell.xib in Resources */,
+				22875B96258E82BB00B8B7E2 /* Info.plist in Resources */,
 				224CEBB2255D3A460048B229 /* LeftTableCell.xib in Resources */,
 				22E29821255EEE3700F12C31 /* EditReservationCell.xib in Resources */,
 				223D63DF256D516A00A5FC30 /* Reusable.storyboard in Resources */,
@@ -1378,6 +1387,7 @@
 				2276FA052575171B00D506FB /* SwitchTableViewCell.xib in Resources */,
 				229C1F4D258391C5005DF4DD /* WeatherCell.xib in Resources */,
 				22679674256ADF2D00C890BA /* ReservationDetailCell_2.xib in Resources */,
+				220B9DF7258E8605000E5A13 /* BebasNeue-Regular.ttf in Resources */,
 				226C27AC2566ECF900CB2A0D /* Chat.storyboard in Resources */,
 				22486D87257CCE0200EAE9B7 /* EventsAndActivitiesCell.xib in Resources */,
 				223CC37C257B8F6D00A32DD4 /* Concerts.storyboard in Resources */,

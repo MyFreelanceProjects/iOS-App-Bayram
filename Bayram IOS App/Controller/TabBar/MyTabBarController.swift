@@ -14,7 +14,6 @@ class MyTabBarController: UITabBarController, UITabBarControllerDelegate {
         super.viewDidLoad()
 
         self.tabBar.itemPositioning =  UITabBar.ItemPositioning.fill
-
     }
     
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {

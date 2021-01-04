@@ -18,7 +18,6 @@ struct LoginNetworkManager {
         }
         
         AF.upload(multipartFormData: { multipartFormData in
-
             multipartFormData.append(Data(parameters["user_id"]!.utf8), withName: "user_id")
             multipartFormData.append(Data(parameters["password"]!.utf8), withName: "password")
             multipartFormData.append(Data(parameters["fcm_token"]!.utf8), withName: "fcm_token")

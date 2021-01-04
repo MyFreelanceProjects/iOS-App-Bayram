@@ -32,7 +32,7 @@ class ServiceView4: UIViewController {
     }
     
     func configureViews() {
-        textView.dropShadowView(color: UIColor(named: "border")!, opacity: 0.7, offSet: CGSize(width: -1, height: 1), radius: 3, scale: true)
+        textView.customShadow()
     }
     
     @IBAction func readMorePressed(_ sender: UIButton) {

@@ -35,5 +35,9 @@ extension CALayer {
 
         self.addSublayer(border)
     }
+    
+    func setCustomFontFamily(name: String, size: CGFloat) -> UIFont {
+        return UIFont(name: name, size: size)!
+    }
 
 }

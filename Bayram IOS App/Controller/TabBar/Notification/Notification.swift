@@ -35,7 +35,7 @@ class Notification: BaseVC {
             v.cornerRadius = v.frame.size.width/2
         }
         
-        thisView.dropShadowView(color: .black, opacity: 0.5, offSet: CGSize(width: 1, height: -1), radius: 3, scale: true)
+        thisView.customShadow()
         
         firstLine.isHidden = false
         secondLine.isHidden = true

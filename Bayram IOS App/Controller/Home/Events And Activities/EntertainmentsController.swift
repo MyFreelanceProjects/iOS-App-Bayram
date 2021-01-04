@@ -18,7 +18,6 @@ class EntertainmentsController: UIViewController {
         
         tableView.rowHeight = 65
         tableView.register(MenuViewCell.nib(), forCellReuseIdentifier: "cell")
-        
     }
 }
 

@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SideMenu
 
 class HomeViewController: UIViewController {
     
@@ -19,7 +18,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        
+        self.navigationController!.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: self.customTitleFont]
         tableView.register(UINib(nibName: Constants.ServicesMenuCell.nibName, bundle: nil), forCellReuseIdentifier: Constants.ServicesMenuCell.identifier)        
     }
     
@@ -58,7 +57,9 @@ extension HomeViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: Constants.ServicesMenuCell.identifier, for: indexPath) as! HomeTableViewCell
         
         cell.icon.image = UIImage(named: services[indexPath.row].icon)
+        
         cell.serviceName.text = services[indexPath.row].name
+        cell.serviceName.font = self.customTextFonts(fontSize: 18)
         return cell
     }
 }

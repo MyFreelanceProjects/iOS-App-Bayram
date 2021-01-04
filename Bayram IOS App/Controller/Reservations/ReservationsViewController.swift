@@ -14,7 +14,6 @@ class ReservationsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.rowHeight = 300
-        
     }
     
     @objc func getAction (_ sender: UIButton) {
@@ -41,7 +40,6 @@ extension ReservationsViewController: UITableViewDelegate, UITableViewDataSource
 }
 
 //MARK: - Cell Delegate
-
 extension ReservationsViewController: ReservationCellDelegate {
     func editReservation(with label: UILabel) {
         print("edit pressed")

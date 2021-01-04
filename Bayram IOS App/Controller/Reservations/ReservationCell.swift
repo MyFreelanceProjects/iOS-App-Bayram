@@ -38,7 +38,7 @@ class ReservationCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        cellView.dropShadowView(color: .black, opacity: 0.5, offSet: CGSize(width: -1, height: 1), radius: 3, scale: true)
+        cellView.customShadow()
     }
     
     @IBAction func editPressed(_ label: UILabel) {

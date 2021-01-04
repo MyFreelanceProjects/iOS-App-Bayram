@@ -30,10 +30,10 @@ class RoomServiceView: UIViewController {
     func configureUI() {
         firstCollectionView.register(ReservationDetailCell_1.nib(), forCellWithReuseIdentifier: "cell")
         
-        textView.dropShadowView(color: .black, offSet: CGSize(width: -1, height: 1))
-        timeView.dropShadowView(color: .black, offSet: CGSize(width: -1, height: 1))
-        orderButtonView.dropShadowView(color: .black, offSet: CGSize(width: -1, height: 1))
-        cleanButtonView.dropShadowView(color: .black, offSet: CGSize(width: -1, height: 1))
+        textView.customShadow()
+        timeView.customShadow()
+        orderButtonView.customShadow()
+        cleanButtonView.customShadow()
         orderButtonView.cornerRadius = 5
         cleanButtonView.cornerRadius = 5
     }

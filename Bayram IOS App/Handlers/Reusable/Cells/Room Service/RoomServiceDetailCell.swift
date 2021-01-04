@@ -30,9 +30,9 @@ class RoomServiceDetailCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        thisView.dropShadowView(color: UIColor(named: "border")!, opacity: 0.8, offSet: CGSize(width: -1, height: 1), radius: 5, scale: true)
-        priceView.dropShadowView(color: UIColor(named: "border")!, opacity: 0.8, offSet: CGSize(width: -1, height: 1), radius: 5, scale: true)
-        count.dropShadowView(color: UIColor(named: "border")!, opacity: 0.8, offSet: CGSize(width: -1, height: 1), radius: 5, scale: true)
+        thisView.customShadow()
+        priceView.customShadow()
+        count.customShadow()
     }
     
     static func nib() -> UINib {

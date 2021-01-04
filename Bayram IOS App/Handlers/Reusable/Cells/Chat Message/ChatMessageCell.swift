@@ -31,7 +31,7 @@ class ChatMessageCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        messageBubble.dropShadowView(color: .black, opacity: 0.5, offSet: CGSize(width: 0, height: 4), radius: 3, scale: true)
+        messageBubble.customShadow()
     }
     
     static func nib() -> UINib {

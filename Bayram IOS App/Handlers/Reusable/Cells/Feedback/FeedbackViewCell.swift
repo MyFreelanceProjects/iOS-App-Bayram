@@ -11,6 +11,8 @@ import Cosmos
 
 
 class FeedbackViewCell: UITableViewCell {
+    @IBOutlet weak var firstStarLabel: UILabel!
+    @IBOutlet weak var secondStarLabel: UILabel!
     @IBOutlet weak var feedbackTitle: UILabel!
     @IBOutlet weak var feedbackDate: UILabel!
     @IBOutlet weak var firstStar: CosmosView!
@@ -31,8 +33,11 @@ class FeedbackViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
+        firstStarLabel.layer.addBorder(edge: .right, color: .black, thickness: 0.5)
+        secondStarLabel.layer.addBorder(edge: .right, color: .black, thickness: 0.5)
+        
         thisView.cornerRadius = 10
-        thisView.dropShadowView(color: .black, opacity: 0.5, offSet: CGSize(width: -3, height: 6), radius: 3, scale: true)
+        thisView.customShadow()
     }
     
 }

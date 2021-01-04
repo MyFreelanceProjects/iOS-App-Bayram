@@ -45,4 +45,12 @@ extension UIViewController {
         let fcm_token = UserDefaults.standard.string(forKey: "fcm_token")
         return fcm_token!
     }
+    
+    func customTextFonts(fontSize: Float) -> UIFont {
+        return UIFont(name: "Roboto", size: CGFloat(fontSize))!
+    }
+    
+    var customTitleFont: UIFont {
+        return UIFont(name: "BebasNeue-Regular", size: 24)!
+    }
 }

@@ -36,8 +36,8 @@ class ConcertDetailController: UIViewController {
     }
     
     func configureUI() {
-        menuView.dropShadowView(color: .black, opacity: 0.5, offSet: CGSize(width: -1, height: 1), radius: 3, scale: true)
-        timeView.dropShadowView(color: .black, opacity: 0.5, offSet: CGSize(width: -1, height: 1), radius: 3, scale: true)
+        menuView.customShadow()
+        timeView.customShadow()
     }
     
     // - get menu

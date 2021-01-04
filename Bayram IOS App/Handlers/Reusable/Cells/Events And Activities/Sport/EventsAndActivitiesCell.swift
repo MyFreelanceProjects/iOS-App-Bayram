@@ -25,7 +25,7 @@ class EventsAndActivitiesCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        thisView.dropShadowView(color: .black, opacity: 0.5, offSet: CGSize(width: -1, height: 1), radius: 3, scale: true)
+        thisView.customShadow()
     }
     
     static func nib() -> UINib {

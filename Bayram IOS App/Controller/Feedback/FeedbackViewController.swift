@@ -10,11 +10,18 @@ import UIKit
 
 class FeedbackViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var bottomFeedbackButton: UIView!
+    @IBOutlet weak var BFeedbackLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        configureUI()
+    }
+    
+    func configureUI() {
         tableView.register(UINib(nibName: "FeedbackViewCell", bundle: .main), forCellReuseIdentifier: "feedbackCell")
+        bottomFeedbackButton.customShadow()
     }
 }
 

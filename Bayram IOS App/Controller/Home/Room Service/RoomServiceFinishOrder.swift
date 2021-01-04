@@ -24,8 +24,8 @@ class RoomServiceFinishOrder: UIViewController {
     }
     
     func configureUI() {
-        topView.dropShadowView(color: .black, opacity: 0.5, offSet: CGSize(width: -1, height: 1), radius: 3, scale: true)
-        orderView.dropShadowView(color: .black, opacity: 0.5, offSet: CGSize(width: -1, height: 1), radius: 3, scale: true)
+        topView.customShadow()
+        orderView.customShadow()
     }
 }
 

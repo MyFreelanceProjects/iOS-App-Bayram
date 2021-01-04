@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nR2-Fa-GCH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nR2-Fa-GCH">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -48,7 +50,7 @@
                                                             <constraint firstItem="2AS-Xz-cXc" firstAttribute="top" secondItem="6fV-3Z-jo1" secondAttribute="top" id="yHF-kI-oW1"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gi3-W8-G34">
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gi3-W8-G34">
                                                         <rect key="frame" x="0.0" y="0.0" width="250" height="60"/>
                                                         <connections>
                                                             <action selector="sideMenuPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="aKp-gp-peR"/>
@@ -98,7 +100,7 @@
                                                             <constraint firstItem="Ace-bs-ILr" firstAttribute="top" secondItem="UyF-cC-HnO" secondAttribute="top" id="evE-Bl-Hh4"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdS-jk-bkU">
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdS-jk-bkU">
                                                         <rect key="frame" x="0.0" y="0.0" width="250" height="60"/>
                                                         <connections>
                                                             <action selector="sideMenuPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="3EZ-cb-3pu"/>
@@ -148,7 +150,7 @@
                                                             <constraint firstAttribute="bottom" secondItem="Cx0-56-Zx4" secondAttribute="bottom" id="LA9-Ac-Dvu"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AvZ-0a-egM">
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AvZ-0a-egM">
                                                         <rect key="frame" x="0.0" y="0.0" width="250" height="60"/>
                                                         <connections>
                                                             <action selector="sideMenuPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="Auw-o4-4yd"/>
@@ -198,7 +200,7 @@
                                                             <constraint firstAttribute="bottom" secondItem="nKc-IK-Rez" secondAttribute="bottom" id="wIP-hS-sAZ"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIm-ji-w3Q">
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIm-ji-w3Q">
                                                         <rect key="frame" x="0.0" y="0.0" width="250" height="60"/>
                                                         <connections>
                                                             <action selector="sideMenuPressed:" destination="wfc-aR-7rC" eventType="touchUpInside" id="4T5-BT-nTV"/>
@@ -226,7 +228,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="qwL-Vj-Ibr" secondAttribute="trailing" constant="10" id="B1G-Z7-muI"/>
                                     <constraint firstItem="qwL-Vj-Ibr" firstAttribute="top" secondItem="IqT-La-JZm" secondAttribute="top" constant="10" id="H90-Bl-mLg"/>
@@ -262,14 +264,14 @@
                                             <constraint firstAttribute="bottom" secondItem="rXT-vT-VBh" secondAttribute="bottom" id="kh3-Gh-EwI"/>
                                         </constraints>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jd1-vZ-bAk">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jd1-vZ-bAk">
                                         <rect key="frame" x="0.0" y="0.0" width="203" height="70"/>
                                         <connections>
                                             <segue destination="lad-30-416" kind="show" id="JpH-A1-TJx"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="rAf-JA-2h0" secondAttribute="bottom" id="JNV-Ng-3sw"/>
                                     <constraint firstItem="jd1-vZ-bAk" firstAttribute="leading" secondItem="DUl-Wv-1Fe" secondAttribute="leading" id="LJm-Zm-AUM"/>
@@ -284,6 +286,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="09g-Vi-40x"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="IqT-La-JZm" firstAttribute="top" secondItem="09g-Vi-40x" secondAttribute="top" id="Adx-zj-oAV"/>
@@ -291,7 +294,6 @@
                             <constraint firstItem="09g-Vi-40x" firstAttribute="bottom" secondItem="DUl-Wv-1Fe" secondAttribute="bottom" constant="10" id="Z2y-4C-WKY"/>
                             <constraint firstItem="IqT-La-JZm" firstAttribute="leading" secondItem="09g-Vi-40x" secondAttribute="leading" id="r7J-Yy-bNY"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="09g-Vi-40x"/>
                     </view>
                     <navigationItem key="navigationItem" title="Name of the Hotel" id="EFT-Mn-f2k"/>
                     <userDefinedRuntimeAttributes>
@@ -328,6 +330,10 @@
                         <userDefinedRuntimeAttribute type="number" keyPath="menuWidth">
                             <real key="value" value="280"/>
                         </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="statusBarEndAlpha">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="presentationStyle" value=".viewSlideOut"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="wfc-aR-7rC" kind="relationship" relationship="rootViewController" id="mpe-gS-7KZ"/>
@@ -347,5 +353,8 @@
         <namedColor name="DefCol">
             <color red="0.19599999487400055" green="0.74099999666213989" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         
         configureUI()
         
-//        this is test 2
+//        this from github
     }
     
     func configureUI() {

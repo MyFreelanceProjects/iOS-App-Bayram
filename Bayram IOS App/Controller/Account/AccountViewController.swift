@@ -22,6 +22,7 @@ class AccountViewController: UIViewController {
         
         rightTableView.register(UINib(nibName: "RightTableCell", bundle: .main), forCellReuseIdentifier: "check_out")
 
+        //last test for github (changed from github)
     }
     
     //MARK: - Buttons Pressed

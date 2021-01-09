@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         
         configureUI()
         
+//        nn l
 //        nnew git
     }
     

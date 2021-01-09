@@ -8,55 +8,19 @@
 
 import UIKit
 
-class DetailFeedbackController: UIViewController {
-    @IBOutlet weak var collectionView: UICollectionView!
-    
-    var ImageArray = [
-        UIImage(named: "hotel-1"),
-        UIImage(named: "hotel-2"),
-    ]
+class DetailFeedbackController: BaseVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionView.register(UINib(nibName: "CustomImageCell", bundle: nil), forCellWithReuseIdentifier: "cell")
+        addReusableView()
     }
     
-}
-
-//MARK: - CollectionView Data Source
-extension DetailFeedbackController: UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return ImageArray.count
-    }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CustomImageCell
-        
-        cell.image.image = ImageArray[indexPath.row]
-        
-        return cell
+    func addReusableView() {
+        let vc = self.getController(id: "R_DetailFeedback", storyboard: "Reusable") as! R_DetailFeedback
+        vc.modalPresentationStyle = .fullScreen
+        vc.modalTransitionStyle = .crossDissolve
+        self.add(vc, frame: self.view.frame)
     }
-    
-}
-
-//MARK: - UICollectionViewDelegate
-extension DetailFeedbackController: UICollectionViewDelegate {
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(indexPath.row)
-    }
-}
-
-//MARK: - UICollectionViewDelegateFlowLayout
-extension DetailFeedbackController: UICollectionViewDelegateFlowLayout {
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let collectionSize = collectionView.frame.size
-        
-        return CGSize(width: collectionSize.width - 3, height: collectionSize.height)
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-    }
-    
 }

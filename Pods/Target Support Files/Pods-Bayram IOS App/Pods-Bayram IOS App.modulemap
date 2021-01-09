@@ -1,0 +1,6 @@
+framework module Pods_Bayram_IOS_App {
+  umbrella header "Pods-Bayram IOS App-umbrella.h"
+
+  export *
+  module * { export * }
+}

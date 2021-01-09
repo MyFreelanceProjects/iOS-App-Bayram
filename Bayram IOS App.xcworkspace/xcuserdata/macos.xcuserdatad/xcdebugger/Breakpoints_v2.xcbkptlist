@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "044D1C21-869B-421E-A402-B0E631C2226B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B54E2DF6-BAA3-420A-B269-2602A8E17DF5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Controller/Reservations/Edit/EditReservationView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "EditReservationView"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6044D1DE-1F0C-4C12-AC0C-CDE50CFA6766"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Extensions/DateFormatter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6713F0D-97B3-4E75-82E3-E14B10C0B791"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Controller/Feedback/Details/CustomCollectionCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49EA6003-EEA1-4408-A957-D356AA4E0AC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Controller/Home/Restaurant/FeedbackRestaurant.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE0994D0-88A7-44CF-91D7-4E2666890335"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Controller/Home/Spa/SpaReservationDetailController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "343960B5-9C11-47DB-B072-DECFC56F26B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Controller/Home/Room Service/RoomServiceOrderMenu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99298BF3-631B-4D5B-8B42-17AFDEBD9E86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Controller/Home/Room Service/RoomServiceOrderMenu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79E5558D-27CA-4652-9F26-85A3BDD488F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Controller/Home/Events And Activities/Special Dinner/SDinnerDressCodeController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "SDinnerDressCodeController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "79E5558D-27CA-4652-9F26-85A3BDD488F4 - 63bbb3e8c19b01b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bayram_IOS_App.SDinnerDressCodeController.DressCodeView.getter : Swift.Optional&lt;__C.WKWebView&gt;"
+                  moduleName = "Bayram IOS App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Controller/Home/Events%20And%20Activities/Special%20Dinner/SDinnerDressCodeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "79E5558D-27CA-4652-9F26-85A3BDD488F4 - d15ae7fdb6dd5db4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bayram_IOS_App.SDinnerDressCodeController.DressCodeView.setter : Swift.Optional&lt;__C.WKWebView&gt;"
+                  moduleName = "Bayram IOS App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Controller/Home/Events%20And%20Activities/Special%20Dinner/SDinnerDressCodeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "79E5558D-27CA-4652-9F26-85A3BDD488F4 - 17d7e1e9de2e6316"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bayram_IOS_App.SDinnerDressCodeController.DressCodeView.modify : Swift.Optional&lt;__C.WKWebView&gt;"
+                  moduleName = "Bayram IOS App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Controller/Home/Events%20And%20Activities/Special%20Dinner/SDinnerDressCodeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "79E5558D-27CA-4652-9F26-85A3BDD488F4 - bf060ee2f6895e02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bayram_IOS_App.SDinnerDressCodeController.DressCodeView.modify : Swift.Optional&lt;__C.WKWebView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Bayram IOS App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Controller/Home/Events%20And%20Activities/Special%20Dinner/SDinnerDressCodeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "79E5558D-27CA-4652-9F26-85A3BDD488F4 - b28e1f4d793a58ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bayram_IOS_App.SDinnerDressCodeController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Bayram_IOS_App.SDinnerDressCodeController"
+                  moduleName = "Bayram IOS App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Controller/Home/Events%20And%20Activities/Special%20Dinner/SDinnerDressCodeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "79E5558D-27CA-4652-9F26-85A3BDD488F4 - 5f15559940b4ae50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bayram_IOS_App.SDinnerDressCodeController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Bayram_IOS_App.SDinnerDressCodeController&gt;"
+                  moduleName = "Bayram IOS App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Controller/Home/Events%20And%20Activities/Special%20Dinner/SDinnerDressCodeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77F5EC6F-6A06-42FD-9BA3-7EA3BDD9F8B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Controller/Home/Main Page/Weather/WeatherViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "WeatherViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0025BA55-9ACE-44F7-B875-BB420897F856"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Controller/SideMenu/SideMenuController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

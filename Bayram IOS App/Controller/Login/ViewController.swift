@@ -24,8 +24,7 @@ class ViewController: UIViewController {
         
         configureUI()
         
-//        nn l
-//        nnew git
+//        last test from local
     }
     
     func configureUI() {

@@ -21,8 +21,6 @@ class AccountViewController: UIViewController {
         leftTableView.register(UINib(nibName: "LeftTableCell", bundle: .main), forCellReuseIdentifier: "check_in")
         
         rightTableView.register(UINib(nibName: "RightTableCell", bundle: .main), forCellReuseIdentifier: "check_out")
-
-        //last test for github2 (changed from github)
     }
     
     //MARK: - Buttons Pressed

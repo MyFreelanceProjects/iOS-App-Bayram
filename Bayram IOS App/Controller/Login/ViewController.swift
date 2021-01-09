@@ -23,8 +23,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         configureUI()
-        
-//        last test from local 2
     }
     
     func configureUI() {

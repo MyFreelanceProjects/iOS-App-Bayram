@@ -1043,13 +1043,13 @@
 		228E41A7255725E000F14F92 /* Bayram IOS App */ = {
 			isa = PBXGroup;
 			children = (
-				228E41BE2557262A00F14F92 /* Resources */,
+				22DF38A425AA4B7D00DDA52D /* App Delegate */,
 				2277EEBD255FB81400ACF926 /* Extensions */,
 				22EBCEA1255833B4001DBCB6 /* Handlers */,
 				2240F164258B920200A87570 /* Model */,
 				228E41BC2557260C00F14F92 /* Scenes */,
 				228E41BD2557261B00F14F92 /* Controller */,
-				223EAD682557D4F2002FE9C1 /* Assets */,
+				228E41BE2557262A00F14F92 /* Resources */,
 			);
 			path = "Bayram IOS App";
 			sourceTree = "<group>";
@@ -1085,10 +1085,9 @@
 		228E41BE2557262A00F14F92 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				223EAD682557D4F2002FE9C1 /* Assets */,
 				228FBF21258E66590058BFFB /* fonts */,
 				228E41B6255725E300F14F92 /* Info.plist */,
-				228E41A8255725E000F14F92 /* AppDelegate.swift */,
-				228E41AA255725E000F14F92 /* SceneDelegate.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -1132,7 +1131,6 @@
 			isa = PBXGroup;
 			children = (
 				223D63DD256D514D00A5FC30 /* Scene and Controllers */,
-				22345236255DB19900C0486B /* Alerts */,
 				22513959256D1DD70016DC44 /* Cells */,
 			);
 			path = Reusable;
@@ -1232,6 +1230,15 @@
 			path = Notification;
 			sourceTree = "<group>";
 		};
+		22DF38A425AA4B7D00DDA52D /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				228E41A8255725E000F14F92 /* AppDelegate.swift */,
+				228E41AA255725E000F14F92 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
 		22E29822255EEE4700F12C31 /* Edit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1251,6 +1258,7 @@
 		22EBCEA1255833B4001DBCB6 /* Handlers */ = {
 			isa = PBXGroup;
 			children = (
+				22345236255DB19900C0486B /* Alerts */,
 				22A34061256A81200082C6DD /* Reusable */,
 				22EBCE9F255833AC001DBCB6 /* Constants.swift */,
 				223D63E9256D72CC00A5FC30 /* Protocols.swift */,

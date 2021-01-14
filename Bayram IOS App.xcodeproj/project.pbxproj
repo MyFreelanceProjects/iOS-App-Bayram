@@ -156,6 +156,7 @@
 		2277A73425645FD700A88431 /* CustomImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2277A73225645FD700A88431 /* CustomImageCell.swift */; };
 		2277A73525645FD700A88431 /* CustomImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2277A73325645FD700A88431 /* CustomImageCell.xib */; };
 		2277EEBC255FB80500ACF926 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2277EEBB255FB80500ACF926 /* String.swift */; };
+		227C42F325B05C33004587D5 /* RuntimeLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C42F225B05C33004587D5 /* RuntimeLocalizable.swift */; };
 		227E10AF25659A24003CE264 /* ChooseLanguageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E10AE25659A24003CE264 /* ChooseLanguageController.swift */; };
 		228346C9255BE0AD00075D43 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228346C8255BE0AD00075D43 /* AccountViewController.swift */; };
 		228346CC255BEA4400075D43 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228346CB255BEA4400075D43 /* Account.storyboard */; };
@@ -354,6 +355,7 @@
 		2277A73225645FD700A88431 /* CustomImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageCell.swift; sourceTree = "<group>"; };
 		2277A73325645FD700A88431 /* CustomImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomImageCell.xib; sourceTree = "<group>"; };
 		2277EEBB255FB80500ACF926 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		227C42F225B05C33004587D5 /* RuntimeLocalizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeLocalizable.swift; sourceTree = "<group>"; };
 		227E10AE25659A24003CE264 /* ChooseLanguageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLanguageController.swift; sourceTree = "<group>"; };
 		228346C8255BE0AD00075D43 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		228346CB255BEA4400075D43 /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
@@ -1262,6 +1264,7 @@
 				22A34061256A81200082C6DD /* Reusable */,
 				22EBCE9F255833AC001DBCB6 /* Constants.swift */,
 				223D63E9256D72CC00A5FC30 /* Protocols.swift */,
+				227C42F225B05C33004587D5 /* RuntimeLocalizable.swift */,
 			);
 			path = Handlers;
 			sourceTree = "<group>";
@@ -1540,6 +1543,7 @@
 				2276FA072575826E00D506FB /* HouseK_Cleaning.swift in Sources */,
 				22496EA5257A16A500DF0643 /* RoomServiceFinishOrder.swift in Sources */,
 				22664DA2257923C6003E705B /* RoomServiceOrder.swift in Sources */,
+				227C42F325B05C33004587D5 /* RuntimeLocalizable.swift in Sources */,
 				22EF46E22572533C0099648A /* AddReservationSpaController.swift in Sources */,
 				22CB193E25655B5F001B9950 /* SettingsViewCell.swift in Sources */,
 				223F270025580BF4003DE430 /* HomeViewController.swift in Sources */,

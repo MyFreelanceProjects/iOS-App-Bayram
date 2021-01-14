@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YnK-og-BYR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YnK-og-BYR">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -120,7 +122,7 @@ page..</string>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="RBD-PO-CN2">
                                                                     <rect key="frame" x="20" y="211.66666666666666" width="324" height="40"/>
                                                                     <subviews>
-                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMF-8p-uB4">
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMF-8p-uB4">
                                                                             <rect key="frame" x="0.0" y="0.0" width="151" height="40"/>
                                                                             <color key="backgroundColor" name="DefCol"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -137,7 +139,7 @@ page..</string>
                                                                                 <segue destination="JDu-WL-BYX" kind="show" id="I1Z-lU-8TJ"/>
                                                                             </connections>
                                                                         </button>
-                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ma-bK-zeQ">
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ma-bK-zeQ">
                                                                             <rect key="frame" x="173" y="0.0" width="151" height="40"/>
                                                                             <color key="backgroundColor" name="DefCol"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -159,7 +161,7 @@ page..</string>
                                                                     </constraints>
                                                                 </stackView>
                                                             </subviews>
-                                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="trailing" secondItem="RBD-PO-CN2" secondAttribute="trailing" constant="20" id="5Gl-Yd-T48"/>
                                                                 <constraint firstItem="rvu-0x-x7o" firstAttribute="top" secondItem="gK4-Fa-5WB" secondAttribute="top" constant="20" id="8Jk-a9-GSq"/>
@@ -215,6 +217,7 @@ page..</string>
                                 </connections>
                             </tableView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="n0B-UC-kLQ"/>
                         <color key="backgroundColor" name="ViewColor"/>
                         <constraints>
                             <constraint firstItem="TRd-pe-O4S" firstAttribute="leading" secondItem="n0B-UC-kLQ" secondAttribute="leading" constant="15" id="Eea-tj-WUL"/>
@@ -222,11 +225,10 @@ page..</string>
                             <constraint firstItem="TRd-pe-O4S" firstAttribute="trailing" secondItem="n0B-UC-kLQ" secondAttribute="trailing" constant="-15" id="Vcc-gZ-grW"/>
                             <constraint firstAttribute="bottom" secondItem="TRd-pe-O4S" secondAttribute="bottom" id="XBQ-5l-nAK"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="n0B-UC-kLQ"/>
                     </view>
                     <navigationItem key="navigationItem" title="My Reservation" id="gDv-GN-8OA">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="line.horizontal.3" catalog="system" style="done" id="F2f-E0-pLw">
-                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="tintColor" systemColor="darkTextColor"/>
                             <connections>
                                 <segue destination="4es-11-xbF" kind="presentation" id="tXb-Az-iep"/>
                             </connections>
@@ -247,8 +249,8 @@ page..</string>
                     <view key="view" contentMode="scaleToFill" id="UEa-r1-ET4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" name="ViewColor"/>
                         <viewLayoutGuide key="safeArea" id="EDC-Fn-YsG"/>
+                        <color key="backgroundColor" name="ViewColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="T7b-f8-QFV"/>
                 </viewController>
@@ -298,5 +300,11 @@ page..</string>
         <namedColor name="reservation_text">
             <color red="0.20800000429153442" green="0.20800000429153442" blue="0.20800000429153442" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

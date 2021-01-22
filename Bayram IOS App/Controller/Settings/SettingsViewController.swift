@@ -47,6 +47,7 @@ class SettingsViewController: UIViewController {
 
 }
 
+// This is test by Ulvi.
 
 //MARK: - UITableViewDataSource and Delegate Methods
 let alertService = AlertService()

@@ -27,7 +27,7 @@ class HomeViewController: UIViewController {
                                         object: nil,
                                         userInfo: ["sideMenuID": 5])
     }
-    
+    // new line codes from local
 }
 
 // MARK: - Configure cell options

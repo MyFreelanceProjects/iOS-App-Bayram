@@ -729,7 +729,7 @@
 			path = "RoomS Cell";
 			sourceTree = "<group>";
 		};
-		224CEBB7255D3A960048B229 /* Cell */ = {
+		224CEBB7255D3A960048B229 /* AccountGuest */ = {
 			isa = PBXGroup;
 			children = (
 				224CEBAF255D3A460048B229 /* LeftTableCell.swift */,
@@ -737,12 +737,13 @@
 				224CEBB3255D3A780048B229 /* RightTableCell.swift */,
 				224CEBB4255D3A780048B229 /* RightTableCell.xib */,
 			);
-			path = Cell;
+			path = AccountGuest;
 			sourceTree = "<group>";
 		};
-		22513959256D1DD70016DC44 /* Cells */ = {
+		22513959256D1DD70016DC44 /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
+				224CEBB7255D3A960048B229 /* AccountGuest */,
 				2251395A256D204D0016DC44 /* Home Cell */,
 				22213ED72587CD23008AC90C /* Assistant Guest */,
 				226F962A2585329300C48346 /* Chat Message */,
@@ -756,7 +757,7 @@
 				22A34060256A81100082C6DD /* Menu Item */,
 				22679677256ADF4D00C890BA /* Reservation */,
 			);
-			path = Cells;
+			path = Nibs;
 			sourceTree = "<group>";
 		};
 		2251395A256D204D0016DC44 /* Home Cell */ = {
@@ -991,7 +992,6 @@
 		228346CA255BE0BA00075D43 /* Account */ = {
 			isa = PBXGroup;
 			children = (
-				224CEBB7255D3A960048B229 /* Cell */,
 				228346C8255BE0AD00075D43 /* AccountViewController.swift */,
 			);
 			path = Account;
@@ -1047,6 +1047,7 @@
 			children = (
 				22DF38A425AA4B7D00DDA52D /* App Delegate */,
 				2277EEBD255FB81400ACF926 /* Extensions */,
+				22513959256D1DD70016DC44 /* Nibs */,
 				22EBCEA1255833B4001DBCB6 /* Handlers */,
 				2240F164258B920200A87570 /* Model */,
 				228E41BC2557260C00F14F92 /* Scenes */,
@@ -1133,7 +1134,6 @@
 			isa = PBXGroup;
 			children = (
 				223D63DD256D514D00A5FC30 /* Scene and Controllers */,
-				22513959256D1DD70016DC44 /* Cells */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";

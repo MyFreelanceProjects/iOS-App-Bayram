@@ -10,5 +10,5 @@ import Foundation
 
 struct NetworkConstants {
 //    static let networkConstants = NetworkConstants()
-    static let baseUrl: String = "hotel.guestassistant.net"
+    static let baseUrl: String = "guliyev.guestassistant.net"
 }

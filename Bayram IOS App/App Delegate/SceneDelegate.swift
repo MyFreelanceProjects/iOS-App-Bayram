@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         // added these lines
         // if user is logged in before
-        if let loggedUsername = UserDefaults.standard.string(forKey: "username") {
+        if let loggedUsername = UserDefaults.standard.string(forKey: "logged") {
             // instantiate the main tab bar controller and set it as root view controller
             // using the storyboard identifier we set earlier
             

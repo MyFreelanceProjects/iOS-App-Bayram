@@ -17,7 +17,7 @@ public final class RuntimeLocalizable {
     let tableName: String
     let translations: Translations
     
-    static let bundleName = "RuntimeLocalizable"
+    static let bundleName = "RuntimeLocalizable.bundle"
     let manager = FileManager.default
     
     lazy var bundlePath: URL = {

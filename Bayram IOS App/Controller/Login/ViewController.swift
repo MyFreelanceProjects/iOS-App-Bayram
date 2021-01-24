@@ -14,7 +14,6 @@ import Firebase
 import SwiftyJSON
 
 class ViewController: UIViewController {
-    
     @IBOutlet private weak var ipAdress: UITextField!
     @IBOutlet private weak var userID: UITextField!
     @IBOutlet private weak var password: UITextField!
@@ -72,8 +71,6 @@ class ViewController: UIViewController {
                                 
                                 let jsonLanguage = response[0]["languages"]
                                 decodingLanguageAndWritingToFile(jsonLanguage: jsonLanguage)
-                                
-                                changeRouteToHomePage()
                             }
                         } catch {
                             return
@@ -93,6 +90,8 @@ class ViewController: UIViewController {
     fileprivate func runLocalization(_ rl: RuntimeLocalizable) {
         do {
             try rl.bundle()
+            
+            changeRouteToHomePage()
         } catch {
             return
         }
@@ -100,7 +99,6 @@ class ViewController: UIViewController {
     
     fileprivate func decodingLanguageAndWritingToFile(jsonLanguage: JSON) {
         var translations = Dictionary<String, Dictionary<String, String>>()
-        
         jsonLanguage.forEach {
             let langKey  = $1["1"].stringValue
             let langData = $1["language_data"]
@@ -117,8 +115,10 @@ class ViewController: UIViewController {
             } catch let error as NSError {
                 print(error)
             }
+            
         }
         
+        print(translations)
         let rl = RuntimeLocalizable(translations: translations, name: "languages")
         runLocalization(rl)
     }

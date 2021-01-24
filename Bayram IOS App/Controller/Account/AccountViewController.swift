@@ -61,9 +61,10 @@ class AccountViewController: UIViewController, UIPickerViewDelegate, UINavigatio
     @IBAction func signOutPressed(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let loginNavController = storyboard.instantiateViewController(identifier: "LoginNavigationController")
-
-        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(loginNavController)
+        
         UserDefaults.standard.removeObject(forKey: "logged")
+        
+        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(loginNavController)
     }
 }
 

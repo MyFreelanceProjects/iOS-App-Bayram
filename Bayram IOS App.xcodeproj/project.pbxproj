@@ -116,6 +116,7 @@
 		225EA05B25724A6E007BF29D /* MenuViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EA05925724A6E007BF29D /* MenuViewCell2.swift */; };
 		225EA05C25724A6E007BF29D /* MenuViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225EA05A25724A6E007BF29D /* MenuViewCell2.xib */; };
 		225EF4442582682600247820 /* EventNotf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EF4432582682600247820 /* EventNotf.swift */; };
+		22603F1425BC90E4005203BA /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22603F1325BC90E4005203BA /* LocalizationManager.swift */; };
 		226068D1257F58950028EF68 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226068D0257F58950028EF68 /* Map.swift */; };
 		226068D3257F58AA0028EF68 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226068D2257F58AA0028EF68 /* Notification.swift */; };
 		226068D5257F58C10028EF68 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226068D4257F58C10028EF68 /* Chat.swift */; };
@@ -315,6 +316,7 @@
 		225EA05925724A6E007BF29D /* MenuViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCell2.swift; sourceTree = "<group>"; };
 		225EA05A25724A6E007BF29D /* MenuViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewCell2.xib; sourceTree = "<group>"; };
 		225EF4432582682600247820 /* EventNotf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventNotf.swift; sourceTree = "<group>"; };
+		22603F1325BC90E4005203BA /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
 		226068D0257F58950028EF68 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		226068D2257F58AA0028EF68 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		226068D4257F58C10028EF68 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
@@ -800,6 +802,15 @@
 			path = 2;
 			sourceTree = "<group>";
 		};
+		22603F1625BC9232005203BA /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				227C42F225B05C33004587D5 /* RuntimeLocalizable.swift */,
+				22603F1325BC90E4005203BA /* LocalizationManager.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		22664D9C2578F7D7003E705B /* Room Service */ = {
 			isa = PBXGroup;
 			children = (
@@ -1264,7 +1275,7 @@
 				22A34061256A81200082C6DD /* Reusable */,
 				22EBCE9F255833AC001DBCB6 /* Constants.swift */,
 				223D63E9256D72CC00A5FC30 /* Protocols.swift */,
-				227C42F225B05C33004587D5 /* RuntimeLocalizable.swift */,
+				22603F1625BC9232005203BA /* Localization */,
 			);
 			path = Handlers;
 			sourceTree = "<group>";
@@ -1594,6 +1605,7 @@
 				22B57FCA25A1D30900FDC668 /* ViewController.swift in Sources */,
 				221FC70D257B9C7A00784B62 /* SDinnerDressCodeController.swift in Sources */,
 				224CEBB5255D3A780048B229 /* RightTableCell.swift in Sources */,
+				22603F1425BC90E4005203BA /* LocalizationManager.swift in Sources */,
 				226068D3257F58AA0028EF68 /* Notification.swift in Sources */,
 				2267966F256ADF0800C890BA /* ReservationDetailCell_1.swift in Sources */,
 				2213B7A12577AC980042648B /* OtherSViewController.swift in Sources */,

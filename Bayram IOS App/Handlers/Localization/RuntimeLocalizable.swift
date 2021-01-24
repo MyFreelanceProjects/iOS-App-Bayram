@@ -17,8 +17,9 @@ public final class RuntimeLocalizable {
     let tableName: String
     let translations: Translations
     
-    static let bundleName = "RuntimeLocalizable.bundle"
+    static let bundleName = "RuntimeLocalizable"
     let manager = FileManager.default
+    
     lazy var bundlePath: URL = {
         let documents = URL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!)
         print("\n     DIRECTORY: \(documents.absoluteString)\n")
@@ -63,10 +64,12 @@ public final class RuntimeLocalizable {
             let filePath = langPath.appendingPathComponent("\(tableName).strings")
             let data = res.data(using: .utf32)
             manager.createFile(atPath: filePath.path, contents: data, attributes: nil)
+            
+            
+            print(res)
         }
         
         let localBundle = Bundle(url: bundlePath)!
         return localBundle
     }
-    
 }

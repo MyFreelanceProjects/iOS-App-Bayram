@@ -14,7 +14,7 @@ class LocalizationManager {
     let manager = FileManager.default
     lazy var bundlePath: URL = {
         let documents = URL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!)
-        let bundlePath = documents.appendingPathComponent("RuntimeLocalizable", isDirectory: true)
+        let bundlePath = documents.appendingPathComponent(RuntimeLocalizable.bundleName, isDirectory: true)
         return bundlePath
     }()
     

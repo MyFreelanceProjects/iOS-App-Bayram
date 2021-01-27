@@ -118,7 +118,6 @@ class ViewController: UIViewController {
             
         }
         
-        print(translations)
         let rl = RuntimeLocalizable(translations: translations, name: "languages")
         runLocalization(rl)
     }

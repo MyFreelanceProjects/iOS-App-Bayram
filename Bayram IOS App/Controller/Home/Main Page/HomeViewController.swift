@@ -19,9 +19,6 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         LocalizationManager().setCurrentBundle(forLanguage: "en")
         
-//        let bundle = Bundle(path: Bundle.main.path(forResource: "en", ofType: "lproj")!)
-//        print( NSLocalizedString("entertainment_header".localized(), tableName: "", bundle: bundle!, value: "", comment: "") )
-        
         self.navigationController!.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: self.customTitleFont]
         tableView.register(UINib(nibName: Constants.ServicesMenuCell.nibName, bundle: nil), forCellReuseIdentifier: Constants.ServicesMenuCell.identifier)        
     }
@@ -40,7 +37,7 @@ struct HomeCell {
     var icon: String
 }
 let services = [
-    HomeCell(name: "entertainment_header".localized(), icon: "restaurant"),
+    HomeCell(name: "entertainment_header", icon: "restaurant"),
     HomeCell(name: "Bar", icon: "bar"),
     HomeCell(name: "Room Service", icon: "room"),
     HomeCell(name: "Cabana", icon: "cabana"),

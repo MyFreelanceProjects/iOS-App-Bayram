@@ -711,10 +711,10 @@
 		2240F164258B920200A87570 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3A613FE025C1A7B7002591FE /* NetworkManager.swift */,
 				22EA26AB258BF13C00AFA55A /* NetworkConstants.swift */,
 				22EA26AD258BF45A00AFA55A /* Login */,
 				22380AA025BED73D005638FA /* Account */,
-				3A613FE025C1A7B7002591FE /* NetworkManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";

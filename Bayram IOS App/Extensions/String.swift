@@ -11,13 +11,13 @@ import Foundation
 
 extension String {
     
-    func localized() -> String {
-        let bundlePath = Bundle.main.path(forResource: "en", ofType: "lproj")
-        let bundle     = Bundle(path: bundlePath!)!
-        return NSLocalizedString("entertainment_header", tableName: "", bundle: bundle, value: "", comment: "")
-        
-//        return NSLocalizedString("entertainment_header", tableName: "", bundle: LocalizationManager().currentBundle, value: "", comment: "")
-    }
+//    func localized() -> String {
+//        let bundlePath = Bundle.main.path(forResource: "en", ofType: "lproj")
+//        let bundle     = Bundle(path: bundlePath!)!
+//        return NSLocalizedString("entertainment_header", tableName: "", bundle: bundle, value: "", comment: "")
+//
+////        return NSLocalizedString("entertainment_header", tableName: "", bundle: LocalizationManager().currentBundle, value: "", comment: "")
+//    }
     
     var formattedDate: String? {
         let dateFormatter = DateFormatter()

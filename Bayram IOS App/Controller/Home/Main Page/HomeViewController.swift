@@ -40,7 +40,8 @@ struct HomeCell {
     var icon: String
 }
 let services = [
-    HomeCell(name: "entertainment_header".localized(), icon: "restaurant"),
+//    HomeCell(name: "entertainment_header".localized(), icon: "restaurant"),
+    HomeCell(name: "Restaurant", icon: "restaurant"),
     HomeCell(name: "Bar", icon: "bar"),
     HomeCell(name: "Room Service", icon: "room"),
     HomeCell(name: "Cabana", icon: "cabana"),

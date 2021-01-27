@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 import SwiftyJSON
-
+//
 struct LoginNetworkManager {
     
     func loginRequest(endpoint: String, parameters: [String: String], completetion: @escaping (Result<JSON, Error>) -> Void) {

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Toast
 
 class AccountViewController: UIViewController, UIPickerViewDelegate, UINavigationControllerDelegate {
 
@@ -22,11 +23,37 @@ class AccountViewController: UIViewController, UIPickerViewDelegate, UINavigatio
         
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        getAccountInfo()
+        
         configureUI()
-        
-        leftTableView.register(UINib(nibName: "LeftTableCell", bundle: .main), forCellReuseIdentifier: "check_in")
-        
-        rightTableView.register(UINib(nibName: "RightTableCell", bundle: .main), forCellReuseIdentifier: "check_out")
+    }
+    
+    func getAccountInfo() {
+        GettingUserDataFromManager.sharedInstance.decodeUserInfo { (user_data) -> Void in
+            if let user_data = user_data {
+                if  let auth_token = user_data.auth_token,
+                    let user_id    = user_data._id,
+                    let privilege  = user_data.privilege {
+                    
+                    // get user_data from Api
+                    let params: [String: String] = [
+                        "auth_token" : auth_token,
+                        "user_id"    : user_id,
+                        "privilege"  : privilege,
+                    ]
+                    
+                    AccountManager.sharedInstance.getUserInfo(endpoint: "/get_account_info.php", params: params) {
+                        
+                    }
+                } else {
+                    self.view.makeToast("Some User Info Is nil!")
+                }
+                
+            } else {
+                self.view.makeToast("Cannot get User Info!")
+            }
+        }
     }
     
     func configureUI() {
@@ -37,6 +64,10 @@ class AccountViewController: UIViewController, UIPickerViewDelegate, UINavigatio
         profileImage.clipsToBounds = true
         
         imagePicker.delegate = self
+        
+        leftTableView.register(UINib(nibName: "LeftTableCell", bundle: .main), forCellReuseIdentifier: "check_in")
+        
+        rightTableView.register(UINib(nibName: "RightTableCell", bundle: .main), forCellReuseIdentifier: "check_out")
     }
     
 //  MARK: -updating profile image

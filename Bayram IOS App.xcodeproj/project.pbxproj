@@ -72,6 +72,8 @@
 		223547B725743C93009758D5 /* HouseKeepingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223547B625743C93009758D5 /* HouseKeepingView.swift */; };
 		223547B92574D61E009758D5 /* HouseK_Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223547B82574D61E009758D5 /* HouseK_Information.swift */; };
 		223547BB2574D75C009758D5 /* HouseK_Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223547BA2574D75C009758D5 /* HouseK_Feedback.swift */; };
+		22380A9E25BED738005638FA /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22380A9D25BED738005638FA /* AccountManager.swift */; };
+		22380AA625BF4A17005638FA /* GettingUserDataFromManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22380AA525BF4A17005638FA /* GettingUserDataFromManager.swift */; };
 		223CC37C257B8F6D00A32DD4 /* Concerts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223CC37B257B8F6D00A32DD4 /* Concerts.storyboard */; };
 		223D63DC256D50E600A5FC30 /* AddReservationRestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D63DB256D50E600A5FC30 /* AddReservationRestaurantController.swift */; };
 		223D63DF256D516A00A5FC30 /* Reusable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223D63DE256D516A00A5FC30 /* Reusable.storyboard */; };
@@ -274,6 +276,8 @@
 		223547B625743C93009758D5 /* HouseKeepingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeepingView.swift; sourceTree = "<group>"; };
 		223547B82574D61E009758D5 /* HouseK_Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseK_Information.swift; sourceTree = "<group>"; };
 		223547BA2574D75C009758D5 /* HouseK_Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseK_Feedback.swift; sourceTree = "<group>"; };
+		22380A9D25BED738005638FA /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		22380AA525BF4A17005638FA /* GettingUserDataFromManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingUserDataFromManager.swift; sourceTree = "<group>"; };
 		223CC37B257B8F6D00A32DD4 /* Concerts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Concerts.storyboard; sourceTree = "<group>"; };
 		223D63DB256D50E600A5FC30 /* AddReservationRestaurantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReservationRestaurantController.swift; sourceTree = "<group>"; };
 		223D63DE256D516A00A5FC30 /* Reusable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reusable.storyboard; sourceTree = "<group>"; };
@@ -588,6 +592,14 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+		22380AA025BED73D005638FA /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				22380A9D25BED738005638FA /* AccountManager.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
 		223CC37A257B8DB500A32DD4 /* Sports */ = {
 			isa = PBXGroup;
 			children = (
@@ -699,6 +711,7 @@
 			children = (
 				22EA26AB258BF13C00AFA55A /* NetworkConstants.swift */,
 				22EA26AD258BF45A00AFA55A /* Login */,
+				22380AA025BED73D005638FA /* Account */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1275,6 +1288,7 @@
 				22A34061256A81200082C6DD /* Reusable */,
 				22EBCE9F255833AC001DBCB6 /* Constants.swift */,
 				223D63E9256D72CC00A5FC30 /* Protocols.swift */,
+				22380AA525BF4A17005638FA /* GettingUserDataFromManager.swift */,
 				22603F1625BC9232005203BA /* Localization */,
 			);
 			path = Handlers;
@@ -1554,6 +1568,7 @@
 				2276FA072575826E00D506FB /* HouseK_Cleaning.swift in Sources */,
 				22496EA5257A16A500DF0643 /* RoomServiceFinishOrder.swift in Sources */,
 				22664DA2257923C6003E705B /* RoomServiceOrder.swift in Sources */,
+				22380A9E25BED738005638FA /* AccountManager.swift in Sources */,
 				227C42F325B05C33004587D5 /* RuntimeLocalizable.swift in Sources */,
 				22EF46E22572533C0099648A /* AddReservationSpaController.swift in Sources */,
 				22CB193E25655B5F001B9950 /* SettingsViewCell.swift in Sources */,
@@ -1592,6 +1607,7 @@
 				22345258255DD02C00C0486B /* AlertService.swift in Sources */,
 				22A513CE255F0EBC00B5A357 /* DateViewController.swift in Sources */,
 				22664D9525781332003E705B /* OtherSFeedback.swift in Sources */,
+				22380AA625BF4A17005638FA /* GettingUserDataFromManager.swift in Sources */,
 				222CD508256FED83004DA0DB /* CabanaReservationDetailController.swift in Sources */,
 				22664D9E2578F7EA003E705B /* RoomServiceView.swift in Sources */,
 				2205E8B4257E8712001316EF /* MyTabBarController.swift in Sources */,

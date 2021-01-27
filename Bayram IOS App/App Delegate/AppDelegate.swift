@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        UserDefaults.standard.removeObject(forKey: "logged")
+        
+//        UserDefaults.standard.removeObject(forKey: "logged")
         print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first)
         
 // Firebase Configuration

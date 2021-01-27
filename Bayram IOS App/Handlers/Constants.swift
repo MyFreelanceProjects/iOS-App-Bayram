@@ -8,7 +8,7 @@
 
 struct Constants {
     struct ServicesMenuCell{
-        static let nibName = "HomeTableViewCell"
+        static let nibName    = "HomeTableViewCell"
         static let identifier = "reusableCell"
     }
 }

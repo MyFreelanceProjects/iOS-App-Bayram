@@ -15,7 +15,7 @@ class FeedbackViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var bottomFeedbackButton: UIView!
     @IBOutlet weak var BFeedbackLabel: UILabel!
-    var feedbacks: Feedbacks = Feedbacks()
+    var feedbacks: [Feedback] = [Feedback]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,8 +57,8 @@ class FeedbackViewController: UIViewController {
                     let jsonDecoder = JSONDecoder()
                     do {
                         let data = try response.rawData()
-                        let feedbacks = try jsonDecoder.decode(Feedbacks.self, from: data)
-                        self.feedbacks = feedbacks.feedback
+                        let downloadedFeedbacks = try jsonDecoder.decode([Feedback].self, from: data)
+                        self.feedbacks = downloadedFeedbacks
                         DispatchQueue.main.async {
                             self.tableView.reloadData()
                         }
@@ -78,7 +78,7 @@ class FeedbackViewController: UIViewController {
 //MARK: - UITableView DataSource and Delegate methods
 extension FeedbackViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return feedbacks.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -104,10 +104,6 @@ extension FeedbackViewController: UITableViewDataSource, UITableViewDelegate {
 }
 
 // MARK: - FeedbackModel
-public class Feedbacks: Codable {
-    let feedback: [Feedback]
-}
-
 public class Feedback: Codable {
     let _id: String?
     let service_name: String?

@@ -259,165 +259,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4CD82714-AE27-4DEB-9191-9DC33D15C202"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Bayram IOS App/Controller/Account/AccountViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "profileImageButtonClicked(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "71C0DCFA-03FB-4010-905F-857B8433ED76"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Bayram IOS App/Controller/Account/AccountViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
-            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4A6E2398-A469-4F50-87DF-26744A5DEF13"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Bayram IOS App/Controller/Account/AccountViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "153"
-            endingLineNumber = "153"
-            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A3753BC9-B674-40B8-ACDE-AFA67F67ED7D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Bayram IOS App/Controller/Login/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "loginPressed(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C1C55C05-CC25-48A5-9C30-10AA92E7426B"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Bayram IOS App/Controller/Login/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "loginPressed(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8C6EE737-963F-474D-8E5A-0EC024B20B0D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Bayram IOS App/Controller/Login/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "decodingLanguageAndWritingToFile(jsonLanguage:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "8C6EE737-963F-474D-8E5A-0EC024B20B0D - 324062082583b687"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Bayram_IOS_App.ViewController.decodingLanguageAndWrite(jsonLanguage: SwiftyJSON.JSON) -&gt; ()"
-                  moduleName = "Bayram IOS App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Controller/Login/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "91"
-                  endingLineNumber = "91"
-                  offsetFromSymbolStart = "44">
-               </Location>
-               <Location
-                  uuid = "8C6EE737-963F-474D-8E5A-0EC024B20B0D - e22eeec261842bf4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.String, SwiftyJSON.JSON) -&gt; () in Bayram_IOS_App.ViewController.decodingLanguageAndWrite(jsonLanguage: SwiftyJSON.JSON) -&gt; ()"
-                  moduleName = "Bayram IOS App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Controller/Login/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "91"
-                  endingLineNumber = "91"
-                  offsetFromSymbolStart = "47">
-               </Location>
-               <Location
-                  uuid = "8C6EE737-963F-474D-8E5A-0EC024B20B0D - 11779a7842355bf6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 ((Swift.String, SwiftyJSON.JSON)) -&gt; () in closure #1 (Swift.String, SwiftyJSON.JSON) -&gt; () in Bayram_IOS_App.ViewController.decodingLanguageAndWrite(jsonLanguage: SwiftyJSON.JSON) -&gt; ()"
-                  moduleName = "Bayram IOS App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Controller/Login/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "92"
-                  endingLineNumber = "92"
-                  offsetFromSymbolStart = "204">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1B09B6AF-8ECC-4B54-9B05-9940FB3318ED"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Bayram IOS App/Controller/Login/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "loginPressed(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "B645AF0F-6E6D-4C7A-9579-315DA8529F39"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -651,8 +492,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
             endingLineNumber = "15"
-            landmarkName = "localized()"
-            landmarkType = "7">
+            landmarkName = "String"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -667,8 +508,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
             endingLineNumber = "21"
-            landmarkName = "localized()"
-            landmarkType = "7">
+            landmarkName = "String"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -683,8 +524,120 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "20"
             endingLineNumber = "20"
-            landmarkName = "localized()"
+            landmarkName = "String"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6ACB7A49-6131-43D3-AD36-872743D5D783"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Model/Account/AccountManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "editProfileImage(endpoint:params:completetion:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36A97588-0570-491D-A817-B74808C095C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Model/Account/AccountManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "editProfileImage(endpoint:params:completetion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "36A97588-0570-491D-A817-B74808C095C0 - 2c812d38edc3faa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bayram_IOS_App.AccountManager.editProfileImage(endpoint: Swift.String, params: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, completetion: (Swift.Result&lt;SwiftyJSON.JSON, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Bayram IOS App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Model/Account/AccountManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "835">
+               </Location>
+               <Location
+                  uuid = "36A97588-0570-491D-A817-B74808C095C0 - 8ccd8c52fffcd15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.MultipartFormData) -&gt; () in Bayram_IOS_App.AccountManager.editProfileImage(endpoint: Swift.String, params: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, completetion: (Swift.Result&lt;SwiftyJSON.JSON, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Bayram IOS App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Model/Account/AccountManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "111">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96A1529A-9755-48B5-BC32-473A053FD5C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bayram IOS App/Controller/Account/AccountViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "postRequestToUploadingImage(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96A1529A-9755-48B5-BC32-473A053FD5C8 - b08c5deb9a4f558e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Bayram_IOS_App.UserInfoModel&gt;) -&gt; () in Bayram_IOS_App.AccountViewController.postRequestToUploadingImage(with: Swift.String) -&gt; ()"
+                  moduleName = "Bayram IOS App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Controller/Account/AccountViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "241"
+                  endingLineNumber = "241"
+                  offsetFromSymbolStart = "1350">
+               </Location>
+               <Location
+                  uuid = "96A1529A-9755-48B5-BC32-473A053FD5C8 - f949c0f00a326c26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SwiftyJSON.JSON, Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Bayram_IOS_App.UserInfoModel&gt;) -&gt; () in Bayram_IOS_App.AccountViewController.postRequestToUploadingImage(with: Swift.String) -&gt; ()"
+                  moduleName = "Bayram IOS App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/WorkSpace/Freelance/Bayram%20IOS%20App/Bayram%20IOS%20App/Bayram%20IOS%20App/Controller/Account/AccountViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "243"
+                  endingLineNumber = "243"
+                  offsetFromSymbolStart = "177">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

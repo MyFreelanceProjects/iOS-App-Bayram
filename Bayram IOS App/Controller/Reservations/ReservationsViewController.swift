@@ -33,7 +33,6 @@ extension ReservationsViewController: UITableViewDelegate, UITableViewDataSource
         
         cell.delegate = self
         
-        
         return cell
     }
     

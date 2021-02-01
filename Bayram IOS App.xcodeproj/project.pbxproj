@@ -1075,7 +1075,7 @@
 				22DF38A425AA4B7D00DDA52D /* App Delegate */,
 				2277EEBD255FB81400ACF926 /* Extensions */,
 				22513959256D1DD70016DC44 /* Nibs */,
-				22EBCEA1255833B4001DBCB6 /* Handlers */,
+				22EBCEA1255833B4001DBCB6 /* Helpers */,
 				2240F164258B920200A87570 /* Model */,
 				228E41BC2557260C00F14F92 /* Scenes */,
 				228E41BD2557261B00F14F92 /* Controller */,
@@ -1284,7 +1284,7 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		22EBCEA1255833B4001DBCB6 /* Handlers */ = {
+		22EBCEA1255833B4001DBCB6 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				22345236255DB19900C0486B /* Alerts */,
@@ -1294,7 +1294,7 @@
 				22380AA525BF4A17005638FA /* GettingUserDataFromManager.swift */,
 				22603F1625BC9232005203BA /* Localization */,
 			);
-			path = Handlers;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		2E287489A947D4083B715F9D /* Frameworks */ = {

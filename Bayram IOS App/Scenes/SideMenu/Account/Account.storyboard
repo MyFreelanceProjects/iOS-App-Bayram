@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9NI-ui-Rx3">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joe Johnson" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRX-kc-ABi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRX-kc-ABi">
                                 <rect key="frame" x="0.0" y="248" width="414" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="t26-EL-apV"/>
@@ -166,6 +165,7 @@
                         <outlet property="leftTableView" destination="J82-06-qSK" id="C02-aK-ZeI"/>
                         <outlet property="profileImage" destination="XqR-Hg-XUS" id="ahD-Vf-Xxw"/>
                         <outlet property="profileImageButton" destination="OPF-4c-iK1" id="7fS-td-47b"/>
+                        <outlet property="profileLabel" destination="NRX-kc-ABi" id="CmO-Ij-nrC"/>
                         <outlet property="rightTableView" destination="Jw1-eD-nCM" id="18j-JQ-ftc"/>
                     </connections>
                 </viewController>
@@ -188,6 +188,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Ejl-NN-lwg"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dgL-1w-qPD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

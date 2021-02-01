@@ -43,4 +43,28 @@ extension String {
         return nil
     }
     
+    var formattedDateForAccount: String? {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        
+        if let date = dateFormatter.date(from: self) {
+            //print(date)
+            dateFormatter.dateFormat = "yyyy-MM-dd"
+            return dateFormatter.string(from: date)
+        }
+        return nil
+    }
+    
+    var formatterTimeForAccount: String? {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        
+        if let date = dateFormatter.date(from: self) {
+            //print(date)
+            dateFormatter.dateFormat = "HH:mm"
+            return dateFormatter.string(from: date)
+        }
+        return nil
+    }
+    
 }

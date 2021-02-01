@@ -28,3 +28,38 @@ struct GettingUserDataFromManager {
         }
     }
 }
+
+
+
+// MARK: - UserInfoModel
+struct UserInfoModel: Codable {
+    let room_number: String?
+    let trip_advisor_url: String?
+    let _id: String?
+    let hotel_token: String?
+    let auth_token: String?
+    let privilege: String?
+    let fullname: String?
+    let avatar_url: String?
+    let privacy_url: String?
+    
+    let hotel_names: HotelNameArray
+}
+struct HotelNameArray: Codable {
+    let value_en: String
+    let value_ru: String
+    let value_de: String
+    let value_ar: String
+    let value_tr: String
+    let variable: String
+}
+
+// MARK: - LanguageModel
+struct LanguageModel {
+    let languageKey: String
+    let language_data: [String:String]
+}
+
+//Server Name: guliyev
+//User ID: 200051
+//Password: 123

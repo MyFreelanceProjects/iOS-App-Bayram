@@ -65,28 +65,3 @@ struct AccountManager {
     }
     
 }
-
-
-
-//{
-//"room_class" : "Family Corner Suite",
-//"room_number" : "100",
-//"avatar_url" : null,
-//"3" : "2021-02-28 12:00:00",
-//"check_out_time" : "2021-02-28 12:00:00",
-//"0" : "Kanan",
-//"7" : "0",
-//"check_in_time" : "2021-01-13 12:00:00",
-//"6" : "0",
-//"4" : "100",
-//"version" : "1.8.10",
-//"child_count" : "0",
-//"5" : "1",
-//"baby_count" : "0",
-//"9" : "1.8.10",
-//"8" : "Family Corner Suite",
-//"2" : "2021-01-13 12:00:00",
-//"1" : null,
-//"fullname" : "Kanan",
-//"adult_count" : "1"
-//}

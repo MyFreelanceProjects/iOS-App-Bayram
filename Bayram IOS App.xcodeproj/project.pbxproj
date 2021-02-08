@@ -95,6 +95,8 @@
 		2240D6442572F63600CBD1BD /* SpaReadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2240D6432572F63600CBD1BD /* SpaReadMore.swift */; };
 		2240F167258BAA3F00A87570 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2240F166258BAA3F00A87570 /* Alamofire */; };
 		2240F16A258BABBC00A87570 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 2240F169258BABBC00A87570 /* Toast */; };
+		2247A5FB25C86EDB0037742D /* ReservationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247A5FA25C86EDB0037742D /* ReservationManager.swift */; };
+		2247A5FF25C870060037742D /* ReservationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247A5FE25C870060037742D /* ReservationModel.swift */; };
 		22486D82257CC1AA00EAE9B7 /* ConcertDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22486D81257CC1AA00EAE9B7 /* ConcertDetailController.swift */; };
 		22486D86257CCE0200EAE9B7 /* EventsAndActivitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22486D84257CCE0200EAE9B7 /* EventsAndActivitiesCell.swift */; };
 		22486D87257CCE0200EAE9B7 /* EventsAndActivitiesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22486D85257CCE0200EAE9B7 /* EventsAndActivitiesCell.xib */; };
@@ -298,6 +300,8 @@
 		2240A5FD25834AA50010A7C4 /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
 		2240A5FF25834ACA0010A7C4 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		2240D6432572F63600CBD1BD /* SpaReadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaReadMore.swift; sourceTree = "<group>"; };
+		2247A5FA25C86EDB0037742D /* ReservationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationManager.swift; sourceTree = "<group>"; };
+		2247A5FE25C870060037742D /* ReservationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationModel.swift; sourceTree = "<group>"; };
 		22486D81257CC1AA00EAE9B7 /* ConcertDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertDetailController.swift; sourceTree = "<group>"; };
 		22486D84257CCE0200EAE9B7 /* EventsAndActivitiesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsAndActivitiesCell.swift; sourceTree = "<group>"; };
 		22486D85257CCE0200EAE9B7 /* EventsAndActivitiesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsAndActivitiesCell.xib; sourceTree = "<group>"; };
@@ -712,11 +716,21 @@
 			isa = PBXGroup;
 			children = (
 				3A613FE025C1A7B7002591FE /* NetworkManager.swift */,
+				2247A5FD25C86EF10037742D /* Reservation */,
 				22EA26AB258BF13C00AFA55A /* NetworkConstants.swift */,
 				22EA26AD258BF45A00AFA55A /* Login */,
 				22380AA025BED73D005638FA /* Account */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2247A5FD25C86EF10037742D /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				2247A5FA25C86EDB0037742D /* ReservationManager.swift */,
+				2247A5FE25C870060037742D /* ReservationModel.swift */,
+			);
+			path = Reservation;
 			sourceTree = "<group>";
 		};
 		22486D83257CCDD400EAE9B7 /* Events And Activities */ = {
@@ -1111,6 +1125,7 @@
 			);
 			path = Controller;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		228E41BE2557262A00F14F92 /* Resources */ = {
 			isa = PBXGroup;
@@ -1567,6 +1582,7 @@
 				22193BC32559AAD200281D7D /* SideMenuController.swift in Sources */,
 				22664DA025792384003E705B /* RoomServiceFeedback.swift in Sources */,
 				221BA97A257D4837000E38F6 /* R_EventAndActivityJoin.swift in Sources */,
+				2247A5FF25C870060037742D /* ReservationModel.swift in Sources */,
 				223D63E6256D69A200A5FC30 /* FeedbackRestaurant.swift in Sources */,
 				2213B7AD2577D2440042648B /* ServiceView5.swift in Sources */,
 				2276FA072575826E00D506FB /* HouseK_Cleaning.swift in Sources */,
@@ -1610,6 +1626,7 @@
 				222CD510256FEDC9004DA0DB /* CabanaMenu.swift in Sources */,
 				22345258255DD02C00C0486B /* AlertService.swift in Sources */,
 				22A513CE255F0EBC00B5A357 /* DateViewController.swift in Sources */,
+				2247A5FB25C86EDB0037742D /* ReservationManager.swift in Sources */,
 				22664D9525781332003E705B /* OtherSFeedback.swift in Sources */,
 				22380AA625BF4A17005638FA /* GettingUserDataFromManager.swift in Sources */,
 				222CD508256FED83004DA0DB /* CabanaReservationDetailController.swift in Sources */,

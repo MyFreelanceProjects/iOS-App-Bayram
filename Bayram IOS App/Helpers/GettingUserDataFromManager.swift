@@ -45,6 +45,7 @@ struct UserInfoModel: Codable {
     
     let hotel_names: HotelNameArray
 }
+
 struct HotelNameArray: Codable {
     let value_en: String
     let value_ru: String

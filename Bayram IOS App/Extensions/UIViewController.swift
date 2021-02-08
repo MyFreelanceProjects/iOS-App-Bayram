@@ -29,6 +29,10 @@ import UIKit
 
 
 extension UIViewController {
+    var lang_index: String? {
+        return "0"
+    }
+    
     func delayAfter(seconds delay: Double, closure: @escaping () -> ()) {
         DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
             closure()
